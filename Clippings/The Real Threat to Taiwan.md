@@ -1,0 +1,141 @@
+---
+title: "The Real Threat to Taiwan"
+source: "https://archive.ph/m34lP"
+author:
+published: 2026-05-01
+created: 2026-05-06
+description:
+tags:
+  - "clippings"
+---
+## America Is Preparing for the Wrong Kind of Crisis
+
+### Eyck Freymann
+
+![At a port in Kaohsiung, Taiwan, March 2026](https://cdn-live.foreignaffairs.com/sites/default/files/styles/_webp_medium_2x/public/images/2026/04/28/2026-03-23T153833Z_83820183_RC26AKAIX3U4_RTRMADP_3_IRAN-CRISIS-TAIWAN.JPG.webp?itok=TGcByJZd)
+
+At a port in Kaohsiung, Taiwan, March 2026 Ann Wang / Reuters
+
+EYCK FREYMANN is a Hoover Fellow at Stanford University, Nonresident Research Fellow at the U.S. Naval War College, and Director of Indo-Pacific at Greenmantle. He is the author of [*Defending Taiwan: A Strategy to Prevent War with China*](https://archive.ph/o/m34lP/https://www.amazon.com/Defending-Taiwan-Strategy-Prevent-China/dp/019782384X).
+
+- [More by Eyck Freymann](https://archive.ph/o/m34lP/https://www.foreignaffairs.com/authors/eyck-freymann)
+
+[Print](https://archive.ph/o/m34lP/https://www.foreignaffairs.com/subscribe)
+
+[Save](https://archive.ph/o/m34lP/https://www.foreignaffairs.com/china/real-threat-taiwan)
+
+It begins not with missiles but with cutter ships. One morning, dozens of Chinese coast guard vessels start conducting “routine customs inspections” of merchant ships approaching Taiwan’s major ports. Chinese civil aviation authorities begin to demand manifests from flights entering and leaving Taiwan. Beijing insists it is merely asserting existing Chinese customs law, which claims the right to regulate the flow of people and goods in and out of “Taiwan Province.”
+
+Immediately, nearly all airlines and shipping companies decide to comply. These private operators have no interest in seeing their ships or aircraft seized, detained, or worse. Nor do they have much of a choice. Insurance companies would not cover them if they resisted. Suddenly, nearly all planes and ships entering or leaving [Taiwan](https://archive.ph/o/m34lP/https://www.foreignaffairs.com/regions/taiwan) must first stop at a mainland port in Fujian Province before traveling to their final destination. Beijing has seized control of most of Taiwan’s links to the outside world.
+
+China’s diplomats insist that this is not a blockade. Beijing has no intention of starving Taiwan out, they say. People and goods can continue to flow freely as long as they abide by China’s laws. There are just a few important exceptions: no more weapons into Taiwan, no more dual-use components that Taiwan can use to make weapons, no more U.S. military “advisers.” Members of Taiwan’s China-skeptical Democratic Progressive Party, whom Beijing labels “separatists,” may also find it difficult to gain exit visas. So might the process engineers at Taiwan Semiconductor Manufacturing Company (TSMC) and their families.
+
+The White House quickly recognizes the core issue: the burden of escalation is now on the [United States](https://archive.ph/o/m34lP/https://www.foreignaffairs.com/regions/united-states). China’s actions, although deeply alarming, do not automatically rupture any supply chains. They are not traditional acts of military aggression. Taiwan’s most important exports—the GPU chips that power the artificial intelligence revolution—can continue to flow to the United States, at least for now. But if Washington accepts this new normal, it will have been checkmated. Starved of the tools to defend itself, Taiwan will soon lose its leverage to resist China’s coercion. Washington cannot trust that Beijing will let Taiwan export GPUs freely forever. At any point, the United States could theoretically destroy or disable TSMC’s fabrication plants to prevent China from accessing them. But such an action would trigger a financial panic. China will therefore seize the advantage in cutting-edge AI capabilities unless Washington chooses to inflict a devastating economic blow against itself, antagonizing the entire world in the process.
+
+Worse, once Beijing establishes the norm that it can control who and what comes and goes from Taiwan, then Japan, the Philippines, and South Korea immediately become vulnerable to similar coercion. [China](https://archive.ph/o/m34lP/https://www.foreignaffairs.com/regions/china) does not have to attack these countries with physical force to weaponize their economies against the United States. It simply needs to impose pressure on the private shippers and carriers that connect them to the outside world. This is China’s path toward reconfiguring the regional and ultimately the global economic order without a war.
+
+The U.S. policy community has invested enormous energy in preparing for a full-scale amphibious invasion of Taiwan. Countless war games have been held to study it. Congressional hearings fixate on ship counts and missile inventories. The military balance does matter. But the most likely pathways to a crisis over Taiwan run through the gray zone: “quarantines,” coercive mobilizations of amphibious forces on the mainland side of the Taiwan Strait, and other forms of brinkmanship. The common feature of these scenarios is that they change facts on the ground while pushing the burden of escalation onto Washington. The United States has no integrated strategy for managing such a crisis. It has no precoordinated economic response with allies, no doctrine for communicating with financial markets, and no publicly communicated joint plan for resupplying Taiwan under quarantine conditions or evacuating U.S. and allied citizens from the island.
+
+In essence, the United States must deter a crisis over Taiwan, not just a war. It must demonstrate to China it is prepared to handle the political and economic shock that would accompany a severe crisis, that it could cushion the immediate blow to its economy and those of its allies, and that, if necessary, it could trigger a phased but inexorable partial decoupling from China. The United States must start building these plans with allies today. Otherwise, if a crisis comes, it may rush to the brink, panic, and back down—sacrificing Taiwan while shredding the credibility of its alliances across the globe.
+
+### PROJECT 2049
+
+Chinese leader [Xi Jinping](https://archive.ph/o/m34lP/https://www.foreignaffairs.com/tags/xi-jinping) claims to seek “peaceful reunification” with Taiwan, in which Taiwan submits under pressure to a Hong Kong–style “one country, two systems” arrangement, accepting that it is part of China, in exchange for the right to manage its own affairs autonomously. Beijing could then erode Taiwan’s autonomy over time through incremental coercion (as it did to Hong Kong), eventually seizing control of Taiwan’s semiconductor manufacturing base.
+
+The hard deadline Xi has articulated for achieving this symbolic “reunification” is 2049, the same deadline for achieving “national rejuvenation,” his broader legacy project. For Xi, the two goals are linked. National rejuvenation means establishing total Chinese preeminence: economic modernization, technological self-sufficiency, untrammeled military dominance, and much more. Taiwan is the keystone in the arch of national rejuvenation. But a botched move against Taiwan could put the whole project at risk. As a result, Xi has moved methodically, aiming to test U.S. resolve and undermine Taiwan’s morale while gradually redefining the status quo.
+
+Xi’s campaign to bring Taiwan to heel is already a whole-of-government effort that integrates every tool of China’s national power. People’s Liberation Army (PLA) fighters enter Taiwan’s Air Defense Identification Zone relentlessly. Long-endurance drones circle the island. Chinese courts demand that third countries deport Taiwanese nationals to China to face charges. The United Front Work Department runs disinformation operations and cultivates agents within Taiwan’s security establishment.
+
+> The United States must deter a crisis over Taiwan, not just a war.
+
+These and other gray-zone efforts are incrementally laying the groundwork for a variety of moves against Taiwan, including a quarantine, in which Beijing asserts the right to control who and what comes and goes from Taiwan without breaking supply chains or triggering an economic shock, as well as more extreme measures to physically curtail Taiwan’s trade.The PLA’s “Justice Mission 2025” exercises in December 2025, for example, simulated a blockade of Taiwan’s major port cities with 14 coast guard vessels and 18 warships. Exercise zones overlapped with Taiwan’s territorial waters and stretched nearly the entire length of the Taiwan Strait. Weeks later, China mobilized thousands of fishing boats into floating barriers over 200 miles long in the East China Sea, formations so dense that cargo ships had to zigzag through them. These exercises demonstrated impressive command and control over nominally civilian vessels that could support a quarantine or a partial or full-spectrum blockade.
+
+Xi has other options in the gray zone, too. China could mobilize ostentatiously for an amphibious invasion, repositioning mobile missiles and civilian megaferries, dispatching nuclear-armed submarines, and staging amphibious PLA units, under the cover of a routine “exercise,” as Russian forces did when they massed on the Ukrainian border in fall 2021. Doing so would put Taiwan under tremendous psychological pressure. And if Xi judged the U.S. and allied response to be weak, he could launch a kinetic first strike with little advance warning.
+
+But Beijing may favor the quarantine as its opening move because of its subtlety. Asserting control over Taiwan’s economic future would demonstrate the principle by which Beijing hopes to coerce every other country in the region. Regional dominance achieved through a quarantine would not require invasion and occupation. It would simply require Beijing to establish the norm that it could indirectly control how these countries engage with the global economy. If Xi can prove that the [United States](https://archive.ph/o/m34lP/https://www.foreignaffairs.com/regions/united-states) cannot effectively resist this playbook, Washington’s network of alliances in the regionwould suffer irreparable damage.
+
+### MARKET-ASSURED DESTRUCTION
+
+Moving toward a quarantine would not be risk-free for Xi. As China’s gray-zone pressure ramps up, allied governments would face agonizing decisions about whether to surge military forces or begin evacuating civilians. They might also double down on public political engagement with Taiwan. These moves might show enough resolve to persuade Xi to back down. But they might also force Xi’s hand. History suggests that as brinkmanship crises intensify, states often escalate with the ultimate goal of deescalating later. Leaders deliberately use strong, decisive public statements and ultimatums to increase their credibility, creating situations in which backing down becomes reputationally costlier than pressing forward. Hanging over every one of these decisions would be the prospect of kinetic or even nuclear escalation.
+
+But if Washington is visibly unprepared and reveals that it can be cowed by temporary financial market shocks, Xi may be tempted to push. Indeed, every time Xi tests Taiwan without consequence, and every time the United States reveals its lack of stomach for economic pain, the more emboldened Xi will feel to push harder.
+
+A geopolitical crisis over Taiwan could easily turn into a financial crisis well before either side interdicted trade or financial flows. No investor wants to be the last to liquidate its positions if U.S.-Chinese relations are breaking down. Insurers might preemptively suspend coverage for cargoes transiting the East China and South China Seas, which carry essential inputs for virtually every significant electronics product on earth. The merest hint that Taiwan’s semiconductor production could be disrupted could send technology stocks into a tailspin.
+
+> Beijing is racing to build economic self-sufficiency.
+
+When World War I broke out, in August 1914, the disruption of trade and gold flows triggered an immediate financial crisis. Britain shut down the London Stock Exchange for more than six months. In today’s far more integrated global economy, the cascading effects would likely be vastly greater. Trade as a share of global GDP is roughly twice 1914 levels, and supply chains are more specialized and harder to move quickly. In a Taiwan crisis, the initial market reaction would probably be a rush into gold, Swiss francs, and “safe” U.S. dollar assets such as Treasury bonds. But if central banks and finance ministries in allied countries failed to coordinate effectively, these flows might quickly reverse, as they did in 1914. If investors perceived that the allies were unprepared for the economic shock of a rupture, they might be tempted to bet on U.S. and allied credibility cracking. In practice, this could mean a bond market blowup within days or weeks of a Chinese action.
+
+Some analysts believe that economic interdependence with China is strategically stabilizing. But Beijing is racing to build economic self-sufficiency to ensure that it can withstand the short-term effects of a rupture better than the United States and its allies. China has been actively maintaining capital controls, building strategic reserves, and developing alternative payment systems that it could employ to preserve domestic financial and macroeconomic stability and keep trading with the world if the United States turns to full-scale economic war. Beijing is essentially betting that the prospect of “economic mutually assured destruction” is more likely to deter Washington than China.
+
+If China did ratchet up pressure, the United States would have only two options for reassuring markets: tolerating China’s gradual assertion of control over Taiwan’s economy or unleashing a massive and coordinated fiscal and monetary crisis response package. The latter would almost certainly be the wise and politically necessary move. But no economic stimulus could truly cushion the world economy if the United States were to commit to waging economic war against China.
+
+### LAST CHOPPER OUT OF TAIPEI
+
+In a gray-zone crisis, Western countries may also face the fraught question of whether to evacuate foreign civilians. Approximately 11,000 Americans, 16,000 Japanese, and nearly one million other foreign nationals are in Taiwan at any given time. Washington would be trying to do four contradictory things at once: take Americans out of harm’s way, reassure Taiwan that it should not capitulate, reassure financial markets that they should not panic, and warn Beijing not to push further. These objectives are in direct tension. Announcing an evacuation would signal that the United States is preparing for imminent conflict and could trigger the very panic Washington seeks to preempt. Beijing could interpret it as a sign of U.S. hesitancy, encouraging further escalation. Taiwan’s leaders could interpret it as abandonment and, feeling cornered, capitulate to Beijing. Markets could read it as confirmation that war was imminent.
+
+Unlike in Ukraine, where millions could flee overland to neighboring countries, Taiwan’s island geography makes air evacuation the only option. A mass air evacuation would make the evacuations of Saigon or Kabul look quick and orderly. Hundreds of thousands of Taiwanese nationals would be trying to leave simultaneously, bidding with foreigners for limited seats on outbound flights. Even if commercial carriers operated normally, it would still take at least a week to evacuate all foreign nationals, and probably over a month.
+
+Washington and its allies have no good options for handling the issue of foreign civilians on Taiwan. They could attempt an evacuation while telling Taipei that they are protecting their civilians because they are preparing to fight, not because they are preparing to leave. But this may not seem credible and could shatter Taiwan’s morale. Alternatively, Washington could choose not to run an evacuation at all, effectively treating the foreign nationals in Taiwan as human shields. On the one hand, their presence might make Beijing think twice about bombarding or blockading the island. But intentionally leaving civilians stranded in a conflict zone is a high-risk and arguably unethical strategy. Whichever option the allies choose, they must coordinate in advance. Improvisation is unlikely to end well.
+
+### DETERRENCE BY DECOUPLING
+
+The United States needs an integrated strategy to deter and, if necessary, respond to a crisis in the gray zone. This will require a four-pillar approach drawing on every tool of U.S. and allied power to signal both resolve and restraint.
+
+The first pillar of deterrence is political. Washington must deepen its engagement with Taiwan, not just through arms sales, but through trade and investment agreements, energy security partnerships, public reassurances of continued support, and quiet private pressure on Taipei to expand its own strategic stockpiles and effectively train and equip its military. It should maintain open dialogue and productive relations with all of Taiwan’s leading political parties. It should build and sustain a “core coalition” of countries that have common interests in preserving an honorable peace in the region, namely Australia, Canada, Japan, and the United Kingdom. Together with the United States, these countries represent over a third of global GDP and nearly half of global defense spending. This core should jointly develop contingency plans for quarantine response, evacuation, resupply, and economic coordination, and consult and coordinate on political messaging.
+
+Political deterrence also involves managing China through the long-standing “one China” policy. The United States is ambiguous on the details of Taiwan’s status. It supports a peaceful and noncoercive resolution of cross-Strait disagreements in a manner democratically acceptable to the people of Taiwan. The Taiwan Relations Act also commits the United States to maintaining the capacity to resist any resort to force or coercion that would jeopardize Taiwan’s security. When the United States was vastly stronger than China, this so-called strategic ambiguity about the precise nature of U.S. defense commitments to Taiwan was a powerful deterrent. As the power balance tips in China’s favor, vagueness about whether the United States would defend Taiwan looks less like strategic cunning and more like an excuse to look away while China squeezes Taiwan in the gray zone.
+
+The substance of the U.S. policy should not change. Moving to an explicit security guarantee for Taiwan would create more problems than it would solve. But Washington needs to modernize the way it communicates its ambiguous position, warning Beijing that gray-zone coercion in one domain may trigger proportionate U.S. responses in others. For example, if Beijing starts forcibly inspecting vessels bound for Taiwan, Washington could respond by deepening and formalizing political and military cooperation with Taiwan. Selective intelligence disclosures could help make this kind of structured ambiguity more credible.
+
+The second pillar of deterrence is military. The United States should prioritize asymmetric capabilities that exploit its enduring advantages over China in long-range munitions, drones, undersea warfare, electronic warfare, and naval mines. It must rebuild its aging maritime logistics system in close coordination with Australia and Japan. The defense industrial base needs urgent reforms that build on the procurement process reforms enacted by Congress and the Pentagonover the past year. Washington must also make hard choices, holding back certain capabilities from the Middle East so that U.S. forces remain ready to fight in the Pacific. The more China dials up gray-zone pressure, the deeper defense and industrial cooperation with Taiwan must become.
+
+> Washington must deepen its engagement with Taiwan.
+
+The third pillar is strategic. China is engaged in the fastest nuclear buildup since early in the Cold War, heading toward 1,500 warheads by 2035. Its strategic deterrence doctrine is deliberately vague, designed to complicate U.S. decision-making at every level of escalation. The United States must keep modernizing its nuclear forces and delivery systems, deploy more intermediate-range capabilities in the Indo-Pacific, and explore nuclear-sharing arrangements with Japan and South Korea. It should keep shifting its command-and-control and surveillance systems from a small number of sophisticated, extremely expensive satellites that are vulnerable to attack to a more resilient network of drones, floating buoys, balloons, and small, cheap satellites in low-earth orbit. Washington must also treat AI as a strategic instrument. It should use export controls and other tools to maintain the U.S. lead while carefully signaling its emerging AI-enabled capabilities, such as cyberweapons.
+
+The fourth pillar of deterrence, economic deterrence, requires the greatest overhaul in approach. As Hugo Bromley and I have argued [in these pages](https://archive.ph/o/m34lP/https://www.foreignaffairs.com/china/case-avalanche-decoupling-china), policies threatening economic mutually assured destruction—sweeping sanctions, financial exclusion, trade cutoffs—are not serious options save for the most extreme scenarios. Implementing them would require sustained political will to tolerate severe self-inflicted pain. The Trump administration’s reversal on his April 2025 “Liberation Day” tariffs in response to a bond market revolt made clear that U.S. administrations cannot follow through on threats of rapid, across-the-board decoupling.
+
+Rather than emphasizing how the United States could punish China, a wiser economic deterrence strategy would show China that the United States and its allies could use a Taiwan crisis to trigger a gradual restructuring of the global economy on their own terms and to their own benefit. A web of bilateral and multilateral economic security agreements would create the basis for this new international economic architecture, pushing the burden of economic escalation back onto Xi. The driving mechanism for such a restructuring would be “avalanche decoupling,” a process by which the United States and like-minded allies use ratcheting tariffs or quotas to phase out specific imports from China over time.
+
+In peacetime, the United States and its allies can use avalanche decoupling to break dependencies on China for a small number of highly sensitive products such as drones and medicines, leaving the vast majority of trade with China unchanged. Doing so now—before a crisis takes place—would establish the proof of concept. Then, if China crosses U.S. redlines in the future, the allies could take the same approach to a broader share of trade, possibly on an accelerated basis and working with a larger coalition.
+
+> Xi can be deterred, as long as Washington keeps offering him reasons to be patient.
+
+Avalanche decoupling would not put a gun to other countries’ heads and demand that they stop trading with China. Rather, it would invite all countries to pick and choose the type of cooperation they wished with each side, product by product and sector by sector. Countries and firms that wanted access to U.S. and allied markets would have incentives to align with the avalanche. Nearly 100 million workers in China are employed in export manufacturing; the United States and its core allies together represent over one third of this external market. If the United States and its allies were to expand avalanche decoupling to cover a meaningful share of their current trade with China, millions of manufacturing jobs and trillions of dollars of private investment would suddenly be up for grabs.
+
+The hardest part of breaking critical dependencies on China would be curbing transshipment. Today, third countries and private firms buy cheap goods and parts in China, transform or mislabel them to obscure their origin, and ship them into allied markets to avoid tariffs. To prevent rampant transshipment in response to avalanche decoupling, the United States and its allied coalition could establish an economic security cooperation board to coordinate enforcement of rules of origin and help partner countries secure their economic borders. The board would not be a multilateral agency with power over its members like the World Trade Organization. Membership would be open to all countries, including those that trade heavily with China; the only condition would be honesty of trade reporting. It could offer its members technical support for supply chain monitoring and data-sharing agreements. If U.S. trading partners systematically transshipped export-controlled U.S. products to China, or transshipped Chinese parts into the U.S. market without accurate documentation, it could investigate. If Washington were to subject noncompliant countries to the same tariffs, quotas, or export controls as it did China, it could call on members of the board to back it up.
+
+All four pillars of this strategy should be directed not at China or the Chinese Communist Party, but at Xi himself. They must convince him that initiating a crisis over Taiwan would undo the progress he has already made toward national rejuvenation. They must convince him that a Taiwan crisis would not be just militarily costly but also politically isolating, economically ruinous, and strategically futile, because the United States and its allies could use a crisis to restructure the regional and global order in ways that put national rejuvenation out of reach. The tools to do this exist; they simply need to be brought together under a single strategy.
+
+Xi has shown restraint during his 13 years in power. He can yet be deterred, as long as Washington keeps offering him reasons to be patient. The United States, its allies, and the people of Taiwan can sustain peace for another generation, but only if the allies start preparing for a crisis, not just a war.
+
+### You are reading a free article
+
+- Paywall-free reading of new articles and over a century of archives
+- Six issues a year in print and online, plus audio articles
+- Unlock access to the *Foreign Affairs* app for reading on the go
+
+[![](https://cdn-live.foreignaffairs.com/sites/default/files/styles/webp_card_landscape_600x400/public/images/2026/04/29/2024-07-25T094104Z_521208759_RC2HI7A16SE0_RTRMADP_3_DRUGS-FENTANYL-SUPPLYCHAIN.jpg.webp?itok=KWYzwaun)
+
+](https://archive.ph/o/m34lP/https://www.foreignaffairs.com/china/what-drove-down-americas-fentanyl-deaths)
+
+[![](https://cdn-live.foreignaffairs.com/sites/default/files/styles/webp_card_landscape_600x400/public/images/2026/04/23/12026-04-20T062708Z_68621823_RC2USKAADYA1_RTRMADP_3_PHILIPPINES-USA-MILITARY.jpg.webp?itok=mpqfzML9)
+
+](https://archive.ph/o/m34lP/https://www.foreignaffairs.com/united-states/other-china-flash-point)
+
+[![](https://cdn-live.foreignaffairs.com/sites/default/files/styles/webp_card_landscape_600x400/public/images/2026/04/22/2026-04-15T025032Z_147789047_RC2DPKASX11F_RTRMADP_3_CHINA-RUSSIA.JPG.webp?itok=JZtmiB_e)
+
+](https://archive.ph/o/m34lP/https://www.foreignaffairs.com/united-states/how-china-and-russia-can-exploit-iran-war)
+
+[![](https://cdn-live.foreignaffairs.com/sites/default/files/styles/webp_card_landscape_600x400/public/images/2026/04/08/1Strategy-Of-Consolidation_US-Map2-CROP.jpg.webp?itok=-2Xi9jAR)
+
+](https://archive.ph/o/m34lP/https://www.foreignaffairs.com/united-states/trump-grand-strategy-consolidation-wes-mitchell)
+
+[![](https://cdn-live.foreignaffairs.com/sites/default/files/styles/webp_card_landscape_600x400/public/images/2026/04/08/1_NorthKorea_KimCROPe.jpg.webp?itok=kowvr-K4)
+
+](https://archive.ph/o/m34lP/https://www.foreignaffairs.com/north-korea/how-north-korea-won-jung-pak)
+
+[![](https://cdn-live.foreignaffairs.com/sites/default/files/styles/webp_card_landscape_600x400/public/images/2026/04/08/1_Fishman_JuanBernabeuCROP.jpg.webp?itok=mUXRWWea)
+
+](https://archive.ph/o/m34lP/https://www.foreignaffairs.com/united-states/how-fight-economic-war-fishman)

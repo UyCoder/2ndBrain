@@ -1,0 +1,227 @@
+{
+  "main": {
+    "id": "289a17815ce89497",
+    "type": "split",
+    "children": [
+      {
+        "id": "1749bdf296d97b92",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2031ad2c0f9d5ee4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "wiki/ئورۇن-ئابدۇلھەمىد-II.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ئورۇن-ئابدۇلھەمىد-II"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b7f46be5997a39bd",
+    "type": "split",
+    "children": [
+      {
+        "id": "dad99a78156fcf9c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2be14332b3a0832d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "729a938ed1219378",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "3bf186c4f608f7b8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 463.5
+  },
+  "right": {
+    "id": "2de523bc2bf47997",
+    "type": "split",
+    "children": [
+      {
+        "id": "812a3cedc5db2c45",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fd8c55fde4b17545",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "wiki/ئورۇن-جاڭ-چيەن.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for ئورۇن-جاڭ-چيەن"
+            }
+          },
+          {
+            "id": "42ae217ef2d8a5be",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "wiki/ئورۇن-جاڭ-چيەن.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from ئورۇن-جاڭ-چيەن"
+            }
+          },
+          {
+            "id": "5330755bbd9bf183",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "bc77e753aa569d82",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "b2832b65b4f11e62",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "wiki/ئورۇن-جاڭ-چيەن.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of ئورۇن-جاڭ-چيەن"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "2031ad2c0f9d5ee4",
+  "lastOpenFiles": [
+    "wiki/ئورۇن-ئابدۇقادىر-داموللام-ھاياتى-ۋە-ھېكمەتلىرى.md",
+    "wiki/ئورۇن-ئابدۇقادىر-داموللام.md",
+    "wiki/ئورۇن-ئابدۇلھەمىد-II.md",
+    "wiki/ئورۇن-ﺋﻮﺭﺧﯘﻥ-ﺋﯘﻳﻐﯘﺭ-ﺧﺎﻧﻠﯩﻘﻰ-ﻗﺎﻏﺎﻧﻠﯩﺮﻯ.md",
+    "wiki/بىرىكمە-رۇس-تۈرك-ئۇرۇشى-1877-1878-تەھلىل.md",
+    "raw/ﻳﯩﭙﻪﻙ ﻳﻮﻟﯩﺪﯨﻦ ﺋﯘﻳﻐﯘﺭ ﻣﻪﺩﻩﻧﯩﻴﯩﺘﻰ ﺋﻪﯕﮕﯜﺷﺘﯩﺮﯨﻨﻰ ﻗﺎﻳﺘﺎ ﺗﯧﭙﯩﯟﯨﻠﯩﺶ – ئۇيغۇر تورى ئارخىپلىرى.md",
+    "wiki/بىرىكمە-ﻳﯩﭙﻪﻙ-ﻳﻮﻟﯩﺪﯨﻦ-ﺋﯘﻳﻐﯘﺭ-ﻣﻪﺩﻩﻧﯩﻴﯩﺘﻰ-ﺋﻪﯕﮕﯜﺷﺘﯩﺮﯨﻨﻰ-ﻗﺎﻳﺘﺎ-ﺗﯧﭙﯩﯟﯨﻠﯩﺶ.md",
+    "raw/ﺋﻮﺭﺧﯘﻥ ﺋﯘﻳﻐﯘﺭ ﺧﺎﻧﻠﯩﻘﯩﻨﯩﯔ ﺋﯘﭺ ﺋﻪﯞﻻﺩ ﻗﺎﻏﺎﻧﻰ – ئۇيغۇر تورى ئارخىپلىرى.md",
+    "wiki/بىرىكمە-ﺋﻮﺭﺧﯘﻥ-ﺋﯘﻳﻐﯘﺭ-ﺧﺎﻧﻠﯩﻘﯩﻨﯩﯔ-ﺋﯘﭺ-ﺋﻪﯞﻻﺩ-ﻗﺎﻏﺎﻧﻰ.md",
+    "raw/ﺋﯩﻜﻜﯩﻨﺠﻰ ﺩﯗﻧﻴﺎ ﺋﯘﺭﯗﺷﻰ ـ ﺋﯘﻳﻐﯘﺭ ﻗﺎﺗﺎﺭﻟﯩﻖ ﺗﯜﺭﻛﯩﻲ ﺧﻪﻟﻘﻠﻪﺭﻧﯩﯖﻤﯘ ﭘﺎﺟﯩﺌﻪﺳﻰ – ئۇيغۇر تورى ئارخىپلىرى.md",
+    "wiki/بىرىكمە-ﺋﯩﻜﻜﯩﻨﺠﻰ-ﺩﯗﻧﻴﺎ-ﺋﯘﺭﯗﺷﻰ-ـ-ﺋﯘﻳﻐﯘﺭ-ﻗﺎﺗﺎﺭﻟﯩﻖ-ﺗﯜﺭﻛﯩﻲ-ﺧﻪﻟﻘﻠﻪﺭﻧﯩﯖﻤﯘ-ﭘﺎﺟﯩﺌﻪﺳﻰ.md",
+    "raw/ﺋﯩﻜﻜﯩﻨﺠﻰ ﺩﯗﻧﻴﺎ ﺋﯘﺭﯗﺷﻰ ـ ﺋﯘﻳﻐﯘﺭ ﻗﺎﺗﺎﺭﻟﯩﻖ ﺗﯜﺭﻛﯩﻲ ﺧﻪﻟﻘﻠﻪﺭﻧﯩﯖﻤﯘ ﭘﺎﺟﯩﺌﻪﺳﻰ – ئۇيغۇر تورى ئارخىپلىرى 1.md",
+    "wiki/بىرىكمە-ﺋﯩﻜﻜﯩﻨﺠﻰ-ﺩﯗﻧﻴﺎ-ﺋﯘﺭﯗﺷﻰ-ـ-ﺋﯘﻳﻐﯘﺭ-ﻗﺎﺗﺎﺭﻟﯩﻖ-ﺗﯜﺭﻛﯩﻲ-ﺧﻪﻟﻘﻠﻪﺭﻧﯩﯖﻤﯘ-ﭘﺎﺟﯩﺌﻪﺳﻰ-1.md",
+    "raw/ﯞﯦﻨﮕﺮﻻﺭ ﯞﻩ ﺳﯧﺮﯨﻖ ﺋﯘﻳﻐﯘﺭﻻﺭ – ئۇيغۇر تورى ئارخىپلىرى.md",
+    "wiki/بىرىكمە-ﯞﯦﻨﮕﺮﻻﺭ-ﯞﻩ-ﺳﯧﺮﯨﻖ-ﺋﯘﻳﻐﯘﺭﻻﺭ.md",
+    "raw/ھېيتگاھ جامەسىنىڭ تارىخى – ئۇيغۇر تورى ئارخىپلىرى.md",
+    "wiki/بىرىكمە-ھېيتگاھ-جامەسىنىڭ-تارىخى.md",
+    "raw/ھازىرقى زامان مەدەنىيەت مۇھىتىدىكى ئۇيغۇر پروزىچىلى (سۆھبەت خاتىرىسى) – ئۇيغۇر تورى ئارخىپلىرى.md",
+    "wiki/بىرىكمە-ھازىرقى-زامان-مەدەنىيەت-مۇھىتىدىكى-ئۇيغۇر-پروزىچىلى-سۆھبەت-خاتىرىسى.md",
+    "raw/چىن ۋە ماچىننىڭ جۇغراپىيىلىك ئۇقۇم دائىرىسى – ئۇيغۇر تورى ئارخىپلىرى.md",
+    "wiki/بىرىكمە-چىن-ۋە-ماچىننىڭ-جۇغراپىيىلىك-ئۇقۇم-دائىرىسى.md",
+    "raw/يۇرتىمىز تارىخىدا قوللىنىلغان ئۆلچەم بىرلىكلىرى – ئۇيغۇر تورى ئارخىپلىرى.md",
+    "wiki/بىرىكمە-يۇرتىمىز-تارىخىدا-قوللىنىلغان-ئۆلچەم-بىرلىكلىرى.md",
+    "raw/يىپەك يۇلىدىكى بىر چوڭ ئىللەت – ئۇيغۇر تورى ئارخىپلىرى.md",
+    "wiki/بىرىكمە-يىپەك-يۇلىدىكى-بىر-چوڭ-ئىللەت.md",
+    "raw/يىپەك يولىدىكى بىباھا بايلىق-ئۇيغۇر ئەدەبىياتى – ئۇيغۇر تورى ئارخىپلىرى.md",
+    "process_wikis.py",
+    "translationArtcles",
+    "Untitled.canvas",
+    "Untitled 1.canvas",
+    "Clippings/中国间谍全书-Bilik_Report_2025-12-24-014.html",
+    "Clippings/中国间谍全书-Bilik_Report_2025-12-24-013.html",
+    "Clippings/中国间谍全书-Bilik_Report_2025-12-24-012.html",
+    "Clippings/中国间谍全书-Bilik_Report_2025-12-24-011.html",
+    "Clippings/中国间谍全书-Bilik_Report_2025-12-24-010.html",
+    "Clippings/中国间谍全书-Bilik_Report_2025-12-24-009.html",
+    "Clippings/中国间谍全书-Bilik_Report_2025-12-24-008.html",
+    "Clippings/中国间谍全书-Bilik_Report_2025-12-24-007.html"
+  ]
+}

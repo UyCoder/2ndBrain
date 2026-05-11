@@ -1,0 +1,34 @@
+---
+title: "Search and rescue: a growing responsibility"
+source: "https://www.aspi.org.au/strategist-posts/search-and-rescue-a-growing-responsibility/?topics=39&topic=China"
+author:
+  - "[[marko]]"
+published: 2014-06-23
+created: 2026-05-08
+description: "Regional search and rescue (SAR) issues have stolen a lot of international headlines lately. The disappearance of Malaysian Airlines flight MH370 in March, and the subsequent multinational search effort, revealed substantial cracks in the region’s surveillance and SAR arrangements. But the issue of regional SAR was large and growing even before MH370. The rescue of […]"
+tags:
+  - "clippings"
+---
+Regional search and rescue (SAR) issues have stolen a lot of international headlines lately. The disappearance of Malaysian Airlines flight MH370 in March, and the subsequent multinational search effort, revealed substantial cracks in the region’s surveillance and SAR arrangements. But the issue of regional SAR was large and growing even before MH370. The [rescue of passengers on board the ship *Akademik Shokalskiy*](https://www.aspi.org.au/publications/opinion-pieces/saga-of-shokalskiy-breaks-ice-on-much-needed-polar-conversation/Saga-of-Shokalskiy-breaks-ice-on-much-needed-polar-conversation.pdf) in the Southern Ocean earlier this year was watched by an estimated 32 million people world-wide. As Australia and other Antarctic nations enhance their polar programs, with more personnel and greater coverage of land and marine activities, the risk of SAR incidences will increase. This month, ASPI held a workshop to discuss issues surrounding the coordination of search and rescue operations in Australia’s area of responsibility. These are some of the key points from the discussions.
+
+Australia has the largest search and rescue zone in the world, stretching through parts of the Indian, Pacific and Southern Oceans, and amounting to roughly 12% of the Earth’s surface. Looking south, Australia’s SAR region is vast. It extends east and west of Australia’s land mass and penetrates through the Australian Antarctic Territory to the South Pole. In the Antarctic region, our SAR area adjoins those of New Zealand and South Africa. Figure 1 below shows Australia’s Antarctic SAR region (source: Australian Maritime Safety Authority).As Asia’s air- and water-ways become more congested with commercial and other traffic, and as wealthier citizens seek ever more exotic tourist destinations, pressures on the regional search and rescue arrangements are growing. Active in our SAR region are both legal and illegal fishers, and a growing number of independent visitors and sailors. In recent years, we’ve seen an escalation in confrontations between the Japanese whaling fleet and anti-whaling protestors. Figure 2 shows SAR activities in our southern backyard both in recent years and earlier.
+
+[![SAR activities south of Australia](http://www.aspistrategist.org.au/wp-content/uploads/2014/06/Antarctica2.jpg "SAR activities south of Australia")](http://www.aspistrategist.org.au/wp-content/uploads/2014/06/Antarctica2.jpg)
+
+Close coordination between the Australian Maritime Safety Authority, the Australian Antarctic Division, and the Department of Defence, the effective transfer of information about the availability of shipping and aircraft assets, and the availability of suitably-trained personnel to undertake SAR response, will all be critical for future SAR operations. Of equal importance will be coordinating with other national Antarctic programs active in our SAR region and the Southern Ocean.
+
+The trend toward more non-government operators travelling through the Southern Ocean and to Antarctica will continue. Privately-funded voyages—like that of the *Akademik Shokalskiy* —fishing operations, tourist operations and independent travellers are expected to increase over time.
+
+The entry into force of [the IMO’s Polar Code](http://www.imo.org/MediaCentre/HotTopics/polar/Pages/default.aspx) will provide some additional safeguards, although universal coverage of vessels isn’t assured: many fishing vessels undertaking illegal, unreported, and unregulated fishing activities in the Southern Ocean, for example, are unstable and poorly crewed.
+
+It’s likely that there’ll be increased fly-in/fly-out tourism over the next two decades. That will have significant environmental and safety considerations and require the revision of arrangements for air traffic management, emergency accommodation, medical facilities and medivac capability.
+
+As the relevant SAR coordinator for much of east Antarctica, we could project an expected increase in SAR incidences into our strategic planning. SAR planning offers an opportunity for us to work with China, India, Korea, Japan, France, South Africa and New Zealand to foster good relations and sound SAR practices.
+
+As new technologies develop in unmanned aerial vehicles, those will offer additional resource capability in SAR operations. At present, much of that technological development sits within the Department of Defence. There’s [potential for enhanced cooperation](https://www.aspi.org.au/publications/strategic-insights-66-cold-calculations-australias-antarctic-challenges/SI66_Antarctic.pdf) between the Australian Antarctic Division and Department of Defence in the use of unmanned assets, not only for SAR purposes, but also for [general operational support in the region](http://www.australiansecuritymagazine.com.au/2014/04/unmanned-vehicles-enhancing-security-rescue-and-natural-disaster-management-capability-part-ii/).
+
+At the Shangri-La Dialogue, [Defence Minister Johnston proposed](https://www.iiss.org/en/events/shangri%20la%20dialogue/archive/2014-c20c/plenary-3-bce0/senator-david-johnston-4254) that Australia facilitate a regular multilateral search and rescue exercise in the future, that’s ‘practically focused, designed to strengthen interoperability, and to build fraternal connections’. The proposal highlights the fact that while search and rescue operations are important in themselves, they also serve an important political purpose; they build patterns of peaceful interaction between countries with limited experience of each other, and so help generate strategic trust.
+
+That’s a good idea: there are clearly gaps in regional SAR arrangements in Asia. (See [here](http://thediplomat.com/2014/03/flight-mh370-shows-limits-of-aseans-maritime-cooperation/) and [here](https://www.aspi.org.au/publications/opinion-pieces/nations-scared-to-drop-their-guard/Nations-scared-to-drop-their-guard.pdf).) At the same time, we should be conducting Southern Ocean and Antarctic search and rescue exercises to strengthen cooperation amongst Australian and other Antarctic states.
+
+*Anthony Bergin is deputy director of ASPI. Daniel Grant is an intern at ASPI. Maps courtesy of the [Australian Maritime Safety Authority.](https://www.amsa.gov.au/)*
