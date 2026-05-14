@@ -2,6 +2,8 @@
 
 Chronological record of knowledge base evolution.
 
+## [2026-05-12] ingest | Ingested 5 articles regarding Qutadghu Bilig (family & society), Atabetu'l-Haqayiq (knowledge & ethics), and Qeshqer (Yingisar/Shule) culture and history. Updated synthesis pages and created a new entity page for Qeshqer's local culture.
+
 ## [2026-05-04] setup | Initialized LLM Wiki infrastructure.
 ## [2026-05-04] ingest | Processed Batch 1-6 (Articles 1-41 + Extra). Established core framework of Legalism, subversion, and genocide intelligence.
 ## [2026-05-04] translate | Translated entire wiki content to Uyghur.

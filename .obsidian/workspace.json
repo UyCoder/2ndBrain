@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/ئورۇن-ئابدۇلھەمىد-II.md",
+                "file": "wiki/china-total-war-strategy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ئورۇن-ئابدۇلھەمىد-II"
+              "title": "china-total-war-strategy"
             }
           }
         ]
@@ -185,32 +185,33 @@
   },
   "active": "2031ad2c0f9d5ee4",
   "lastOpenFiles": [
-    "wiki/ئورۇن-ئابدۇقادىر-داموللام-ھاياتى-ۋە-ھېكمەتلىرى.md",
-    "wiki/ئورۇن-ئابدۇقادىر-داموللام.md",
-    "wiki/ئورۇن-ئابدۇلھەمىد-II.md",
-    "wiki/ئورۇن-ﺋﻮﺭﺧﯘﻥ-ﺋﯘﻳﻐﯘﺭ-ﺧﺎﻧﻠﯩﻘﻰ-ﻗﺎﻏﺎﻧﻠﯩﺮﻯ.md",
-    "wiki/بىرىكمە-رۇس-تۈرك-ئۇرۇشى-1877-1878-تەھلىل.md",
-    "raw/ﻳﯩﭙﻪﻙ ﻳﻮﻟﯩﺪﯨﻦ ﺋﯘﻳﻐﯘﺭ ﻣﻪﺩﻩﻧﯩﻴﯩﺘﻰ ﺋﻪﯕﮕﯜﺷﺘﯩﺮﯨﻨﻰ ﻗﺎﻳﺘﺎ ﺗﯧﭙﯩﯟﯨﻠﯩﺶ – ئۇيغۇر تورى ئارخىپلىرى.md",
-    "wiki/بىرىكمە-ﻳﯩﭙﻪﻙ-ﻳﻮﻟﯩﺪﯨﻦ-ﺋﯘﻳﻐﯘﺭ-ﻣﻪﺩﻩﻧﯩﻴﯩﺘﻰ-ﺋﻪﯕﮕﯜﺷﺘﯩﺮﯨﻨﻰ-ﻗﺎﻳﺘﺎ-ﺗﯧﭙﯩﯟﯨﻠﯩﺶ.md",
-    "raw/ﺋﻮﺭﺧﯘﻥ ﺋﯘﻳﻐﯘﺭ ﺧﺎﻧﻠﯩﻘﯩﻨﯩﯔ ﺋﯘﭺ ﺋﻪﯞﻻﺩ ﻗﺎﻏﺎﻧﻰ – ئۇيغۇر تورى ئارخىپلىرى.md",
-    "wiki/بىرىكمە-ﺋﻮﺭﺧﯘﻥ-ﺋﯘﻳﻐﯘﺭ-ﺧﺎﻧﻠﯩﻘﯩﻨﯩﯔ-ﺋﯘﭺ-ﺋﻪﯞﻻﺩ-ﻗﺎﻏﺎﻧﻰ.md",
-    "raw/ﺋﯩﻜﻜﯩﻨﺠﻰ ﺩﯗﻧﻴﺎ ﺋﯘﺭﯗﺷﻰ ـ ﺋﯘﻳﻐﯘﺭ ﻗﺎﺗﺎﺭﻟﯩﻖ ﺗﯜﺭﻛﯩﻲ ﺧﻪﻟﻘﻠﻪﺭﻧﯩﯖﻤﯘ ﭘﺎﺟﯩﺌﻪﺳﻰ – ئۇيغۇر تورى ئارخىپلىرى.md",
-    "wiki/بىرىكمە-ﺋﯩﻜﻜﯩﻨﺠﻰ-ﺩﯗﻧﻴﺎ-ﺋﯘﺭﯗﺷﻰ-ـ-ﺋﯘﻳﻐﯘﺭ-ﻗﺎﺗﺎﺭﻟﯩﻖ-ﺗﯜﺭﻛﯩﻲ-ﺧﻪﻟﻘﻠﻪﺭﻧﯩﯖﻤﯘ-ﭘﺎﺟﯩﺌﻪﺳﻰ.md",
-    "raw/ﺋﯩﻜﻜﯩﻨﺠﻰ ﺩﯗﻧﻴﺎ ﺋﯘﺭﯗﺷﻰ ـ ﺋﯘﻳﻐﯘﺭ ﻗﺎﺗﺎﺭﻟﯩﻖ ﺗﯜﺭﻛﯩﻲ ﺧﻪﻟﻘﻠﻪﺭﻧﯩﯖﻤﯘ ﭘﺎﺟﯩﺌﻪﺳﻰ – ئۇيغۇر تورى ئارخىپلىرى 1.md",
-    "wiki/بىرىكمە-ﺋﯩﻜﻜﯩﻨﺠﻰ-ﺩﯗﻧﻴﺎ-ﺋﯘﺭﯗﺷﻰ-ـ-ﺋﯘﻳﻐﯘﺭ-ﻗﺎﺗﺎﺭﻟﯩﻖ-ﺗﯜﺭﻛﯩﻲ-ﺧﻪﻟﻘﻠﻪﺭﻧﯩﯖﻤﯘ-ﭘﺎﺟﯩﺌﻪﺳﻰ-1.md",
-    "raw/ﯞﯦﻨﮕﺮﻻﺭ ﯞﻩ ﺳﯧﺮﯨﻖ ﺋﯘﻳﻐﯘﺭﻻﺭ – ئۇيغۇر تورى ئارخىپلىرى.md",
-    "wiki/بىرىكمە-ﯞﯦﻨﮕﺮﻻﺭ-ﯞﻩ-ﺳﯧﺮﯨﻖ-ﺋﯘﻳﻐﯘﺭﻻﺭ.md",
-    "raw/ھېيتگاھ جامەسىنىڭ تارىخى – ئۇيغۇر تورى ئارخىپلىرى.md",
-    "wiki/بىرىكمە-ھېيتگاھ-جامەسىنىڭ-تارىخى.md",
-    "raw/ھازىرقى زامان مەدەنىيەت مۇھىتىدىكى ئۇيغۇر پروزىچىلى (سۆھبەت خاتىرىسى) – ئۇيغۇر تورى ئارخىپلىرى.md",
-    "wiki/بىرىكمە-ھازىرقى-زامان-مەدەنىيەت-مۇھىتىدىكى-ئۇيغۇر-پروزىچىلى-سۆھبەت-خاتىرىسى.md",
-    "raw/چىن ۋە ماچىننىڭ جۇغراپىيىلىك ئۇقۇم دائىرىسى – ئۇيغۇر تورى ئارخىپلىرى.md",
-    "wiki/بىرىكمە-چىن-ۋە-ماچىننىڭ-جۇغراپىيىلىك-ئۇقۇم-دائىرىسى.md",
-    "raw/يۇرتىمىز تارىخىدا قوللىنىلغان ئۆلچەم بىرلىكلىرى – ئۇيغۇر تورى ئارخىپلىرى.md",
-    "wiki/بىرىكمە-يۇرتىمىز-تارىخىدا-قوللىنىلغان-ئۆلچەم-بىرلىكلىرى.md",
-    "raw/يىپەك يۇلىدىكى بىر چوڭ ئىللەت – ئۇيغۇر تورى ئارخىپلىرى.md",
-    "wiki/بىرىكمە-يىپەك-يۇلىدىكى-بىر-چوڭ-ئىللەت.md",
-    "raw/يىپەك يولىدىكى بىباھا بايلىق-ئۇيغۇر ئەدەبىياتى – ئۇيغۇر تورى ئارخىپلىرى.md",
+    "wiki/consequences-of-china-victory.md",
+    "wiki/central-asia-china-geopolitics.md",
+    "Clippings/Diplomacy at the Periphery How the PRC’s Border Provinces Shape Neighborhood Engagement.md",
+    "Clippings/Expanding China's Geopolitical Influence through Peripheral Communication.md",
+    "Clippings/Policing Beyond Borders China’s Law-Enforcement Expansion in the Mekong Region.md",
+    "Clippings/Pressure on the Periphery China’s Economic Coercion in the Borderlands.md",
+    "Clippings/China’s Statecraft through the Lancang-Mekong Cooperation Building a Sino-Centric Regional Order.md",
+    "Clippings/All Railroads Lead to China China’s Borderlands Strategy of Integration in Laos.md",
+    "Clippings/China’s Great Waiting Game in Afghanistan.md",
+    "Clippings/The Shaksgam Valley in China’s Borderlands.md",
+    "Clippings/Digging up the Past to Justify the Present China’s Archaeological Diplomacy in Central Asia.md",
+    "Clippings/Strategic Spaces of the Sino-Nepali Borderlands Making and Breaking Trans-Himalayan Trade Relations.md",
+    "Clippings/Borderlands An Introduction.md",
+    "Clippings/Update on China-Afghanistan Relations • Stimson Center.md",
+    "Clippings/Ortadoğu Araştırmaları Merkezi.md",
+    "Clippings/Borderlands Read.md",
+    "GEMINI.md",
+    "raw/«ئەتەبەتۇلھەقايىق» نىڭ تولۇق تېكىستى – ئۇيغۇر تورى ئارخىپلىرى.md",
+    "raw/«ئەتەبەتۇلھەقايىق» داستانىدا ئىپادىلەنگەن ئىلىم-مەرىپەت توغرىسىدىكى قاراشلار – ئۇيغۇر تورى ئارخىپلىرى.md",
+    "raw/« قۇتادغۇ بىلىك » تىكى غايىۋى جەمئىيەت – ئۇيغۇر تورى ئارخىپلىرى.md",
+    "raw/« قۇتادغۇ بىلىك » تىكى ئائىلە تەربىيىسىگە ئائىت بايانلار ھەققىدە – ئۇيغۇر تورى ئارخىپلىرى.md",
+    "wiki/ئورۇن-قەشقەر-يېڭىسار-ۋە-يېڭىشەھەر-مەدەنىيىتى.md",
+    "Clippings/Opinion The U.S. Still Doesn’t Know Where Central Asia Belongs.md",
+    "Clippings/No Matter How Bizarre it May Sound Europe May Cooperate with China Against Russia.md",
+    "Clippings/Post by @Kadimsiyaset on X 2.md",
+    "Clippings/Post by @abdulslam2017 on X.md",
+    "revert.py",
     "process_wikis.py",
     "translationArtcles",
     "Untitled.canvas",
@@ -221,7 +222,6 @@
     "Clippings/中国间谍全书-Bilik_Report_2025-12-24-011.html",
     "Clippings/中国间谍全书-Bilik_Report_2025-12-24-010.html",
     "Clippings/中国间谍全书-Bilik_Report_2025-12-24-009.html",
-    "Clippings/中国间谍全书-Bilik_Report_2025-12-24-008.html",
-    "Clippings/中国间谍全书-Bilik_Report_2025-12-24-007.html"
+    "Clippings/中国间谍全书-Bilik_Report_2025-12-24-008.html"
   ]
 }
