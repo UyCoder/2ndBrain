@@ -41,3 +41,5 @@ Chronological record of knowledge base evolution.
 
 
 ## [2026-05-11] ingest | Batch Processing: Automatically generated 120 wiki pages from 'ئۇيغۇر تورى ئارخىپلىرى' clippings, built keyword links, updated index, and moved originals to raw folder.
+
+## [2026-05-15] ingest | Ingested 8 thorough articles regarding Uyghur history, epistemology, and national industry. Synthesized Kafesoglu's deep analysis of 'Qutadgu Bilig' (Tore/Qut framework), corrected the historiography of 'History of Kashgar' (Chingiznama vs. Tarixi Kashghar), and documented the origin of the 'Taranchi' name. Processed the 'Kroran' cosmetics factory case study as a model for national industrial development. Updated index and moved sources to raw.
