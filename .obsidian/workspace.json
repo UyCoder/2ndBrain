@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/china-total-war-strategy.md",
+                "file": "GEMINI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "china-total-war-strategy"
+              "title": "GEMINI"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 463.5
+    "width": 200
   },
   "right": {
     "id": "2de523bc2bf47997",
@@ -183,8 +183,15 @@
       "bases:Create new base": false
     }
   },
-  "active": "2031ad2c0f9d5ee4",
+  "active": "2be14332b3a0832d",
   "lastOpenFiles": [
+    "Clippings/阎学通：2035年的国际秩序推演_爱思想.md",
+    "Clippings/周力：美以伊冲突进一步削弱单极霸权秩序_爱思想.md",
+    "Clippings/没上专机的库克，提前到了北京 -  中国新闻周刊网.md",
+    "Clippings/Trump visits China, vote on Sara Duterte impeachment, SoftBank earnings.md",
+    "Clippings/How School Cell Phone Policy Strictness Shapes Student Phone Use.md",
+    "Clippings/Trump-Xi Summit in Beijing Managing the World’s Most Important Relationship.md",
+    "wiki/china-total-war-strategy.md",
     "wiki/consequences-of-china-victory.md",
     "wiki/central-asia-china-geopolitics.md",
     "Clippings/Diplomacy at the Periphery How the PRC’s Border Provinces Shape Neighborhood Engagement.md",
@@ -204,13 +211,6 @@
     "GEMINI.md",
     "raw/«ئەتەبەتۇلھەقايىق» نىڭ تولۇق تېكىستى – ئۇيغۇر تورى ئارخىپلىرى.md",
     "raw/«ئەتەبەتۇلھەقايىق» داستانىدا ئىپادىلەنگەن ئىلىم-مەرىپەت توغرىسىدىكى قاراشلار – ئۇيغۇر تورى ئارخىپلىرى.md",
-    "raw/« قۇتادغۇ بىلىك » تىكى غايىۋى جەمئىيەت – ئۇيغۇر تورى ئارخىپلىرى.md",
-    "raw/« قۇتادغۇ بىلىك » تىكى ئائىلە تەربىيىسىگە ئائىت بايانلار ھەققىدە – ئۇيغۇر تورى ئارخىپلىرى.md",
-    "wiki/ئورۇن-قەشقەر-يېڭىسار-ۋە-يېڭىشەھەر-مەدەنىيىتى.md",
-    "Clippings/Opinion The U.S. Still Doesn’t Know Where Central Asia Belongs.md",
-    "Clippings/No Matter How Bizarre it May Sound Europe May Cooperate with China Against Russia.md",
-    "Clippings/Post by @Kadimsiyaset on X 2.md",
-    "Clippings/Post by @abdulslam2017 on X.md",
     "revert.py",
     "process_wikis.py",
     "translationArtcles",

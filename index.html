@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="ug" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UyCoder بىلىم ئامبىرى</title>
+    <!-- Markdown نى HTML گە ئايلاندۇرغۇچ قورال -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+        /* ئاساسىي رەڭلەر ۋە تەڭشەكلەر */
+        :root {
+            --bg-color: #f1f5f9; 
+            --surface: #ffffff;
+            --text-main: #334155;
+            --text-light: #64748b;
+            --primary: #0284c7;
+            --primary-light: #e0f2fe;
+            --border: #e2e8f0;
+        }
+
+        /* گۈزەللەشتۈرۈلگەن سىيرىغۇچ (Scrollbar) */
+        ::-webkit-scrollbar { width: 8px; height: 8px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 10px; }
+        ::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'UKIJ Tuz', 'UKIJ Tuz Tom', 'ALKATIP Tor', 'Microsoft Uighur', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            display: flex;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        /* سول تەرەپ تىزىملىك رايونى */
+        .sidebar {
+            width: 320px;
+            background-color: var(--surface);
+            border-left: 1px solid var(--border);
+            display: flex;
+            flex-direction: column;
+            box-shadow: -4px 0 15px rgba(0,0,0,0.03);
+            z-index: 10;
+        }
+
+        .sidebar-header {
+            padding: 25px 20px;
+            background: linear-gradient(135deg, #0ea5e9, #0284c7);
+            color: white;
+            text-align: center;
+            font-size: 1.4rem;
+            font-weight: bold;
+            letter-spacing: 1px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            z-index: 2;
+        }
+
+        .article-list {
+            list-style: none;
+            padding: 10px;
+            margin: 0;
+            overflow-y: auto;
+            flex-grow: 1;
+        }
+
+        .article-list li {
+            padding: 14px 18px;
+            margin-bottom: 5px;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            font-size: 1.15rem;
+            line-height: 1.6;
+            color: var(--text-main);
+        }
+
+        .article-list li:hover {
+            background-color: #f8fafc;
+            transform: translateX(-3px); 
+        }
+
+        .article-list li.active {
+            background-color: var(--primary-light);
+            color: var(--primary);
+            font-weight: bold;
+            border-right: 4px solid var(--primary);
+            border-radius: 8px 0 0 8px;
+        }
+
+        /* ئوڭ تەرەپ ئاساسىي رايون */
+        .main-content {
+            flex-grow: 1;
+            overflow-y: auto; 
+            background-color: var(--bg-color);
+            padding: 40px 20px;
+            scroll-behavior: smooth;
+        }
+
+        /* ئاق قەغەز (ماقالە ئوقۇش گەۋدىسى) */
+        .markdown-body {
+            background-color: var(--surface);
+            padding: 60px 70px;
+            border-radius: 16px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.06); 
+            max-width: 850px;
+            margin: 0 auto; 
+            min-height: calc(100% - 120px); 
+            line-height: 2.2;
+            font-size: 1.25rem;
+            text-align: justify;
+        }
+
+        /* Markdown زىننەتلىرى */
+        .markdown-body h1 { 
+            color: var(--primary); 
+            border-bottom: 2px solid var(--border); 
+            padding-bottom: 15px; 
+            margin-top: 0;
+            font-size: 2.2rem;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.05);
+        }
+        .markdown-body h2 { color: #1e293b; margin-top: 40px; font-size: 1.7rem;}
+        .markdown-body h3 { color: #334155; font-size: 1.4rem;}
+        .markdown-body p { margin-bottom: 20px; color: #475569;}
+        .markdown-body a { color: var(--primary); text-decoration: none; font-weight: bold;}
+        .markdown-body a:hover { text-decoration: underline; color: #0369a1;}
+        .markdown-body img { max-width: 100%; height: auto; border-radius: 8px; margin: 30px auto; display: block; box-shadow: 0 4px 15px rgba(0,0,0,0.1);}
+        
+        .markdown-body blockquote {
+            border-right: 5px solid var(--primary);
+            margin: 30px 0;
+            padding: 15px 25px;
+            background-color: #f8fafc;
+            color: var(--text-light);
+            border-radius: 8px;
+            font-style: italic;
+        }
+
+        .markdown-body pre {
+            background-color: #1e293b;
+            color: #e2e8f0;
+            padding: 20px;
+            border-radius: 10px;
+            overflow-x: auto;
+            direction: ltr; 
+            text-align: left;
+            font-family: 'Courier New', Courier, monospace;
+            box-shadow: inset 0 2px 4px rgba(0,0,0,0.2);
+        }
+        
+        .markdown-body code {
+            background-color: #f1f5f9;
+            color: #be185d;
+            padding: 3px 6px;
+            border-radius: 4px;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 1rem;
+        }
+
+        .loader {
+            text-align: center;
+            font-size: 1.4rem;
+            color: var(--text-light);
+            margin-top: 100px;
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse {
+            0% { opacity: 0.6; }
+            50% { opacity: 1; }
+            100% { opacity: 0.6; }
+        }
+
+        /* يانفونلار ئۈچۈن ماسلىشىشچانلىق */
+        @media (max-width: 768px) {
+            body { flex-direction: column; }
+            .sidebar { width: 100%; height: 35vh; border-left: none; border-bottom: 1px solid var(--border); box-shadow: none;}
+            .main-content { padding: 15px; height: 65vh; }
+            .markdown-body { padding: 25px; font-size: 1.15rem; margin: 0 auto; border-radius: 12px;}
+        }
+    </style>
+</head>
+<body>
+
+    <!-- تىزىملىك رايونى -->
+    <div class="sidebar">
+        <div class="sidebar-header">
+            ۋىكى مۇندەرىجىسى
+        </div>
+        <ul class="article-list" id="articleList">
+            <li class="loader" style="margin-top: 50px;">يۈكلىنىۋاتىدۇ...</li>
+        </ul>
+    </div>
+
+    <!-- ئاساسىي كۆرسىتىش رايونى -->
+    <div class="main-content" id="mainContentScroll">
+        <div class="markdown-body" id="contentArea">
+            <div class="loader">سول تەرەپتىن بىر ماقالە تاللاڭ...</div>
+        </div>
+    </div>
+
+    <script>
+        const GITHUB_API_URL = "https://api.github.com/repos/UyCoder/2ndBrain/contents/wiki";
+        const RAW_BASE_URL = "https://raw.githubusercontent.com/UyCoder/2ndBrain/master/wiki/";
+
+        const articleListEl = document.getElementById('articleList');
+        const contentAreaEl = document.getElementById('contentArea');
+        const mainContentScroll = document.getElementById('mainContentScroll');
+
+        async function fetchFileList() {
+            try {
+                const response = await fetch(GITHUB_API_URL);
+                if (!response.ok) throw new Error("API غا ئۇلىنىش مەغلۇپ بولدى");
+                
+                const files = await response.json();
+                const mdFiles = files.filter(file => file.name.endsWith('.md'));
+                
+                renderList(mdFiles);
+
+                if(mdFiles.length > 0) {
+                    loadArticle(mdFiles[0].name, null);
+                }
+
+            } catch (error) {
+                articleListEl.innerHTML = `<li style="color:#ef4444; padding:20px; text-align:center;">تورغا ئۇلىنىش مەغلۇپ بولدى. VPN نى تەكشۈرۈڭ.</li>`;
+                console.error(error);
+            }
+        }
+
+        function renderList(files) {
+            articleListEl.innerHTML = ""; 
+            
+            files.forEach((file, index) => {
+                let cleanName = decodeURIComponent(file.name.replace('.md', ''))
+                    .replace(/بىرىكمە/g, '')     
+                    .replace(/چۈشەنچە/g, '')    
+                    .replace(/-/g, ' ')         
+                    .replace(/\s+/g, ' ')       
+                    .trim();                    
+                
+                if(cleanName === "") cleanName = decodeURIComponent(file.name.replace('.md', ''));
+
+                const li = document.createElement('li');
+                li.textContent = cleanName;
+                
+                if(index === 0) li.classList.add('active');
+
+                li.onclick = (e) => loadArticle(file.name, e.target);
+                articleListEl.appendChild(li);
+            });
+        }
+
+        async function loadArticle(fileName, clickedElement) {
+            if(clickedElement) {
+                document.querySelectorAll('.article-list li').forEach(el => el.classList.remove('active'));
+                clickedElement.classList.add('active');
+            }
+
+            contentAreaEl.innerHTML = `<div class="loader">ئۇچۇرلار ئېلىنىۋاتىدۇ...</div>`;
+            mainContentScroll.scrollTop = 0; 
+
+            try {
+                const response = await fetch(RAW_BASE_URL + encodeURIComponent(fileName));
+                if (!response.ok) throw new Error("يۈكلەش مەغلۇپ بولدى");
+                
+                let markdownText = await response.text();
+                
+                // === يېڭىدىن قوشۇلغان كود: YAML ئۇچۇرلىرىنى ئۆچۈرۈۋېتىش ===
+                // ماقالە بېشىدىكى --- ئارىسىغا يېزىلغان title, tags قاتارلىق ئۇچۇرلارنى ئېلىۋېتىدۇ
+                markdownText = markdownText.replace(/^---[\s\S]*?---\n*/, '');
+                
+                // ئەگەر ئۈستىدە --- سىزىقچە بولمىسىمۇ title: دەپ باشلانغان بولسا، شۇنىمۇ ئۆچۈرىدۇ
+                markdownText = markdownText.replace(/^title:[\s\S]*?tags:[\s\S]*?\n\n/, '');
+
+                contentAreaEl.innerHTML = marked.parse(markdownText);
+                
+            } catch (error) {
+                contentAreaEl.innerHTML = `<h3 style="color:#ef4444; text-align:center; margin-top:50px;">ماقالىنى يۈكلەشتە خاتالىق كۆرۈلدى. <br> (بەلكىم Github raw غا ئۇلىنالمىغان بولۇشىڭىز مۇمكىن)</h3>`;
+                console.error(error);
+            }
+        }
+
+        fetchFileList();
+
+    </script>
+</body>
+</html>
