@@ -2,6 +2,35 @@
 
 Chronological record of knowledge base evolution.
 
+## [2026-05-20] ingest | 4 articles regarding Uyghur history, education, and city names
+- Created [[ئۇيغۇرلار-ھەققىدە-دۇنيا-تارىخى]] from Denison Ross's annotations in H.G. Wells's "The Outline of History".
+- Created [[قۇتادغۇبىلىك-ۋە-ئائىلە]] regarding family education in Yusuf Khass Hajip's work.
+- Created [[ئابدۇقادىر-داموللام-ئاياللار-مائارىپى]] regarding Abduqadir Damollam's pioneering views on female education.
+- Identified redundant clippings for [[بىرىكمە-ئاقسۇ-نامىنىڭ-كېلىپ-چىقىشى]] and [[ئورۇن-ئالتۇن-قەدىمقى-شەھەر-خارابىسى]] and moved them to `/raw`.
+- Moved processed source files to `/raw`.
+
+## [2026-05-19] ingest | 5 articles on Tarim Mummies & Xinjiang Museum
+- Created [[ئورۇن-تارىم-قەدىمىي-جەسەتلىرى]], [[ئورۇن-كىچىك-دەريا-قەبرىستانلىقى]], [[ئورۇن-چەرچەن-ئادىمى]], [[ئورۇن-كروران-گۈزىلى]].
+- Created [[ئورۇن-شىنجاڭ-ئۇيغۇر-ئاپتونوم-رايونلۇق-مۇزېيى]] and [[چۈشەنچە-تارىم-قەدىمىي-جەسەتلىرىنىڭ-گېنتىكىسى]].
+- Synthesized 2021 DNA findings regarding Ancient North Eurasian ancestry.
+- Moved processed files to `/raw`.
+
+## [2026-05-19] ingest | 4 articles from Clippings (2026-05-15 posts)
+- Updated [[ئورۇن-شى-ترامپ-باش-باشلىقلار-يىغىنى-2026]] with CSIS deep-dive.
+- Created [[ئورۇن-ئالما-ۋە-تىم-كۇك]] from `没上专机的库克，提前到了北京 - 中国新闻周刊网.md`.
+- Created [[چۈشەنچە-ئامېرىكا-خىتاي-سودا-ئۇرۇشى-2026]] and [[ئورۇن-تەيۋەن-ۋە-خىتاي-ئامېرىكا-مۇناسىۋىتى]].
+- Created [[ئورۇن-فىلىپپىن-ۋە-سارا-دۇتېرتې]] and [[ئورۇن-تايلاند-ۋە-تاكسىن]].
+- Created [[چۈشەنچە-مائارىپتا-يانفون-كونتروللۇقى]] from RAND study.
+- Moved processed files to `/raw`.
+
+## [2026-05-19] ingest | 5 articles from Clippings (2026-05-17/14 posts)
+- Created [[ئورۇن-خىتاي-ھەربىي-نەزەرىيە-ئىسلاھاتى]] from `Post by @KTristanTang on X.md`
+- Created [[ئورۇن-ئىران-ھورمۇز-بۇغۇزى-ۋە-خىتاي]] from `Post by @TheStudyofWar on X 1.md`
+- Updated [[چۈشەنچە-ئاخباراتنى-سىياسىيلاشتۇرۇش-ۋە-خەتەرلىرى]] from `Post by @istihbaratRapor on X.md`
+- Created [[ئورۇن-شى-ترامپ-باش-باشلىقلار-يىغىنى-2026]] from `Post by @JulianGewirtz on X.md`
+- Updated [[بىرىكمە-تۈركىيە-قازاقىستان-ئىستراتېگىيىلىك-شېرىكچىلىكى]] from `Post by @thecaspianpost on X.md`
+- Moved processed files to `/raw`.
+
 ## [2026-05-12] ingest | Ingested 5 articles regarding Qutadghu Bilig (family & society), Atabetu'l-Haqayiq (knowledge & ethics), and Qeshqer (Yingisar/Shule) culture and history. Updated synthesis pages and created a new entity page for Qeshqer's local culture.
 
 ## [2026-05-04] setup | Initialized LLM Wiki infrastructure.
@@ -43,3 +72,5 @@ Chronological record of knowledge base evolution.
 ## [2026-05-11] ingest | Batch Processing: Automatically generated 120 wiki pages from 'ئۇيغۇر تورى ئارخىپلىرى' clippings, built keyword links, updated index, and moved originals to raw folder.
 
 ## [2026-05-15] ingest | Ingested 8 thorough articles regarding Uyghur history, epistemology, and national industry. Synthesized Kafesoglu's deep analysis of 'Qutadgu Bilig' (Tore/Qut framework), corrected the historiography of 'History of Kashgar' (Chingiznama vs. Tarixi Kashghar), and documented the origin of the 'Taranchi' name. Processed the 'Kroran' cosmetics factory case study as a model for national industrial development. Updated index and moved sources to raw.
+
+## [2026-05-18] ingest | Processed 5 new clippings including the May 2026 Trump-Xi summit, UK-China spying crisis, Yan Xuetong's 2035 world order prediction, the 'Third Gulf War' (US-Iran) context, and PLA high-level purges/new weaponry. Created 2 new wiki pages, updated 4 existing pages and the index. Moved processed clippings to raw folder.
