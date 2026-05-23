@@ -2,6 +2,38 @@
 
 Chronological record of knowledge base evolution.
 
+## [2026-05-24] ingest | 5 articles on US-China History, Military Export, Army 2030, Lawfare, and Asia-Pacific 2026
+- Created [[بىرىكمە-ئامېرىكا-خىتاي-تارىخىي-سېلىشتۇرما]] comparing current rivalry to 1914.
+- Created [[بىرىكمە-خىتاي-ھەربىي-تېخنىكا-ئېكسپورتى]] regarding J-10C success, BeiDou integration, and political-string-free sales.
+- Created [[بىرىكمە-ئامېرىكا-ئارمىيىسى-2030-ئىسلاھاتى]] regarding the shift to Division-centric MDO/LSCO operations.
+- Created [[بىرىكمە-خىتاينىڭ-چېگرا-ھالقىغان-قانۇنىي-قوراللىرى-ۋە-شىركەت-خەتەرلىرى]] mapping 15 extraterritorial laws and corporate risks.
+- Created [[بىرىكمە-ئاسىيا-تېنچ-ئوكيان-ۋەزىيىتى-2026]] summarizing 2026-Q2 geopolitical shifts, Japan's naval challenge, and US supply chain weaponization.
+- Moved processed files to `/raw`.
+
+## [2026-05-24] ingest | 5 articles on China Dynasties, US Intel, Laos Railway, and Gulf Geopolitics
+- Created [[ئورۇن-خىتاي-تەتقىقات-ئورۇنلىرى-ۋە-مۇتەخەسسىسلىرى]] with directory of China-focused think tanks and experts.
+- Created [[بىرىكمە-خىتاي-سۇلالىلىرى-تارىخى]] summarizing 5,000 years of Chinese history.
+- Created [[ئورۇن-خىتاي-لائوس-تۆمۈر-يولى-ۋە-رايونلۇق-بىرەشمە]] analyzing China's integration strategy in Laos.
+- Created [[بىرىكمە-ئامېرىكا-ۋە-پارس-قولتۇقى-مۇناسىۋىتى-2026]] regarding postwar U.S.-Gulf relations.
+- Created [[چۈشەنچە-ئامېرىكا-ئىستىخبارات-تەشكىلاتى-ۋە-ترامپ]] regarding the conflict between Trump and the IC.
+- Moved processed files to `/raw`.
+
+## [2026-05-23] ingest | 5 articles on AI, Cybersecurity, and Afghanistan-China Diplomacy
+- Updated [[ئورۇن-شى-ترامپ-باش-باشلىقلار-يىغىنى-2026]] with "Constructive Strategic Stability" framework and Asia Society webinar insights.
+- Created [[ئورۇن-ئەفغانىستان-خىتاي-مۇناسىۋىتى-2026]] regarding Yue Xiaoyong's diplomatic tour to Kabul and Doha.
+- Created [[چۈشەنچە-چەت-نۇقتا-سۈنئىي-ئەقلى-Edge-AI]] regarding rugged computing and low-latency AI at the edge.
+- Created [[چۈشەنچە-كېلود-مىتوس-ۋە-تور-بىخەتەرلىكى]] regarding the "Claude Mythos" zero-day discovery and its impact on the cyber defense model.
+- Created [[چۈشەنچە-خىتايچە-ئالاھىدىلىككە-ئىگە-سۈنئىي-ئەقىل]] regarding the CCP's ideological alignment of AI and military geospatial risks.
+- Moved processed files to `/raw`.
+
+## [2026-05-20] ingest | 5 articles from Clippings (Yengisar/Shule, Museum, Osman Batur, Cybersecurity, Grand Strategy)
+- Updated [[ئورۇن-قەشقەر-يېڭىسار-ۋە-يېڭىشەھەر-مەدەنىيىتى]] with detailed pottery process (11 steps) and history museum artifacts.
+- Updated [[ئورۇن-شىنجاڭ-ئۇيغۇر-ئاپتونوم-رايونلۇق-مۇزېيى]] with "Town Hall Treasures" (Fuxi-Nuwa, painted figurines) and details on Zhang Xiong mummy.
+- Created [[ئورۇن-ئوسمان-باتۇر-ۋە-شىنجاڭ-باندىتلارنى-تازىلاش-تارىخى]] regarding the 1950 bandit suppression, Luo Shaowei's sacrifice, and Osman Batur's capture.
+- Created [[چۈشەنچە-تور-بىخەتەرلىك-تەدبىرلىرى]] with 7 practical tips (Secret email, Tap to pay, Credit freeze, etc.).
+- Updated [[بىرىكمە-ترامپ-2.0-ئىستراتېگىيىسى]] with A. Wess Mitchell's "Consolidation Strategy" and the "Simultaneity Problem".
+- Moved processed files to `/raw`.
+
 ## [2026-05-20] ingest | 4 articles regarding Uyghur history, education, and city names
 - Created [[ئۇيغۇرلار-ھەققىدە-دۇنيا-تارىخى]] from Denison Ross's annotations in H.G. Wells's "The Outline of History".
 - Created [[قۇتادغۇبىلىك-ۋە-ئائىلە]] regarding family education in Yusuf Khass Hajip's work.

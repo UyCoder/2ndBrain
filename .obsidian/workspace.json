@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wiki/ئورۇن-بىرژىنسكىي-بۈيۈك-شاخمات-تاختىسى-ۋە-ئۇنىڭغا-تەنقىد.md",
+                "file": "wiki/بىرىكمە-خىتاي-جاسۇسلۇق-تارىخى-08.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ئورۇن-بىرژىنسكىي-بۈيۈك-شاخمات-تاختىسى-ۋە-ئۇنىڭغا-تەنقىد"
+              "title": "بىرىكمە-خىتاي-جاسۇسلۇق-تارىخى-08"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 245.5
   },
   "right": {
     "id": "2de523bc2bf47997",
@@ -185,32 +185,33 @@
   },
   "active": "2031ad2c0f9d5ee4",
   "lastOpenFiles": [
-    "wiki/ئورۇن-ئابدۇقادىر-داموللام.md",
-    "wiki/بىرىكمە-چىڭ-سۇلالىسى-ۋە-كۆپ-مىللەتلىك-ئىمپېرىيە.md",
-    "raw/7 pt2 MingDynasty Fix.md",
-    "raw/7 pt1 MingDynasty Fix.md",
-    "wiki/بىرىكمە-مىڭ-سۇلالىسى-ۋە-يەرشارىلىشىش-تارىخى.md",
-    "raw/6 MongolYuanDynasty Fix.md",
-    "wiki/بىرىكمە-موڭغۇل-ئىمپېرىيەسى-ۋە-يۈەن-سۇلالىسى-تارىخى.md",
-    "raw/5 SongDynasty Fix.md",
-    "wiki/بىرىكمە-سۇڭ-سۇلالىسى-ۋە-زامانىۋىلىشىش-ئالامەتلىرى.md",
-    "raw/4 TangDynasty Fix.md",
-    "wiki/بىرىكمە-تاڭ-سۇلالىسى-ۋە-ئوتتۇرا-ئاسىيا-مەدەنىيىتى.md",
-    "raw/3 QinAndHanEmpires Fix.md",
-    "wiki/بىرىكمە-خىتايدىكى-تۇنجى-ئىمپېرىيەلەر-چىن-ۋە-خەن.md",
-    "raw/2 WarringStatesAndIntellectualSchools Fix.md",
-    "raw/1 EarlyChina Fix.md",
-    "wiki/بىرىكمە-خىتاي-تارىخى-تەلىماتلار-ۋە-ئۇرۇشقاق-بەگلىكلەر.md",
-    "wiki/ئورۇن-ئابدۇقادىر-داموللام-ھاياتى-ۋە-ھېكمەتلىرى.md",
-    "wiki/ئورۇن-ئافغانىستاندىكى-روسىيە-تەسىرى.md",
-    "wiki/ئورۇن-ئابدۇلھەمىد-II.md",
-    "wiki/ئۇيغۇرلار-ھەققىدە-دۇنيا-تارىخى.md",
-    "raw/🔴Tarixda toza turklar bo'lganmi fikratuz.md",
-    "raw/🔴Rus-Turk urushi (1877–1878) Kim g‘olib, kim mag‘lub fikratuz history.md",
-    "raw/🔴QORAXONIYLAR Ular aslida kim edi fikratuz tarix  history.md",
-    "raw/🔴Geografiya “qamal “qilgan” mamlakatlar fikratuz.md",
-    "raw/🔴AbdulhamidxonII. Katta tarix. 1-qism fikratuz history.md",
-    "raw/🔴 Manas haqiqiy tarixmi yoki afsona fikratuz.md",
+    "wiki/بىرىكمە-خىتاي-جامائەت-پىكىرى.md",
+    "wiki/بىرىكمە-خىتاي-سۇلالىلىرى-تارىخى.md",
+    "wiki/بىرىكمە-ئاسىيا-تېنچ-ئوكيان-ۋەزىيىتى-2026.md",
+    "wiki/بىرىكمە-خىتاينىڭ-چېگرا-ھالقىغان-قانۇنىي-قوراللىرى-ۋە-شىركەت-خەتەرلىرى.md",
+    "wiki/بىرىكمە-ئامېرىكا-ئارمىيىسى-2030-ئىسلاھاتى.md",
+    "wiki/بىرىكمە-خىتاي-ھەربىي-تېخنىكا-ئېكسپورتى.md",
+    "wiki/بىرىكمە-خىتاي-ئامېرىكا-يادرو-خەتەرلىكى.md",
+    "wiki/بىرىكمە-ئۇيغۇر-بېلىقچىلىق-ئىگىلىكى-ۋە-لوپنۇر-ئادىتى.md",
+    "wiki/بىرىكمە-ئامېرىكا-خىتاي-تارىخىي-سېلىشتۇرما.md",
+    "wiki/ئورۇن-ئەنگلىيە-خىتاي-جاسۇسلۇق-كىرىزىسى.md",
+    "wiki/ئورۇن-ئالما-ۋە-تىم-كۇك.md",
+    "raw/Amerikan İstihbaratı ve Trump  Prof. Dr. Sait YILMAZ Anlatıyor  Kırmızı Klasör.md",
+    "raw/America and the Gulf Still Need Each Other.md",
+    "raw/All Railroads Lead to China China’s Borderlands Strategy of Integration in Laos.md",
+    "raw/All of China's Dynasties in ONE Video - Chinese History 101.md",
+    "raw/Air University (AU)  CASI  External Resources.md",
+    "wiki/چۈشەنچە-ئامېرىكا-ئىستىخبارات-تەشكىلاتى-ۋە-ترامپ.md",
+    "wiki/بىرىكمە-ئامېرىكا-ۋە-پارس-قولتۇقى-مۇناسىۋىتى-2026.md",
+    "wiki/ئورۇن-خىتاي-لائوس-تۆمۈر-يولى-ۋە-رايونلۇق-بىرەشمە.md",
+    "wiki/ئورۇن-خىتاي-تەتقىقات-ئورۇنلىرى-ۋە-مۇتەخەسسىسلىرى.md",
+    "raw/AI with Chinese Characteristics.md",
+    "raw/AI at the edge Making mission-critical intelligence practical.md",
+    "raw/After Beijing Summit Xi, Trump, and What Comes Next.md",
+    "raw/Afghanistan News Today – Breaking News, Politics, Sports & Live Updates.md",
+    "wiki/ئورۇن-ئالتۇن-قەدىمقى-شەھەر-خارابىسى.md",
+    "wiki/چۈشەنچە-خىتايچە-ئالاھىدىلىككە-ئىگە-سۈنئىي-ئەقىل.md",
+    "wiki/Untitled",
     "raw/诸葛亮Bilik_Report_2025-12-27-010.html",
     "raw/诸葛亮Bilik_Report_2025-12-27-009.html",
     "raw/诸葛亮Bilik_Report_2025-12-27-009..html",
@@ -220,7 +221,6 @@
     "raw/诸葛亮Bilik_Report_2025-12-27-005.html",
     "raw/诸葛亮Bilik_Report_2025-12-27-004.html",
     "raw/诸葛亮Bilik_Report_2025-12-27-003.html",
-    "raw/诸葛亮Bilik_Report_2025-12-27-002.html",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
