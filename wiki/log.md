@@ -2,6 +2,22 @@
 
 Chronological record of knowledge base evolution.
 
+## [2026-05-20] ingest | 5 articles on US-ROK Cyber Alliance, Sweden Procurement, Central Asia Security, Europe Defense, and Xi's Taiwan Strategy
+- Created [[بىرىكمە-ئامېرىكا-كورېيە-تور-ئىتتىپاقى]] regarding the US-ROK proactive cyber defense strategy.
+- Created [[بىرىكمە-شىۋېتسىيە-ئاممىۋى-سېتىۋېلىش-ۋە-جۇڭگو-خەۋپى]] regarding Sweden's new legislation to exclude antagonistic bidders.
+- Created [[بىرىكمە-ئوتتۇرا-ئاسىيا-جۇڭگو-خەۋپسىزلىك-ھەمكارلىقى]] regarding the Astana meeting of interior ministers.
+- Created [[بىرىكمە-ياۋروپا-مۇداپىئە-ئىتتىپاقى-ئېھتىياجى]] regarding Rasmussen's call for a new European defense alliance.
+- Created [[ئورۇن-شى-جىنپىڭنىڭ-تەيۋەن-ئىستراتېگىيىسى]] regarding China's patient but multifaceted reunification tactics.
+- Moved processed files to `/raw`.
+
+## [2026-05-24] ingest | 5 articles on Asia-Pacific 173, Shaybanid History, Iran War Dividend, Strategic Business, and Trade Order
+- Created [[ئورۇن-ئاسىيا-تېنچ-ئوكيان-دوكلاتى-173]] summarizing the latest regional geopolitical shifts and Turkish-Pacific relations.
+- Created [[ئورۇن-بەختىيار-ئالىمجانوۋ-شەيبانىخان-ۋە-سىياسىي-ئانتروپولوگىيە]] regarding the historical analysis of Shaybanid dynasty and Central Asian identity.
+- Created [[ئورۇن-خىتاينىڭ-ئۇرۇش-پايدىسى-ئىران-كىرىزىسى]] analyzing China's asymmetric gains from the US-Israeli campaign against Iran.
+- Created [[ئورۇن-توقۇنۇش-تەھدىتىدىن-ھالقىغان-ئىستراتېگىيە-بىزنىس-مودېلى]] regarding a business alternative to threat-based strategic planning.
+- Created [[ئورۇن-روبېرت-لايتخايزېر-يېڭى-سودا-تەرتىپى]] regarding the shift in global trade paradigms and US economic sovereignty.
+- Moved processed files to `/raw`.
+
 ## [2026-05-24] ingest | 5 articles on US-China History, Military Export, Army 2030, Lawfare, and Asia-Pacific 2026
 - Created [[بىرىكمە-ئامېرىكا-خىتاي-تارىخىي-سېلىشتۇرما]] comparing current rivalry to 1914.
 - Created [[بىرىكمە-خىتاي-ھەربىي-تېخنىكا-ئېكسپورتى]] regarding J-10C success, BeiDou integration, and political-string-free sales.
@@ -105,4 +121,14 @@ Chronological record of knowledge base evolution.
 
 ## [2026-05-15] ingest | Ingested 8 thorough articles regarding Uyghur history, epistemology, and national industry. Synthesized Kafesoglu's deep analysis of 'Qutadgu Bilig' (Tore/Qut framework), corrected the historiography of 'History of Kashgar' (Chingiznama vs. Tarixi Kashghar), and documented the origin of the 'Taranchi' name. Processed the 'Kroran' cosmetics factory case study as a model for national industrial development. Updated index and moved sources to raw.
 
+## [2024-03-24] ingest | 5 articles on China History, Republic of China, WWII, Mao's Era, and Kashgar Geng Gong Temple
+- Created [[بىرىكمە-خىتاي-تارىخىي-يىلنامىسى]] summarizing 5,000 years of history and Jiaozhi region.
+- Created [[ئورۇن-قەشقەر-كېڭ-گۇڭ-قۇربانگاھى]] regarding the history of the temple in Kashgar Old City.
+- Created [[بىرىكمە-جۇڭخۇا-مىنگو-دەۋرى-01]] covering the 1911 Revolution and Warlord period.
+- Created [[بىرىكمە-ئىككىنچى-دۇنيا-ئۇرۇشى-ۋە-خىتاي]] regarding the Japanese invasion and internal political shifts.
+- Created [[بىرىكمە-ماۋ-زېدوڭ-دەۋرىدىكى-خىتاي]] analyzing the PRC's political structure and major movements (1949-1976).
+- Moved processed files to `/raw`.
+
 ## [2026-05-18] ingest | Processed 5 new clippings including the May 2026 Trump-Xi summit, UK-China spying crisis, Yan Xuetong's 2035 world order prediction, the 'Third Gulf War' (US-Iran) context, and PLA high-level purges/new weaponry. Created 2 new wiki pages, updated 4 existing pages and the index. Moved processed clippings to raw folder.
+
+`n## [2026-05-21] ingest | Processed 5 articles on Qing Dynasty, Foreign Aggression, Reform Era, and Borderlands strategy. Created 5 new wiki pages in Uyghur language and updated the index. Moved processed clippings to raw folder.`n- Created [[?????-?????-????????-??-?????????-?????]] regarding China's economic and political changes since 1978.`n- Created [[?????-???-????????]] regarding the structure and management of the last imperial dynasty.`n- Created [[?????-???-????????-??-??????-?????????????]] covering the Opium Wars and internal rebellions.`n- Created [[?????-????????-?????-?????????-??-???????????????-???????]] analyzing the 'sanbian' strategy.`n- Created [[?????-????????-????????-?????????]] listing neighbors and regional statecraft.`n- Moved processed files to `/raw`.
