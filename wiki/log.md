@@ -119,6 +119,21 @@ Chronological record of knowledge base evolution.
 
 ## [2026-05-11] ingest | Batch Processing: Automatically generated 120 wiki pages from 'ئۇيغۇر تورى ئارخىپلىرى' clippings, built keyword links, updated index, and moved originals to raw folder.
 
+## [2026-05-21] ingest | 5 articles on China Digital Conquest, Russia-China Cooperation, Google AI Studio, and Decision-Making
+- Created [[بىرىكمە-خىتاينىڭ-ئوتتۇرا-ئاسىيادىكى-رەقەملىك-كېڭىيىشى]] regarding China's digital infrastructure expansion in Central Asia.
+- Created [[بىرىكمە-رۇسىيە-خىتاي-ھەمكارلىقى-2026]] combining two related articles on Russia-China summit and Arctic concerns.
+- Created [[چۈشەنچە-گوگىل-AI-ستۇدىيەسى]] regarding Google AI Studio platform and its capabilities.
+- Created [[چۈشەنچە-ئويۇن-نەزەرىيەسى-ۋە-قارار-چىقىرىش]] regarding game theory, individual decision-making, and strategic thinking.
+- Moved processed files to `/raw`.
+
+## [2026-05-21] ingest | 5 articles from Prof. Dr. Sait YILMAZ Kırmızı Klasör series
+- Created [[بىرىكمە-دۇنيانىڭ-كەلگۈسى-ۋە-تېخنولوگىيە]] regarding the future of the universe, Earth, technology predictions 2040-2150, and global elite control.
+- Created [[بىرىكمە-ئىران-كىيامەت-ئۇرۇشى-ۋە-يېڭى-ئوتتۇرا-شەرق]] regarding the Iran war analysis, AI targeting technology, and New Middle East plans.
+- Created [[بىرىكمە-ترامپ-نىڭ-ئويۇن-پىلانى-ۋە-خەلقئارا-سىياسەت]] regarding Trump's political strategies, US foreign policy, and regime change methods.
+- Created [[بىرىكمە-كۈرەش-ئېلىتى-ترامپ-ۋە-ئېپستېيىن]] regarding the global elite structure, Rockefeller reports, depopulation plans, and the Epstein scandal.
+- Created [[بىرىكمە-ئىران-ئۇرۇشى-ۋە-دۆلەتلەر-ئىشتىراكى]] regarding country participation in the Iran war, Turkic population in Iran, and war expansion scenarios.
+- Moved processed files to `/raw`.
+
 ## [2026-05-15] ingest | Ingested 8 thorough articles regarding Uyghur history, epistemology, and national industry. Synthesized Kafesoglu's deep analysis of 'Qutadgu Bilig' (Tore/Qut framework), corrected the historiography of 'History of Kashgar' (Chingiznama vs. Tarixi Kashghar), and documented the origin of the 'Taranchi' name. Processed the 'Kroran' cosmetics factory case study as a model for national industrial development. Updated index and moved sources to raw.
 
 ## [2024-03-24] ingest | 5 articles on China History, Republic of China, WWII, Mao's Era, and Kashgar Geng Gong Temple
@@ -131,4 +146,26 @@ Chronological record of knowledge base evolution.
 
 ## [2026-05-18] ingest | Processed 5 new clippings including the May 2026 Trump-Xi summit, UK-China spying crisis, Yan Xuetong's 2035 world order prediction, the 'Third Gulf War' (US-Iran) context, and PLA high-level purges/new weaponry. Created 2 new wiki pages, updated 4 existing pages and the index. Moved processed clippings to raw folder.
 
-`n## [2026-05-21] ingest | Processed 5 articles on Qing Dynasty, Foreign Aggression, Reform Era, and Borderlands strategy. Created 5 new wiki pages in Uyghur language and updated the index. Moved processed clippings to raw folder.`n- Created [[?????-?????-????????-??-?????????-?????]] regarding China's economic and political changes since 1978.`n- Created [[?????-???-????????]] regarding the structure and management of the last imperial dynasty.`n- Created [[?????-???-????????-??-??????-?????????????]] covering the Opium Wars and internal rebellions.`n- Created [[?????-????????-?????-?????????-??-???????????????-???????]] analyzing the 'sanbian' strategy.`n- Created [[?????-????????-????????-?????????]] listing neighbors and regional statecraft.`n- Moved processed files to `/raw`.
+## [2026-05-21] ingest | 5 articles on China Cyber Operations
+- Created [[بىرىكمە-خىتاي-سايبر-ھۇجۇم-تەھدىتى-2026]] synthesizing 5 articles on China's cyber threat landscape: UK MoD hack, US Treasury breach, Volt Typhoon, EU Cybersecurity Act revision, and China's hacker ecosystem (I-Soon, Tianfu Cup).
+- Moved processed files to `/raw`.
+
+## [2026-05-21] ingest | 5 articles on US-China Cyber Intelligence War
+- Created [[بىرىكمە-ئامېرىكا-خىتاي-سايبر-ئىستىخبارات-ئۇرۇشى]] synthesizing 5 articles on the US-China cyber intelligence conflict: Chinese intelligence agencies (MSS, PLA, etc.), Salt Typhoon telecom breach, NSA Operation Shotgiant against Huawei, AI-automated cyberattacks using Claude, and CIA threat assessment ranking China as #1 threat.
+- Moved processed files to `/raw`.
+
+## [2026-05-21] ingest | 5 articles on Iran Peace, NATO, New Great Game, China-Russia Military, and US-China Competition
+- Created [[بىرىكمە-ئىران-ئوتتۇرا-شەرق-تىنچلىق-ئىستىقبالى]] regarding Iran War, Hormuz Strait, and Middle East peace prospects from Prof. Dr. Sait YILMAZ analysis.
+- Created [[بىرىكمە-ئىران-كېيىنكى-ئۇرۇشلار-ۋە-ناتو]] regarding wars after Iran, NATO transformation, nuclear risk, and Turkey's strategic position.
+- Created [[بىرىكمە-ئاسىيا-يېڭى-چوڭ-ئويۇن]] regarding the New Great Game in Asia, US-China-Russia rivalry, and UK's hidden role.
+- Created [[بىرىكمە-خىتاي-رۇسىيە-ھەربىي-ھەمكارلىقى]] regarding China-Russia military ties, arms sales history, and joint exercises from CSIS ChinaPower.
+- Created [[بىرىكمە-جۇڭگو-ئامېرىكا-رىقابىتى-ۋە-تەيۋەن]] regarding Xi-Trump summit, controlled competition, and Taiwan strategic ambiguity.
+- Moved processed files to `/raw`.
+
+## [2026-05-21] ingest | 6 articles on China's National Strategy and Global Role
+- Created [[بىرىكمە-خىتاي-دۆلەت-ئىستراتېگىيىسى-2026]] synthesizing 6 articles on China's national security decisionmaking, S&T strategy, military supremacy quest, economic transformation, Middle East role, and Afghanistan waiting game.
+- Moved processed files to `/raw`.
+
+## [2026-05-21] ingest | 5 articles on China Military Purge, Cyber Typhoons, Lancang-Mekong, and Iraq
+- Created [[بىرىكمە-خىتاي-ھەربىي-سايبر-رايون-ئىستراتېگىيىسى-2026]] synthesizing 5 articles on Xi's secret PLA purge meeting, Volt/Salt/Flax Typhoon cyber campaigns, Lancang-Mekong Cooperation strategic frontier, and China's rise in Iraq.
+- Moved processed files to `/raw`.
