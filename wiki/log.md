@@ -197,6 +197,14 @@ Chronological record of knowledge base evolution.
 - Created [[چۈشەنچە-ئىسرائىل-سايبر-ھەربىي-8200]] synthesizing the documentary on Israeli Unit 8200, Stuxnet, and automotive cybersecurity.
 - Moved processed files to `/raw`.
 
+## [2026-05-26] ingest | 5 Uyghur-language clippings (batch 4): Denial of Repression, Uyghur Literature Under Publishing Pressure, EU Response to China's Ethnic Policy, Geopolitical Coordinates, Orbán's Fall
+- Created [[چۈشەنچە-خىتاي-باستۇرۇش-ئىنكارى-سولچىل-كىرىزىس]] from the Uyghur Research Institute article analyzing China's denial of repression in East Turkestan and the ethical crisis facing global leftists.
+- Created [[چۈشەنچە-ئۇيغۇر-ئەدەبىيات-خىتاي-نەشر-بېسىمى]] from the Uyghur Research Institute article analyzing Uyghur literature's struggle under Chinese publishing pressure and the 'Mass Reading' campaign.
+- Created [[چۈشەنچە-ياۋروپا-ئىتتىپاقى-خىتاي-مىللەتلەر-سىياسىتى]] from the Uyghur Research Institute article on the EU's response to China's new ethnic unity policy and human rights concerns.
+- Created [[چۈشەنچە-گېئوپولىتىكىلىق-كوئوردېنات-قايتا-بېكىتىش]] analyzing the redefinition of geopolitical coordinates and the shifting East/West/North/South global order.
+- Created [[چۈشەنچە-ۋىكتور-ئوربان-دەۋرى-ئاخىرلىشىش]] analyzing Viktor Orbán's era ending and the rise of Hungarian far-right nationalism.
+- Moved processed files to `/raw`.
+
 ## [2026-05-26] ingest | 10 clippings (batch 3): Cyber Sneakiest Attack, Quantum Breakthroughs, Defense Intel FY2027, Delegated Violence, China's Archaeological Diplomacy, Diplo at the Periphery, Dan Wang Engineering State, Atatürk & East Turkestan, East Turkestan History, Uyghurs in Syria
 - Created [[چۈشەنچە-خىتاي-سايبر-ئەڭ-هيلىگەرلىك-ھۇجۇم]] from the documentary analyzing China's most sophisticated cyber operations and their global impact.
 - Created [[چۈشەنچە-خىتاي-كۋانت-تېخنولوگىيە-تەرەققىياتى]] analyzing China's decade of quantum breakthroughs and policy support for quantum supremacy.

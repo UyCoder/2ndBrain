@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "1749bdf296d97b92",
+        "id": "9a3d9ab23619f1f9",
         "type": "tabs",
         "children": [
           {
-            "id": "2031ad2c0f9d5ee4",
+            "id": "3e8718ceaf9daf5e",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "wiki/ئورۇن-مەھمۇد-قەشقەرى.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "ئورۇن-مەھمۇد-قەشقەرى"
             }
           }
         ]
@@ -179,8 +183,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "2be14332b3a0832d",
+  "active": "3e8718ceaf9daf5e",
   "lastOpenFiles": [
+    "raw/Evidence that a West-East admixed population lived in the Tarim Basin as early as the early Bronze Age.md",
     "wiki/بىرىكمە-شىۋېتسىيە-ئاممىۋى-سېتىۋېلىش-ۋە-خىتاي-خەۋپى.md",
     "wiki/بىرىكمە-مىڭ-سۇلالىسى-ۋە-يەرشارىلىشىش-تارىخى.md",
     "wiki/چۈشەنچە-خىتاي-ئارخېئولوگىيە-دىپلوماتىيە-ئوتتۇرا-ئاسىيا.md",
@@ -206,7 +211,6 @@
     "raw/金燦榮：中美都在爲戰爭做準備，2027年地動山搖就來了。最後太精彩了.md",
     "raw/逝者越千年 楼兰女尸惊艳世人.md",
     "raw/西北悍匪残杀我军副师长，被捕后提两点“要求”，罗元发全都批准.md",
-    "raw/英吉沙小刀：比切糕更具维吾尔民族特色.md",
     "wiki/چۈشەنچە-شەرقىي-تۈركىستانلىقلار-سۈرىيە",
     "wiki/چۈشەنچە-شەرقىي-تۈركىستان-تارىخى",
     "wiki/چۈشەنچە-ئاتاتۈرك-شەرقىي-تۈركىستان-كۆز-قارىشى",
