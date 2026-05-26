@@ -1,34 +1,22 @@
 ---
 title: "Post by @istihbaratRapor on X"
-source: "https://x.com/istihbaratrapor/status/2055220895619129831?s=12"
+source: "https://x.com/istihbaratrapor/status/2056725056772808998?s=12"
 author:
   - "[[@istihbaratRapor]]"
-published: 2026-05-15
-created: 2026-05-17
-description: "ARTICLE SUMMARY: The Threat of Faulty Intelligence Assessment Sean Wiswesser (Former CIA Senior Operations Officer) The Cipher Brief When"
+published: 2026-05-19
+created: 2026-05-20
+description: "Juha Martelius, Head of the Finnish Security and Intelligence Service: \"Your body is invaded by two types of cancer. Europe will probably n"
 tags:
   - "clippings"
 ---
-ARTICLE SUMMARY: The Threat of Faulty Intelligence Assessment
+Juha Martelius, Head of the Finnish Security and Intelligence Service:
 
-✍🏼 Sean Wiswesser (Former CIA Senior Operations Officer)
+"Your body is invaded by two types of cancer. Europe will probably never recover from its dependency on foreign technologies. We are far too reliant on software from the US and hardware from China."
 
-📍The Cipher Brief
+"I doubt that Europe can develop cloud services as efficient as those of the major US cloud providers or win a war against Russia without foreign technology."
 
-When intelligence is politicized, the danger is not just miscalculation. It's also acceleration. The result can be decisions based not on reality, but on what leaders want to hear.
+"This also raises the question of how much Europe wants to win the war on its own and how dependent it wants to remain on the assistance of its American allies in the future."
 
-Hitler had no idea that Japan was about to attack the United States. If Stalin had listened to his spy Richard Sorge, he would have known more about Germany's attack on the USSR than Japan did.
+(Politico)
 
-Sorge's intelligence was ignored because it didn't fit the dictator's view of events. This is a lesson for today as well.
-
-Russia's intelligence services presented the Kremlin with overly optimistic assessments of Ukraine's weakness. Institutional incentives were preventing the transmission of unwelcome truths.
-
-Russia's three main intelligence services are constantly at each other's throats. In an atmosphere of constant distrust, they are trying to outmaneuver one another. In their efforts to impress the boss, the Russian services will continue escalatory hybrid warfare activities in Europe.
-
-Analysts in China's military intelligence may feel pressure to confirm political timelines rather than questioning whether China is truly ready for war over Taiwan. There are few left who can challenge Xi.
-
-It's now more likely than ever that their services will tell him what he wants to hear.
-
-Full article👇🏼
-
-![Image](https://pbs.twimg.com/media/HIV0ZUYXUAA6SiD?format=jpg&name=large)
+![Image](https://pbs.twimg.com/media/HIoA-VxWsAAvU8g?format=jpg&name=large)

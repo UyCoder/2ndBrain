@@ -45,7 +45,7 @@ Periodically check for:
 
 
 ## 5. Promt for wiki generation
- I added a webpage via clipper. Ingest every article extremely thoroughly. build relationships automatically. add one wiki for one file average. the wiki you generated should be contains more info as possible. and language should be in Uyghur language. also try to make more link to other wiki between wiki page. the clipping pages that you already generated wiki page from must be moved to the raw folder, so that you will not analyze it each time later.
+ I added a webpage via clipper. Ingest every article extremely thoroughly. build relationships automatically. add one wiki for one file average. the wiki you generated should be contains more info as possible. and language should be in Uyghur language. also try to make more link to other wiki between wiki page. the clipping pages that you already generated wiki page from must be moved to the raw folder, so that you will not analyze it each time later. never panic for 100 more files in the clippings folder. just do it one by one. dont stop untill clippings folder is emty by generateing wiki md file and moving md files to raw. 
 
 ## 6. Prompt for Article translation
 Translate all the clippings from [Aisixiang Chinese] articles to Uyghur language inside clippings folder and put the translation in the translationArtcles folder . don't remove any clippings after translation.

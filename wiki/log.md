@@ -4,8 +4,8 @@ Chronological record of knowledge base evolution.
 
 ## [2026-05-20] ingest | 5 articles on US-ROK Cyber Alliance, Sweden Procurement, Central Asia Security, Europe Defense, and Xi's Taiwan Strategy
 - Created [[بىرىكمە-ئامېرىكا-كورېيە-تور-ئىتتىپاقى]] regarding the US-ROK proactive cyber defense strategy.
-- Created [[بىرىكمە-شىۋېتسىيە-ئاممىۋى-سېتىۋېلىش-ۋە-جۇڭگو-خەۋپى]] regarding Sweden's new legislation to exclude antagonistic bidders.
-- Created [[بىرىكمە-ئوتتۇرا-ئاسىيا-جۇڭگو-خەۋپسىزلىك-ھەمكارلىقى]] regarding the Astana meeting of interior ministers.
+- Created [[بىرىكمە-شىۋېتسىيە-ئاممىۋى-سېتىۋېلىش-ۋە-خىتاي-خەۋپى]] regarding Sweden's new legislation to exclude antagonistic bidders.
+- Created [[بىرىكمە-ئوتتۇرا-ئاسىيا-خىتاي-خەۋپسىزلىك-ھەمكارلىقى]] regarding the Astana meeting of interior ministers.
 - Created [[بىرىكمە-ياۋروپا-مۇداپىئە-ئىتتىپاقى-ئېھتىياجى]] regarding Rasmussen's call for a new European defense alliance.
 - Created [[ئورۇن-شى-جىنپىڭنىڭ-تەيۋەن-ئىستراتېگىيىسى]] regarding China's patient but multifaceted reunification tactics.
 - Moved processed files to `/raw`.
@@ -159,13 +159,53 @@ Chronological record of knowledge base evolution.
 - Created [[بىرىكمە-ئىران-كېيىنكى-ئۇرۇشلار-ۋە-ناتو]] regarding wars after Iran, NATO transformation, nuclear risk, and Turkey's strategic position.
 - Created [[بىرىكمە-ئاسىيا-يېڭى-چوڭ-ئويۇن]] regarding the New Great Game in Asia, US-China-Russia rivalry, and UK's hidden role.
 - Created [[بىرىكمە-خىتاي-رۇسىيە-ھەربىي-ھەمكارلىقى]] regarding China-Russia military ties, arms sales history, and joint exercises from CSIS ChinaPower.
-- Created [[بىرىكمە-جۇڭگو-ئامېرىكا-رىقابىتى-ۋە-تەيۋەن]] regarding Xi-Trump summit, controlled competition, and Taiwan strategic ambiguity.
+- Created [[بىرىكمە-خىتاي-ئامېرىكا-رىقابىتى-ۋە-تەيۋەن]] regarding Xi-Trump summit, controlled competition, and Taiwan strategic ambiguity.
 - Moved processed files to `/raw`.
 
 ## [2026-05-21] ingest | 6 articles on China's National Strategy and Global Role
 - Created [[بىرىكمە-خىتاي-دۆلەت-ئىستراتېگىيىسى-2026]] synthesizing 6 articles on China's national security decisionmaking, S&T strategy, military supremacy quest, economic transformation, Middle East role, and Afghanistan waiting game.
 - Moved processed files to `/raw`.
 
+## [2026-05-26] ingest | 10 articles from 爱思想 on US-China Relations, Global Order, and Area Studies
+- Created [[بىرىكمە-خىتاي-ئامېرىكا-مۇناسىۋىتى-تارىخىي-بۇسۇغىدا]] from 郑永年's analysis of US-China relations at a historic crossroads, covering G2 dynamics, the "Thucydides Trap" discourse, and the fragmentation of global order.
+- Created [[بىرىكمە-شى-ترامپ-بېيجىڭ-يىغىنى-2026-نەتىجىلىرى]] from 王毅's press briefing on the Xi-Trump Beijing summit, detailing the "Constructive Strategic Stability" framework, 4-dimensional stability concept, and Taiwan red lines.
+- Created [[بىرىكمە-خىتاي-ئامېرىكا-رۇسىيە-ئۆز-ئارا-تەسىرى]] from 韩璐's analysis of US-China-Russia trilateral interaction and the shift toward multi-polarity.
+- Created [[بىرىكمە-2026-خىتاي-ئامېرىكا-تارىخي-يىلى]] from 韩亚峰's historical framing of 2026 as a landmark year comparable to 1972 and 1979.
+- Created [[بىرىكمە-خىتاي-دىپلوماتىيە-يۇقىرى-نۇقتىسى-2026]] from 周力's analysis of China's diplomatic "high moment" post-summit, with detailed strategies on competition, technology, and Taiwan.
+- Created [[بىرىكمە-رۇسىيە-يادرو-ئېنېرگىيە-دىپلوماتىيىسى]] from 李勇慧's deep-dive on Rosatom's global nuclear diplomacy strategy, sanctions resilience, and market dominance.
+- Created [[بىرىكمە-غەرب-ماركەزچىلىكى-ۋە-مەدەنىيەت-كۆپلۈكى]] from 马凯硕's critique of Western social sciences' 3 metaphysical errors and the rise of Asia's cultural confidence.
+- Created [[بىرىكمە-دېڭىز-قۇرۇقلۇق-تەرتىپ-توقۇنۇشى]] from 陈建洪's philosophical analysis of sea vs. land world orders, Carl Schmitt's Großraum concept, and historical Chinese tribute system.
+- Created [[بىرىكمە-خىتاي-رايون-دۆلەتشۇناسلىق-قۇرۇلمىسى]] from 冯维江's comprehensive study of China's Area Studies discipline, its 3 development stages, value orientations, and the "periphery paradigm."
+- Created [[بىرىكمە-خىتاي-ئامېرىكا-رۇسىيە-ئۈچتەرەپ-مۇقىملىشىش]] from 陈曼瑶's analysis of the simultaneous stabilization of all three great power relationships (US-China-Russia), covering constructive strategic stability, Sino-Russian coordination, and US-Russia tactical détente.
+- Updated cross-links between all 10 new wiki pages and fixed broken wikilinks.
+- Moved processed files to `/raw`.
+
 ## [2026-05-21] ingest | 5 articles on China Military Purge, Cyber Typhoons, Lancang-Mekong, and Iraq
 - Created [[بىرىكمە-خىتاي-ھەربىي-سايبر-رايون-ئىستراتېگىيىسى-2026]] synthesizing 5 articles on Xi's secret PLA purge meeting, Volt/Salt/Flax Typhoon cyber campaigns, Lancang-Mekong Cooperation strategic frontier, and China's rise in Iraq.
+- Moved processed files to `/raw`.
+
+## [2026-05-26] ingest | 10 clippings (batch 2): Julian Assange, Taiwan Update, Huawei Cyber, China-Russia Soldiers, Defense Ministers, Central Asia Competition, Cyber Threats, AI Cooperation, Critical Minerals, Israel Unit 8200
+- Created [[بىرىكمە-جۇلىيان-ئاسانج-ۋە-ۋىكىلىكس-تارىخى]] synthesizing the documentary on Julian Assange, Wikileaks, and CIA/NSA/KGB intelligence.
+- Created [[بىرىكمە-خىتاي-تەيۋەن-ئەھۋالى-2026-ماي]] synthesizing the ISW China-Taiwan Update (May 2026) report on military, political, and economic developments.
+- Created [[چۈشەنچە-خۇاۋەي-سايبر-بىخەتەرلىك-تەھدىتى]] analyzing whether Huawei is a threat to U.S. cyber security.
+- Created [[بىرىكمە-خىتاي-رۇسىيە-ئەسكەرلىرىنى-يوشۇرۇن-تەربىيەلەش]] regarding China secretly training Russian soldiers for combat in Ukraine.
+- Created [[بىرىكمە-خىتاي-مۇداپىئە-مىنىستىرلىرى-ئۆلۈم-جازاسى]] analyzing the Chinese court sentencing of former defense ministers to death.
+- Created [[بىرىكمە-خىتاي-ھىندىستان-ئوتتۇرا-ئاسىيا-رىقابىتى]] comparing China's BRI and India's Connect Central Asia Policy in Central Asia.
+- Created [[چۈشەنچە-خىتاي-سايبر-تەھدىت-كېڭەيىشى]] synthesizing Palo Alto Networks' analysis of China's expanding cyber threat vector.
+- Created [[چۈشەنچە-خىتاي-ئامېرىكا-AI-كاپالەت-ھەمكارلىقى]] synthesizing RAND's contingency frameworks for future US-China cooperation on AI assurance and security.
+- Created [[چۈشەنچە-ئىندىي-مىنېرال-گېئوپولىتىكىسى]] analyzing global indium supply & demand as a critical mineral under Chinese export controls.
+- Created [[چۈشەنچە-ئىسرائىل-سايبر-ھەربىي-8200]] synthesizing the documentary on Israeli Unit 8200, Stuxnet, and automotive cybersecurity.
+- Moved processed files to `/raw`.
+
+## [2026-05-26] ingest | 10 clippings (batch 3): Cyber Sneakiest Attack, Quantum Breakthroughs, Defense Intel FY2027, Delegated Violence, China's Archaeological Diplomacy, Diplo at the Periphery, Dan Wang Engineering State, Atatürk & East Turkestan, East Turkestan History, Uyghurs in Syria
+- Created [[چۈشەنچە-خىتاي-سايبر-ئەڭ-هيلىگەرلىك-ھۇجۇم]] from the documentary analyzing China's most sophisticated cyber operations and their global impact.
+- Created [[چۈشەنچە-خىتاي-كۋانت-تېخنولوگىيە-تەرەققىياتى]] analyzing China's decade of quantum breakthroughs and policy support for quantum supremacy.
+- Created [[ئورۇن-ئامېرىكا-مۇداپىئە-ئىستىخبارات-2027]] regarding the US Defense Intelligence Enterprise challenges, priorities, and resourcing for FY2027.
+- Created [[چۈشەنچە-تاپشۇرۇلغان-زوراۋانلىق-جىھاد-ۋە-كىچىك-ئۇرۇش]] analyzing delegated violence, jihadist organizations, and the strategic logic of small wars.
+- Created [[چۈشەنچە-خىتاي-ئارخېئولوگىيە-دىپلوماتىيە-ئوتتۇرا-ئاسىيا]] analyzing China's archaeological diplomacy in Central Asia as a soft power tool.
+- Created [[چۈشەنچە-خىتاي-چېگرا-دىپلوماتىيىسى]] from the NBR report on how China's border provinces shape neighborhood engagement through coordinated central-local diplomacy.
+- Created [[چۈشەنچە-دان-ۋاڭ-خىتاي-ئىنژېنېرلىق-دۆلىتى]] from Dan Wang's thesis on China as an engineering state vs. America's lawyerly society.
+- Created [[چۈشەنچە-ئاتاتۈرك-شەرقىي-تۈركىستان-كۆز-قارىشى]] analyzing Atatürk's views on Uyghur Turks, his support for East Turkestan independence, and the Turkic unity vision.
+- Created [[چۈشەنچە-شەرقىي-تۈركىستان-تارىخى]] synthesizing the full history of East Turkestan's struggle with China, including both republics (1933, 1944) and Chinese occupation.
+- Created [[چۈشەنچە-شەرقىي-تۈركىستانلىقلار-سۈرىيە]] analyzing the Uyghur diaspora in Syria, their role in the civil war, and the formation of a new community center in Idlib.
 - Moved processed files to `/raw`.
