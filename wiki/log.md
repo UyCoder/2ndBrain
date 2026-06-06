@@ -166,6 +166,26 @@ Chronological record of knowledge base evolution.
 - Created [[بىرىكمە-خىتاي-دۆلەت-ئىستراتېگىيىسى-2026]] synthesizing 6 articles on China's national security decisionmaking, S&T strategy, military supremacy quest, economic transformation, Middle East role, and Afghanistan waiting game.
 - Moved processed files to `/raw`.
 
+## [2026-06-05] ingest | 15 articles on Global Geopolitics, UAE, One China, Intelligence, and Russia's Strike Capabilities
+- Created [[ئورۇن-ئەرەب-بىرلىشمە-خەلىپىلىكى-ئىستراتېگىيىلىك-ئاپتونومىيىسى]] regarding UAE's independent foreign policy.
+- Created [[ئورۇن-TSMC-ۋە-يەر-شارى-چىپ-سانائىتىنىڭ-ئىستراتېگىيىلىك-ئورنى]] regarding the strategic importance of TSMC.
+- Created [[ئورۇن-شامىل-باسايېۋ-ۋە-چېچېن-مۇستەقىللىق-كۈرىشى]] regarding Shamil Basayev and the Chechen-Russian wars.
+- Created [[ئورۇن-ئالدرىچ-ئېيمىس-ۋە-1985-يىللىق-CIA-جاسۇسلۇق-كىرىزىسى]] regarding the 1985 CIA spy crisis.
+- Created [[ئورۇن-كۇبا-ئامېرىكا-مۇناسىۋىتى-2026]] regarding Cuba's energy crisis and nickel resources.
+- Created [[چۈشەنچە-بىر-خىتاي-پرىنسىپى-ۋە-تەيۋەن-كىملىكى]] regarding the "One China" principle and Taiwan identity.
+- Created [[چۈشەنچە-ئىسرائىلىيەدىكى-مەسىھ-كۈتۈش-ۋە-گېئوپولىتىكىلىق-تەسىرى]] regarding messianism's role in Israeli politics.
+- Created [[چۈشەنچە-تۈركىيەنىڭ-تاشقى-سىياسەت-تەسەۋۋۇرى-ۋە-ھاقان-فىدان]] regarding Turkey's new foreign policy vision.
+- Created [[چۈشەنچە-خىتاينىڭ-ئۆزىنى-تونۇشى-ۋە-قۇرۇلمىلىق-ئىسلاھات-مەسىلىلىرى]] regarding China's self-perception and economic issues.
+- Created [[چۈشەنچە-ئامېرىكىنىڭ-چەتئەل-ھەربىي-بازىلىرى-ۋە-ئۇرۇش-مەزگىلىدىكى-كىرىش-ھوقۇقى-خەتەرلىرى]] regarding US overseas bases risks.
+- Created [[بىرىكمە-خىتاينىڭ-يەر-شارى-تەرتىپى-ۋە-ئۇرۇشتىن-كېيىنكى-قايتا-قۇرۇش-ئىستراتېگىيىسى]] regarding China's global order plans.
+- Created [[بىرىكمە-خىتاينىڭ-ئامېرىكا-ۋە-روسىيە-ئوتتۇرىسىدىكى-تەڭپۇڭلۇق-سىياسىتى]] regarding China's balancing act.
+- Created [[بىرىكمە-يەر-شارى-تەرتىپىنىڭ-ئۆزگىرىشى-ۋە-تېخنىكىلىق-تەڭپۇڭلۇق]] regarding technology's impact on global power.
+- Created [[بىرىكمە-2026-يىللىق-يەر-شارى-گېئوپولىتىكىلىق-يۆنىلىشلىرى]] regarding 2026 geopolitical trends.
+- Created [[بىرىكمە-روسىيەنىڭ-خاككېر-قوبۇل-قىلىش-ۋە-تەربىيەلەش-سىستېمىسى]] regarding Russia's hacker recruitment.
+- Created [[بىرىكمە-روسىيەنىڭ-ئۇزۇن-مۇساپىلىق-زەربە-بېرىش-ئىقتىدارىنىڭ-تەرەققىياتى]] regarding Russia's long-range strike capabilities.
+- Created [[بىرىكمە-گېرمانىيە-پاترىئوت-باشقۇرۇلىدىغان-بومبا-ۋە-تۈركىيە-بىخەتەرلىكى]] regarding Germany's Patriot missiles to Turkey.
+- Moved processed files to `/raw`.
+
 ## [2026-05-26] ingest | 10 articles from 爱思想 on US-China Relations, Global Order, and Area Studies
 - Created [[بىرىكمە-خىتاي-ئامېرىكا-مۇناسىۋىتى-تارىخىي-بۇسۇغىدا]] from 郑永年's analysis of US-China relations at a historic crossroads, covering G2 dynamics, the "Thucydides Trap" discourse, and the fragmentation of global order.
 - Created [[بىرىكمە-شى-ترامپ-بېيجىڭ-يىغىنى-2026-نەتىجىلىرى]] from 王毅's press briefing on the Xi-Trump Beijing summit, detailing the "Constructive Strategic Stability" framework, 4-dimensional stability concept, and Taiwan red lines.
@@ -217,3 +237,18 @@ Chronological record of knowledge base evolution.
 - Created [[چۈشەنچە-شەرقىي-تۈركىستان-تارىخى]] synthesizing the full history of East Turkestan's struggle with China, including both republics (1933, 1944) and Chinese occupation.
 - Created [[چۈشەنچە-شەرقىي-تۈركىستانلىقلار-سۈرىيە]] analyzing the Uyghur diaspora in Syria, their role in the civil war, and the formation of a new community center in Idlib.
 - Moved processed files to `/raw`.
+## [2026-06-06] rewrite | 12 auto-generated wiki pages now contain FULL detailed content
+Previously the batch script created template-only wikis. All 12 have been rewritten with thorough content extracted from the original source transcripts:
+- [[بىرىكمە-ئامستېردام-كاپىتالىزم-كەشپىياتى]] — Rewritten with full Amsterdam capitalism history: VOC founding, stock exchange, canal building, refugee impact
+- [[بىرىكمە-كوچېر-جاسۇس-جۇپتى-CIA-]] — Rewritten with full Karl & Hana Koecher spy story: CIA penetration, sex parties, Trigon murder, prisoner swap
+- [[بىرىكمە-سىلك-رۇت-قارا-تور-تارىخى]] — Rewritten with full Silk Road story: Curtis Green arrest, DEA corruption, Ross Ulbricht capture
+- [[بىرىكمە-كرىس-ھېدجېس-ئىران-غەززە-پايدىلىنىش]] — Rewritten with full Chris Hedges Princeton speech: Holocaust politicization, genocide critique, Clean Break memo
+- [[بىرىكمە-دۇنيا-ئىسرائىلىيەدىن-يۈز-ئۆرۈش]] — Rewritten with full global shift analysis: UN votes, Europe sanctions, US Senate, Israel's fallback plan
+- [[بىرىكمە-ئوتتۇرا-شەرق-ئىراندىن-كېيىنكى-ئۇرۇش]] — Rewritten with full Saudi-UAE cold war analysis: Yemen, Sudan, AI race, Israel normalization
+- [[چۈشەنچە-سىيونىزم-تارىخى]] — Rewritten with full forbidden Zionism history: 109 expulsions, Scofield Bible, Balfour, Clean Break, Third Temple
+- [[چۈشەنچە-يېڭىلىق-يارىتىش-كۆك-يوسۇن]] — Rewritten with full MIT talk: 3 pillars of innovation (structure, collaboration, know customer), blues jam metaphor
+- [[چۈشەنچە-خىتاي-مەدەنىيەت-سىڭىدۈرۈش]] — Rewritten with full China assimilation history: Mongols, Manchus, Confucianism, Barfield theory
+- [[ئورۇن-مەكسىم-ياكۇبېتس-ئەڭ-خەتەرلىك-خاككېر]] — Rewritten with full Maxim Yakubets story: Zeus, GameOver Zeus, Evil Corp, Dridex, FBI failure
+- [[ئورۇن-جى-چاۋچۈن-خىتاي-جاسۇسى]] — Rewritten with full Ji Chaoqun story: MSS recruitment, Mormon conversion, FBI sting, trial
+- [[ئورۇن-ئانا-مونتېس-كۇبا-جاسۇسى]] — Rewritten with full Ana Montes story: childhood, DIA infiltration, El Salvador attack, arrest, prison
+
