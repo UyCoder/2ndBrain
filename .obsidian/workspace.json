@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GEMINI.md",
+                "file": "translationArtcles/夏方波：东南亚政党政治的新趋向：家族与政党互嵌的特征、成因与前景_爱思想.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "GEMINI"
+              "title": "夏方波：东南亚政党政治的新趋向：家族与政党互嵌的特征、成因与前景_爱思想"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 422.5
+    "width": 302.5
   },
   "right": {
     "id": "2de523bc2bf47997",
@@ -185,33 +185,34 @@
   },
   "active": "92da022929afd6ec",
   "lastOpenFiles": [
-    "raw/王缉思：基辛格不是一个典型的美国政治家_爱思想.md",
-    "raw/王庆平：上海合作组织建构研究：路径、挑战与命运共同体建设_爱思想.md",
-    "raw/彭智丰 李志永：安全化与旋转门：美国对华战略竞争共识的形成_爱思想.md",
-    "raw/左希迎：特朗普政府与美国掠夺性霸权的形成_爱思想.md",
-    "raw/周力：美国在古巴重演“委内瑞拉剧本”会得手吗？_爱思想.md",
-    "raw/周力：中国外交再迎高光时刻——从普京访华看中俄关系大发展_爱思想.md",
-    "raw/冯晨曦：特朗普第二任期对金砖国家合作的分化：动因、策略及挑战_爱思想.md",
-    "raw/六四從未公開的畫面—英國ITN公開封存30年的原始影像：現場原聲與人物見證.md",
-    "raw/中国是怎么把美国逼到绝境的？【合集已发：老观众回避】『新货币战争Pt.2』（2024.11.14 ）.md",
-    "raw/一人一票，怎么走着走着就变成了集权？土耳其告诉你答案  埃尔多安的进化史.md",
-    "raw/الكتاب الأحمر كيف حكمت الدولة العميقة تركيا من الظل؟  قصة سوسورلوك إلى 15 تموز.md",
-    "raw/İngiliz Krallığının Kuruluşu - Parçalanmış Devletlerden Tek Bir Krallığa.md",
-    "raw/Who was Genghis Khan (Full Episode)  Secret History of the Mongols  National Geographic.md",
-    "raw/The Entire History of the East India Company.md",
-    "raw/Telefonun Sana Nasıl Dokunuyor.md",
-    "raw/How China Got Rich  The Strategy Behind the World’s Economic Rise.md",
-    "raw/BlackRock The Conspiracies You Don’t Know.md",
-    "raw/28分鐘講透司馬懿，熬死曹家三代、耗死諸葛亮！司馬懿憑什麼成為亂世唯一的終極贏家？｜三國｜三國志｜三國演義｜曹操｜歷史｜拒絕廢話｜回答我｜睡前故事｜卡羅說書.md",
+    "translationArtcles/赵海：中东局势研判_爱思想_UY.md",
+    "raw/عقدة هرمز وعالم ما بعد أمريكا  بودكاست الشرق مع محمد المختار الشنقيطي.md",
+    "wiki/بىرىكمە-ھورمۇز-كىرىزىسى-ۋە-ئامېرىكىدىن-كېيىنكى-دۇنيا.md",
+    "raw/【高志凯 付鹏】欧美抵制新疆棉花、西红柿，那就把中国稀土公司注册到新疆！预测2027年美国AI人工智能泡沫带来的金融危机.md",
+    "wiki/بىرىكمە-2026-يىللىق-سۈنئىي-ئەقىل-ۋە-پۇل-مۇئامىلە-كەسىپلىرى-مۇنبىرى.md",
+    "raw/一条停在边境的管道：伊朗、巴基斯坦与中国的能源困局 【地图奇遇记】.md",
+    "wiki/بىرىكمە-ئىران-پاكىستان-تەبىئىي-گاز-تۇرۇبىسى-ۋە-خىتاي-ئېنېرگىيە-تەلىپى.md",
+    "raw/Çin Devlet Başkanı Şi, 7 Yıl Aradan Sonra Kuzey Kore’yi İlk Kez Ziyaret Edecek.md",
+    "wiki/بىرىكمە-شى-جىنپىڭنىڭ-شىمالىي-كورىيە-زىيارىتى.md",
+    "raw/With Billions At Stake, China Steps Up Efforts To End Pakistan-Taliban Conflict.md",
+    "wiki/بىرىكمە-خىتاينىڭ-پاكىستان-ۋە-ئافغانىستان-ئوتتۇرىسىدىكى-مۇرەسسەچىلىكى.md",
+    "raw/What the U.S. and China Depend On Each Other For.md",
+    "wiki/بىرىكمە-ئامېرىكا-ۋە-خىتاينىڭ-ئۆزئارا-ئىقتىسادىي-تايىنىشى.md",
+    "raw/What Trump Doesn't Want You to Know About His Trip to China.md",
+    "wiki/بىرىكمە-ترامپنىڭ-خىتاي-زىيارىتى-ۋە-ئامېرىكىنىڭ-تەسىر-كۈچى.md",
+    "raw/Wartime Footing A Two-Front Strategy to Confront China and Russia.md",
+    "wiki/بىرىكمە-ئامېرىكىنىڭ-خىتاي-ۋە-رۇسىيەگە-قارشى-ئىككى-سەپ-ئىستراتېگىيەسى.md",
+    "raw/US Defense Budget Counters Russia and Supports SDF Integration.md",
+    "wiki/بىرىكمە-ئامېرىكىنىڭ-سۈرىيەدىكى-مۇداپىئە-خامچوت-تۈزىتىشى.md",
+    "raw/Trump Is Making NATO Stronger, Lithuania’s Foreign Minister Says.md",
+    "wiki/بىرىكمە-ترامپنىڭ-ناتو-سىياسىتى-ۋە-ياۋروپا-مۇداپىئەسى.md",
+    "raw/Top political advisor stresses social stability, modernization in NW China's Xinjiang.md",
+    "wiki/بىرىكمە-ۋاڭ-خۇنىڭنىڭ-شىنجاڭ-ئۇيغۇر-ئاپتونوم-رايونىدىكى-زىيارىتى.md",
+    "raw/Three Ways to Understand China’s Aircraft Carrier Building Spree.md",
+    "wiki/بىرىكمە-خىتاينىڭ-ئاۋىئاماتكا-قۇرۇلۇشى-ۋە-دېڭىز-ئارمىيە-ئىستراتېگىيەسى.md",
+    "raw/Strategic Clarity Reassessing the Value of China to Korea.md",
+    "Clippings/open.url",
     "process_remaining.py",
-    "raw/DÜNYANIN EN TEHLİKELİ HACKERİNİN GERÇEK HİKAYESİ (HALA YAKALANMADI).md",
-    "wiki/ئورۇن-مەكسىم-ياكۇبېتس-ئەڭ-خەتەرلىك-خاككېر.md",
-    "raw/'Iran and Gaza Are ONLY THE BEGINNING' (Chris Hedges at Princeton).md",
-    "wiki/بىرىكمە-كرىس-ھېدجېس-ئىران-غەززە-پايدىلىنىش.md",
-    "raw/The world is turning on Israel.md",
-    "wiki/بىرىكمە-دۇنيا-ئىسرائىلىيەدىن-يۈز-ئۆرۈش.md",
-    "raw/The Middle East's Next War After Iran.md",
-    "wiki/بىرىكمە-ئوتتۇرا-شەرق-ئىراندىن-كېيىنكى-ئۇرۇش.md",
     "process_all.py",
     "cleanup.py",
     "wiki/چۈشەنچە-شەرقىي-تۈركىستانلىقلار-سۈرىيە",
@@ -220,7 +221,6 @@
     "wiki/چۈشەنچە-دان-ۋاڭ-خىتاي-ئىنژېنېرلىق-دۆلىتى",
     "wiki/چۈشەنچە-خىتاي-چېگرا-دىپلوماتىيىسى",
     "nul",
-    "unprocessed_list.txt",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]

@@ -1,0 +1,37 @@
+---
+title: "China Introduces New Outbound Investment Laws To Prevent U.S. Decoupling"
+source: "https://www.fdd.org/analysis/2026/06/03/china-introduces-new-outbound-investment-laws-to-prevent-u-s-decoupling/"
+author:
+  - "[[Jack Burnham]]"
+  - "[[Susan Soh]]"
+published: 2026-06-03
+created: 2026-06-11
+description: "After decades of courting foreign investment, Beijing is now working to stop the flow of funds going the other way.   On June 1, China’s State Council published new rules tightening..."
+tags:
+  - "clippings"
+---
+After decades of courting foreign investment, Beijing is now working to stop the flow of funds going the other way.
+
+On June 1, China’s State Council [published](https://www.wsj.com/economy/china-steps-up-restrictions-over-outbound-investments-d79f2a99?mod=e2tw) new rules tightening control over outbound investment in key sectors, including artificial intelligence (AI) and national security-related technologies.
+
+These new regulations follow the release of laws to [secure](https://english.mofcom.gov.cn/News/SpokesmansRemarks/art/2025/art_7bd678565569418199c851e31a810a94.html) critical supply chains and [banning](https://www.bloomberg.com/news/articles/2026-05-26/china-expands-travel-curbs-to-top-ai-talent-at-private-firms) AI workers from leaving the country. The regulations are part of Beijing’s broader effort to consolidate its tools of economic coercion —including export controls, sanctions, and exit bans — to exercise control over its economy while potentially hindering U.S. economic statecraft.
+
+## Investment Law Targets Both Domestic and Foreign Firms
+
+The regulations place tighter controls on domestic firms’ spending decisions, allowing Beijing to [review](https://www.wsj.com/economy/china-steps-up-restrictions-over-outbound-investments-d79f2a99?mod=e2tw) planned deals that touch on national security and ban cross-border data and technology transfers. The rules also allow the government to restrict Chinese engineers from leaving the country — a tool Beijing deployed in March when it [barred](https://www.reuters.com/world/asia-pacific/china-bars-manus-co-founders-leaving-country-it-reviews-sale-meta-ft-reports-2026-03-25/) the Chinese AI startup Manus’ cofounders from leaving after the company’s exit to Singapore and attempted acquisition by Meta. The regulations also [tighten](https://www.bloomberg.com/news/articles/2026-06-01/china-tightens-outbound-investment-rules-with-eye-on-security) capital controls by [expanding](https://www.mofcom.gov.cn/xwfb/rcxwfb/art/2026/art_a19be62e79f04d72adef2945b20e9247.html) the scope of regulations to cover individual retail investors while ramping up monitoring of overseas investment portfolios.
+
+The rules also allow China to target foreign firms and individuals. Under its new authorities, Beijing [may](https://www.globaltimes.cn/page/202606/1362528.shtml) cut off trade ties, revoke visas, cancel market access agreements, or impose sanctions against both entities and individuals that “endanger China’s national sovereignty, security, or development interests,” an implicit reference to ongoing American and European trade investigations against Beijing.
+
+## Beijing Increasingly Weaponizes Economic Tools
+
+These restrictions highlight Beijing’s focus on tightening economic restraints during a period of slowing growth while simultaneously developing tools to hinder U.S. pressure. In April 2026, following the release of China’s 15th Five-Year Plan and ahead of Trump’s [visit](https://www.fdd.org/analysis/2026/05/27/the-u-s-china-superpower-stalemate/) to Beijing, China’s State Council [published](https://www.morganlewis.com/pubs/2026/04/china-issues-new-regulations-on-countering-foreign-extraterritorial-jurisdiction-what-mncs-need-to-know) a set of supply chain [regulations](https://english.mofcom.gov.cn/News/SpokesmansRemarks/art/2025/art_7bd678565569418199c851e31a810a94.html) that may prevent [firms](https://www.nytimes.com/2026/04/14/business/china-foreign-companies-supply-chain.html) seeking to exit contracts with Chinese suppliers or restrict sales into the Chinese market. Combined, these measures give Beijing another tool to control critical investment flows as firms look to move manufacturing out of China due to geopolitical tensions with the United States.
+
+The restrictions will also provide nominal legal cover for Beijing to ramp up economic pressure on the United States. By explicitly [tying](https://www.mofcom.gov.cn/xwfb/rcxwfb/art/2026/art_a19be62e79f04d72adef2945b20e9247.html) together outbound investment regulations and export controls, China is signaling its willingness to employ a broader range of economic tools against Washington. The effect of this combination may add new dimensions to ongoing pressure points, particularly around critical mineral exports. Beginning in April 2025, Beijing implemented and then expanded a [series](https://www.fdd.org/analysis/2026/03/19/forging-a-new-critical-minerals-reality/) of sweeping critical minerals export controls — only made possible through years of state-directed industrial planning to develop monopolies over them — before relenting in November after a [meeting](https://www.reuters.com/world/china/us-halt-entity-restrictions-one-year-after-trump-xi-meeting-bessent-says-2025-10-30/) between President Donald Trump and Chinese leader Xi Jinping.
+
+## America Needs a Gameplan To Counter China’s Economic Coercion
+
+As China expands its tools of economic coercion, the United States cannot be caught flat-footed. While Washington has real advantages — the Department of Commerce’s Bureau of Industry and Security remains [10 times](https://emergingtechpolicy.org/institutions/executive-branch/bureau-of-industry-and-security/) larger than its Chinese counterpart, enhancing its enforcement capacity — America’s economic statecraft tools are [siloed](https://www.fdd.org/analysis/2026/05/05/gears-of-national-economic-power/) across various agencies and departments, hindering coordination and implementation.
+
+China’s efforts to tie together its economic coercion toolkit showcase Washington’s need to develop a comprehensive [plan of action](https://www.fdd.org/analysis/2026/05/04/a-gameplan-for-american-economic-security-supercharging-u-s-statecraft-from-an-economic-pentagon-to-the-near-global-economy/) to promote American economic security interests and build a more stable and open trading environment. This can be done through a [Near Global Economy](https://nationalinterest.org/feature/after-globalization-the-case-for-a-near-global-economy), a trade and customs union rooted in market principles, geopolitical stability, and shared opportunity that excludes countries, like China, engaged in nonmarket and destabilizing practices.
+
+[*Jack Burnham*](https://www.fdd.org/team/jack-burnham/) *is a senior research analyst in the China Program at the Foundation for Defense of Democracies (FDD).* [*Susan Soh*](https://www.fdd.org/team/susan-soh/) *is a research associate for the Center on Economic and Financial Power at FDD. For more analysis from Jack, Susan, and FDD, please subscribe* [*HERE*](https://www.fdd.org/subscribe/)*. Follow FDD on X* [*@FDD*](https://twitter.com/FDD)*. Follow Jack on X* [*@JackBurnham802*](https://x.com/JackBurnham802)*. Follow Susan on X* [*@SusanSoh827*](https://x.com/SusanSoh827)*. FDD is a Washington, DC-based, nonpartisan research institute focusing on national security and foreign policy.*

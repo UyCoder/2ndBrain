@@ -1,0 +1,109 @@
+---
+title: "Qin Hui on Why Condemning Trump Is Not Enough"
+source: "https://www.sinification.org/p/qin-hui-on-why-condemning-trump-is"
+author:
+  - "[[James Farquharson]]"
+published: 2026-06-08
+created: 2026-06-11
+description: "\"I think it is completely wrong for European countries and many others around the world to remain passive in the face of Iran’s waging war on the entire world.\""
+tags:
+  - "clippings"
+---
+### "I think it is completely wrong for European countries and many others around the world to remain passive in the face of Iran’s waging war on the entire world."
+
+Qin Hui is one of modern China’s foremost public intellectuals, an intellectual historian whose work ranges from the political philosophy of the Qin-Han dynasties to twentieth-century constitutionalism and land reform. His historical scholarship is closely tied to present concerns. The research he undertook on [land reform in the Guanzhong region](https://www.readingthechinadream.com/qin-hui-on-land-reform.html) formed part of a broader challenge by some Chinese historians to official revolutionary historiography, while his research on intellectual history underpins his [sharp critique](https://www.readingthechinadream.com/qin-hui-jing-ke-stabs-confucius.html) of the embrace of authoritarianism by China’s contemporary “New Confucians”.
+
+If a label is needed, Qin is a left-leaning liberal, but his intellectual outlook is shaped above all by a fiercely critical spirit. He does not pull his punches against Western liberals or the left, either. In his account of global imbalances between consumption and labour, he has [criticised the parochialism](https://www.readingthechinadream.com/qin-hui-dilemmas.html) of the Western left’s focus on redistribution as a solution to economic stagnation and inequality. More recently, he [warned](https://www.readingthechinadream.com/qin-hui-globalization-after-the-pandemic.html) that Western societies’ failure to adapt idealist principles to the realities of crises such as the COVID pandemic will only hand the political initiative to authoritarian states with their “low human rights advantage”.
+
+The following oral response to a question at a talk belongs to the same vein of harsh advice directed at the liberals with whom Qin sympathises. Critical of both Trump and the Iranian regime, he broadly accepts the Western liberal view of the war as a strategic error by a man insufficiently constrained by institutional checks. More damaging to liberal sensibilities is his argument that all parties, including European countries that have largely remained on the sidelines, emerge from the crisis with badly damaged reputations. As he sees it, the war was clearly a mistake from the outset, but this is no excuse for the passivity of European states and others in the face of Iran “waging war on the entire world” by blockading their imports.
+
+There are valid objections to this in that, given the unfavourable geography and capability constraints, EU states sending more ships and materiel would be unlikely to make much of a difference to reopening the strait. Nonetheless, Qin’s overall point is still a useful rejoinder to western liberal commentary on the war in Iran that can sometimes appear smug, or at least overly fixated on Trump. Seen from the outside, the failure of liberal states to mount a credible collective response to defend norms such as freedom of navigation is just as revealing a signal as Trump’s comeuppance.
+
+—James Farquharson
+
+**Key Points**
+
+1. Blame for the Iran crisis falls on almost every party: Iran’s theocracy, Trump’s reckless strike, and the European, regional and Asian states that have failed to respond adequately to the blockade.
+2. Comparisons with Ukraine are wrong-headed. Ukraine is the victim of aggression and has moral standing, while Iran’s regime is repressive, isolated and cannot claim the same sympathy.
+3. Putin is more dangerous than Trump because Russian autocracy gives him far fewer institutional constraints, whereas even a reckless American president remains constrained by Congress, elections and the wider system.
+4. Trump’s attack on Iran was rash and unjustifiable, especially because he makes no serious appeal to human rights, freedom, democracy or rule of law, forfeiting any moral justification.
+5. Earlier US interventions, however misguided, at least involved a feasibility assessment: whether the targeted regime was domestically isolated and internationally unpopular, and the country capable of post-war rebuilding.
+6. This time, Trump bypassed that calculus, acting almost “like a king”. Yet institutional checks remain, and congressional pressure and electoral considerations will still constrain him.
+7. Mistaken actions create consequences that cannot be simply reversed through condemnation. The world now has to deal with the crisis constructively, rather than simply demanding immediate withdrawal or criticising Trump.
+8. Iran’s blockade goes beyond retaliation against the United States and Israel by harming states that had no part in the attack, and the passivity of European states and others appears irresponsible in the face of this.
+
+**The Scholar**
+
+![](https://substackcdn.com/image/fetch/$s_!EMia!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa853122c-b6d2-4ddb-aa9d-095561bf3f83_1916x821.png)
+
+**Name**: Qin Hui (秦晖)  
+**Born**: December 1953 (age: 72)  
+**Position**: Independent Scholar; Retired Professor, Institute of Humanities, Tsinghua University (retired 2016)  
+**Previously**: Visiting Professor, School of Governance and Policy Science, Chinese University of Hong Kong; Professor, Shaanxi Normal University  
+**Other**: Specially Invited Researcher, China Society of Economic Reform; participates in the Tokyo Humanities Forum with other Chinese scholars; alongside his wife Jin Yan, runs a private, in-person study course in Tokyo  
+**Research focus**: Chinese Intellectual and Political History; Rural Economics  
+**Education**: MA Lanzhou University (1981)  
+**Experience Abroad** (as a visiting scholar): Harvard University; University of Tokyo
+
+![](https://substackcdn.com/image/fetch/$s_!O-Ci!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F293d7281-b767-4275-b6be-2f2e6f5de294_2150x550.png)
+
+**QIN HUI BRIEFLY ANSWERS QUESTIONS ON THE IRAN WAR  
+**Qin Hui (秦晖）  
+Jointly released [by Tokyo Humanities Forum and Qin/Yan’s YouTube channel on 20 April 2026](https://www.youtube.com/watch?v=K898gCQaSXM)  
+Translation by **Cherry Yu**  
+**Thank you to Qin Hui and his team for reviewing the translation  
+**(Illustration by ChatGPT)
+
+![](https://www.youtube.com/watch?v=K898gCQaSXM)
+
+**I. Misguided Comparisons with Ukraine**
+
+Of course, this is an obvious point, but as I have already said—and not getting into questions of who owns what territory—in the Russia-Ukraine war, Russia is one hundred percent in the wrong and Ukraine is blameless. I am speaking here in terms of its conduct toward Russia. As for Venezuela and Iran, the leaders of those two countries are, frankly, fiends \[魔鬼\]. How can they possibly be mentioned in the same context \[相提并论\] as Zelensky?
+
+And then, as you just said, the United States does not seem to harbour any such ambition for territorial conquest. Let me put it this way—the issue is not about how greatly Putin and Trump differ as individuals, but rather the difference between the American system and Russia’s autocratic system that lies behind them. Someone put it very well, I think, when they said that Trump may be a fascist, but America is not a fascist country. **For this reason, I consider Putin far more dangerous than Trump. It is not that Trump is somehow the better person of the two—I would not even dispute the claim that he is worse—but he is, after all, hemmed in by America\[n institutions\].** Even if Trump wanted to launch an invasion, the danger he poses falls far short of Putin’s.
+
+Moreover, when it comes to Venezuela and Iran—and I will come back to these later—I do think Trump is a terrible person and that both of these military actions are completely absurd \[莫名其妙\] and condemnable on multiple levels. But even so, compared to Putin’s brazen attempt to revive the old Tsarist \[order\], there is of course an essential difference. One might put it this way: in the Russia-Ukraine war, there is a clear distinction between right and wrong; but in the other two wars, especially when it comes to Iran, I think that apart from the wretched Iranian people, who are not at fault, every other party is in the wrong. No side is in the right. If grave consequences follow, blame cannot be pinned on one party alone.
+
+In the first place the Iranian leadership are fiends—this should be beyond dispute. Of course, even when dealing with fiends, one cannot resort to any means whatsoever \[不择手段\]. A fiend is, nonetheless, a fiend. At this point, likely no one denies this apart from the regime itself. Even the Arab emirs around Iran—fiends themselves—regard it as one. Internationally, Iran is in fact quite isolated.
+
+**II. Idealism and Realism in US-Led Regime Change**
+
+Frankly speaking, **even when democratic countries bully others, they can be selective.** Let me make a brief digression. Back when the United States sent troops into Iraq, a friend at the US embassy—someone with very good ties to the Americans, whom I will not name—told me that he had asked people in American decision-making circles why they wanted to attack Iraq. Was it because of oil, or something else? This friend said the answer he was given was likely their genuine view. The answer was that the United States was not, in fact, seeking Iraqi oil. The point of the war, he said, was to export values. At that time, after the Cold War, US foreign policy still operated under what was called idealist diplomacy \[理想主义外交\], or values-based diplomacy \[价值观外交\]. Of course, things are completely different now. Trump does not talk about values at all. But back then they did. They talked about promoting democracy—promoting democracy in Arab countries.
+
+**If the aim was to promote democracy in Arab countries, then which country should they start with? This American set out four criteria of feasibility, and I have to say, they struck me as genuinely shrewd** \[高明\]**.** First, he said, the chosen breakthrough target had to be someone extremely isolated at home, with hardly anyone supporting him. Take Saddam: most of Iraq’s population is Shia and he repressed the Shia so severely that most of them hated him. The Kurds hated him too; the Sunnis also hated him. Even members of his own family—and we know many of Saddam’s relatives were killed by him—were not spared. He was a man not swayed by kinship ties \[六亲不认\]. He also killed many people within the Arab Socialist Ba’ath Party. Within Iraq, there were very few people who sympathised with him, which made him relatively easy to overthrow. That was the first point.
+
+Second, Saddam was also a target of universal scorn \[众矢之的\] internationally. No one liked him. Authoritarian rulers did not like him either, including those in neighbouring Iran, Kuwait and Turkey. And at that time, Russia had only just democratised and was aligned with the United States on many issues. And with the UN framework in the background—the First Gulf War, after all, had been [authorised by the United Nations](https://digitallibrary.un.org/record/102245?v=pdf) —there were very few people internationally who sympathised with Saddam.
+
+Third, he said, when we overthrow an authoritarian regime, we also have to think about what happens if democratisation fails. The country cannot become a burden on the United States. Judged by that criterion, Iraq was once again the obvious choice. For one thing, he said, Iraq has a lot of oil. If Iraq became a democratic country, it would have no problem supporting itself. But in the Middle East, when you weigh a country’s survival, you cannot look only at oil because water is more valuable than oil there. Many of the region’s problems stem from water resources. Iraq, however, is the most water-rich country in the Middle East: the twin rivers of Mesopotamia flow through Iraq. Once these four conditions were in place, he said, where else would one choose to do some democratisation \[搞民主化\]?
+
+So, you see, this was how they thought about it. Whether that thinking was right is another question—later events, of course, turned out somewhat differently from what they had imagined. **My point here is simply that regardless of whether a democratic country’s overseas activity is motivated by values and seeking to export its ideals, or pursuing some particular interest, it must in either case weigh up the costs. A venture such as the Iran affair, had it been put to a vote in Congress, would very likely have failed to pass on grounds of cost alone.** Trump, however, is a loose cannon \[二杆子\] and he now carries himself almost like a king, with no regard for Congress. And so, he simply went ahead and did it. Yet having done it, Congress will still rein him in \[掣肘\] and he must also reckon with elections—the midterms for example. So, I do think he really is a loose cannon and that this kind of reckless behaviour is wrong. For him to have so rashly \[莽撞地\] provoked this war in Iran—especially by helping Israel do this—seems to me even more unjustifiable.
+
+Some have argued that had Trump sent in troops late last year or early this year, when the theocracy brutally suppressed the large-scale protests that erupted in Iran—reportedly killing tens of thousands—then many would have rallied to his side on the grounds of the supremacy of human rights over sovereignty. But first, Trump has never spoken of anything like the supremacy of human rights over sovereignty. From the day he took office, he has never mentioned human rights, freedom, democracy or the rule of law—not once. \[**Note:** *Trump invoked “freedom” and “democracy” explicitly in his [second inaugural address](https://www.whitehouse.gov/remarks/2025/01/the-inaugural-address/), pledging to restore Americans’ “faith, their wealth, their democracy, and, indeed, their freedom”*.\] What he talks about is interests, oil and security. That is all. He forfeited that moral justification himself.
+
+Second, **regarding the criticism many level against him that he did not send in troops at that time, I do not think that criticism is entirely justified. Deploying American forces is no simple matter—moving even two aircraft carriers into position takes considerable time.** Every American deployment has been preceded by lengthy preparation. You cannot expect him to send troops the moment Iran begins a crackdown. That, I think, would be asking too much of him.
+
+But what one might fairly ask is why Israel did not act at that moment. Had Israel’s decapitation strike coincided with the theocratic regime’s massacre of its own people, it could very plausibly have triggered an uprising that toppled the regime. And yet, even had it done so, Trump is still an unserious person \[扯淡的人\] who has never taken dissidents promoting democracy seriously. Whether in Venezuela or in Iran, what he seeks is a pliant \[听话\] figure among the autocrats, with no genuine respect for the opposition, for public opinion or for democracy. So, I remain sceptical of the righteousness of Trump’s launching this war in Iran.
+
+**III. Acknowledging Sunk Costs**
+
+But here I want to make a further point: **many things in this world, even wrongs once done, produce logical consequences. Those consequences cannot be undone simply by opposing the original act. This is what economists call sunk cost** \[沉没成本\]**: once something has happened, even if it was wrong, it cannot simply be reversed.** Many things in the world are like this. For instance, when white people forcibly brought black people to America, that was of course terribly wrong. But does that mean you can now send black people back to Africa? That would be an even greater wrong.
+
+I have also used an engineering example before. Take the Sanmenxia project, the world’s worst large-scale hydropower project \[世界上最烂的大规模水利工程\]. It nearly flooded Xi’an and has now been completely shut down, unable to store water. Although they haven’t blown the dam up, the reservoir essentially stores nothing and its power generation hence relies purely on surface run-off, meaning that its output is just a fraction of what was originally designed. While many subsequently called for it to be blown up, further study showed that the silt accumulation Sanmenxia had caused was irreversible, meaning that even if the dam were to be destroyed, the silt would remain. Nothing could be done about it. Blowing up the dam, on the other hand, would create new problems. The eventual decision was therefore made to retain the structure but renovate it. After renovation, its function changed, but the dam itself remained. That the dam still stands does not mean that the decision to build it in the first place was the right one, yet the fact that it should never have been built doesn’t mean one should now blow it up.
+
+I see the Iran question in just these terms, where going in is a mistake, but getting out is a disaster \[进入是错误，退出是灾难\]. A great many cases follow this pattern—Vietnam and Afghanistan are both cases in point. **You cannot say that because going in was wrong to begin with, you can now simply dust yourself down and saunter off** \[拍拍屁股就走\]**.**
+
+**IV. Liberal Passivity**
+
+**Let me add a further point. I think it is completely wrong for European countries and many others around the world to remain inactive** \[采取不作为\] **in the face of Iran’s waging war on the entire world.** The United States struck first against Iran, and it is reasonable for Iran to retaliate against the United States. But its many neighbouring countries had done nothing to provoke it, and yet Iran attacked them. Because of provocation from the United States and Israel, it then went and damaged the interests of the entire world and barred ships from all countries from passing through the Strait, even turning against neighbouring states that did not take part \[in the conflict\] and refused to cooperate with the United States.
+
+We know that many of these neighbouring countries would not so much as open their airspace, let alone allow Americans to use their bases. At the outset, American aircraft could enter only from the sea. These states have since shifted their positions one after another, since Iran has overplayed its hand \[欺人太甚\]. But initially, none of these countries had taken part in this American aggression—let us call it aggression for the sake of argument—or even cooperated with it. Saudi Arabia, for instance, did not even open its airspace at the start, during the decapitation operation. It had nothing to do with the matter. On what grounds, then, does Iran fire missiles simultaneously at a dozen or so neighbouring countries and proceed to block an international shipping lane? Isn’t that just taking the whole world as its enemy?
+
+**Condemning Trump is one thing and saying that Trump should not have attacked is another thing. But Iran’s subsequent response is no longer simply resistance to aggression; it is already damaging the interests of the whole world** \[损害全世界的利益\]**. If the United States is the global policeman, then it ought to intervene. But since it now refuses to do so, then the neighbouring countries should step in, and so should European countries.** Moreover, as we now know, a halt to oil shipments through the Strait of Hormuz does little damage to the United States but hits Europe much harder—and the Gulf states hardest of all. Yet these countries—along with Japan and South Korea, whose oil \[supply\] depends entirely on the Strait of Hormuz—now refuse to cooperate or take any action simply because Trump acted wrongly. **Condemning Trump is justified but cooperating to maintain a normal order serves everyone’s interests. It is a matter of preserving public order** \[维持公共秩序\]**.** You could even put Trump on trial as a war criminal once the crisis is resolved, but you cannot simply refuse to deal with it now.
+
+Trump’s argument now runs as follows: since the question of free passage through the strait does concern your interests, and you will not lift a finger, why should we \[do anything\] given that it does not concern American interests? And he really has stopped dealing with it. If he continues to do so, the following scenario may well materialise. Iran has now tasted the benefits \[尝到甜头\]: even if it allows ships through in future, it will be on its terms, with Iran deciding who may pass and who may not. It has even said that vessels will have to pay for passage—turning the Strait into a toll booth \[坐地收钱\]. That is simply preposterous \[岂有此理\].
+
+**This is why I think the European Union, Japan and the surrounding countries are wrong not to act. You cannot indulge Iran simply because what Trump has done was wrong.** And Iran has absolutely no justification for acting this way. If it’s so tough \[有本事\], then why not just fight Israel and the United States? Why bully innocent countries? The rest of the world, including China and Japan, did nothing to provoke Iran. Why should Iran blockade them? And once it has done so, on what grounds should these countries simply fail to respond?
+
+So, I am of the opinion that the Iranian regime is a fiend. Trump is a fool and a hothead to boot \[一个傻瓜加上一个莽汉\]. Many of the surrounding countries—frankly, the EU included—have been deeply irresponsible. In the end, it is the Iranian people who suffer.
+
+**READ MORE**

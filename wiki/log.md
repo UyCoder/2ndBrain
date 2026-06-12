@@ -252,3 +252,6 @@ Previously the batch script created template-only wikis. All 12 have been rewrit
 - [[ئورۇن-جى-چاۋچۈن-خىتاي-جاسۇسى]] — Rewritten with full Ji Chaoqun story: MSS recruitment, Mormon conversion, FBI sting, trial
 - [[ئورۇن-ئانا-مونتېس-كۇبا-جاسۇسى]] — Rewritten with full Ana Montes story: childhood, DIA infiltration, El Salvador attack, arrest, prison
 
+## [2026-06-12] ingest | Hormuz crisis podcast
+- Created [[بىرىكمە-ھورمۇز-كىرىزىسى-ۋە-ئامېرىكىدىن-كېيىنكى-دۇنيا]] regarding the geopolitical implications of the Hormuz crisis and the post-American world.
+- Moved processed file to `/raw`.
