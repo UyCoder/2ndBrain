@@ -1,0 +1,20 @@
+────────────────────────────────────────────────────────────────────────────────
+تەرجىمە Prompt (كۆچۈرۈپ ئىشلىتىشكە تەييار)
+there is a folder named ChinaRelations and inside this folder about 170 md files in English, all about the foreign policies and foreign relations of China. I need you to translate these md files one by one into Uyghur language. The translated md files should be put into the ChinaRelations-ug folder. The md format must be the same but in Uyghur language. Do it one by one, after you finish and I say "do it", then start to translate the next. Do not ignore any sentences from the content. If the content is large, you can send the translation request separately but save it completely in one md file for one English md file. Translation must be in Uyghur script (ئۇيغۇر يېزىقى). If the content contains pictures (images), do not remove them — the Uyghur translation should contain all the pictures from the English version. References and footnotes should be left in English in the Uyghur translation because there is no need to translate the references and footnotes. After you finish translating each file, wait 5 seconds — if I don't respond within 5 seconds, automatically continue to the next file.
+────────────────────────────────────────────────────────────────────────────────
+Prompt نىڭ مۇھىم ئېلېمېنتلىرى:
+┌────────────────────────┬─────────────────────────────────────────────────────────────┐
+│ ئېلېمېنت               │ چۈشەندۈرۈش                                                  │
+├────────────────────────┼─────────────────────────────────────────────────────────────┤
+│ مەنبە ۋە نىشان فولدر   │ ChinaRelations/ (ئىنگلىز) → ChinaRelations-ug/ (ئۇيغۇر)     │
+│ بىر-بىرلەپ تەرجىمە     │ فایللارنى تىزىملىك بويىچە تەرتىپلىك تەرجىمە قىلىش           │
+│ تولۇق تەرجىمە          │ ھېچقانداق جۈملىنى چۈشۈرۈپ قويماسلىق                         │
+│ رەسىملەرنى ساقلاش      │ بارلىق ![]() رەسىم ئۇلىنىشلىرىنى ئەسلى قېلىپىدا قالدۇرۇش    │
+│ پايدىلانمىلارنى ساقلاش │ [^1], [^2] ۋە باشقا پايدىلانما بەلگىلىرىنى ئىنگلىز تىلىدا   │
+│                        │ قالدۇرۇش                                                    │
+│ ئاپتوماتىك             │ 5 سېكۇنت جاۋاب بولمىسا، ئاپتوماتىك كېيىنكى فایلغا ئۆتۈش     │
+│ داۋاملاشتۇرۇش          │                                                             │
+│ Markdown فورماتى       │ فورمات (باشلىقلار, جەدۋەللەر, ئۇلىنىشلار) ئوخشاش ساقلىنىشى  │
+│ ئۇيغۇر يېزىقى          │ تەرجىمە ئۇيغۇر ئەرەب يېزىقىدا (ئۇيغۇرچە) بولۇشى كېرەك       │
+└────────────────────────┴─────────────────────────────────────────────────────────────┘
+ئەگەر باشقا فولدر ياكى باشقا تېمىدىكى فایللارغا ئىشلەتمەكچى بولسىڭىز، يۇقىرىدىكى "ChinaRelations" ۋە "ChinaRelations-ug" نى ئۆزىڭىزنىڭ فولدر ئىسمى بىلەن ئالماشتۇرسىڭىز بولىدۇ.
