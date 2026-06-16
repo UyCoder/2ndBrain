@@ -1,0 +1,106 @@
+---
+title: "Theories of political behavior"
+source: "https://en.wikipedia.org/wiki/Theories_of_political_behavior"
+author:
+  - "[[Wikipedia]]"
+published: 2002-02-25
+created: 2026-06-16
+description:
+tags:
+  - "clippings"
+---
+**Theories of political behavior**, as an aspect of [political science](https://en.wikipedia.org/wiki/Political_science "Political science"), attempt to quantify and explain the influences that define a person's political views, [ideology](https://en.wikipedia.org/wiki/Ideology "Ideology"), and levels of political participation, especially in relation to the role of [politicians](https://en.wikipedia.org/wiki/Politician "Politician") and their impact on public opinion. Political behavior is the subset of human behavior that involves politics and power.[^1] Theorists who have had an influence on this field include [Karl Deutsch](https://en.wikipedia.org/wiki/Karl_Deutsch "Karl Deutsch") and [Theodor Adorno](https://en.wikipedia.org/wiki/Theodor_Adorno "Theodor Adorno").
+
+## Long-term influences on political orientation
+
+Interaction with the political views of parental figures is often thought of as the primary long-term influence on political orientation and willingness to take part in the political system.[^2] [^3]
+
+[Teachers](https://en.wikipedia.org/wiki/Teacher "Teacher") and other educational authority figures are also often thought to have a significant impact on political orientation. During the 2003–2004 school year, In the United States, students spent an average of 180.4 days in primary and secondary education each year, with a school day being defined as approximately 6.7 class hours.[^4] This means that on average a student will spend around 1,208.68 hours in class each year. [Post-secondary education](https://en.wikipedia.org/wiki/Post-secondary_education "Post-secondary education") appears to have an impact on both voting rates and political identification; as a study of 9,784,931 college students found that they voted at a rate of 68.5% in the [2016 Presidential Election](https://en.wikipedia.org/wiki/2016_United_States_presidential_election "2016 United States presidential election") [^5] compared to the average of 46.1% for citizens aged 18–29 who voted.[^6]
+
+Peers also affect political orientation. Friends often, but not necessarily, have the advantage of being part of the same generation, which collectively develops a unique set of societal issues; Eric L. Dey has argued that "socialisation is the process through which individuals acquire knowledge, habits, and value orientations that will be useful in the future." [^7] The ability to relate on this common level is what fuels and enables future ideological growth.
+
+Sociologists and political scientists debate the relationship between age and the formation of political attitudes. The [impressionable years hypothesis](https://en.wikipedia.org/wiki/Impressionable_years_hypothesis "Impressionable years hypothesis") postulates that political orientation is solidified during early adulthood. By contrast, the "increasing persistence hypothesis" posits that attitudes become less likely to change as individuals become older, while the "life-long openness hypothesis" proposes that the attitudes of individuals remain flexible regardless of age.[^8]
+
+## Short-term influences on political orientation
+
+Short-term factors also affect [voting behavior](https://en.wikipedia.org/wiki/Voting_behavior "Voting behavior"); the [media](https://en.wikipedia.org/wiki/Mass_media "Mass media") and the impact of individual [election](https://en.wikipedia.org/wiki/Election "Election") issues are among these factors. These factors differ from the long-term factors as they are often short-lived. However, they can be just as crucial in modifying political orientation. The ways in which these two sources are interpreted often relies on the individuals specific political ideology formed by the long-term factors.
+
+Most [political scientists](https://en.wikipedia.org/wiki/Political_scientist "Political scientist") agree that the mass media have a profound impact on voting behavior. One author asserts that "few would argue with the notion that the institutions of the mass media are important to contemporary politics... in the transition to liberal democratic politics in the [Soviet Union](https://en.wikipedia.org/wiki/Soviet_Union "Soviet Union") and [Eastern Europe](https://en.wikipedia.org/wiki/Eastern_Europe "Eastern Europe") the media was a key battleground." [^9]
+
+Second, there are election issues. These include campaign issues, debates and commercials. Election years and political campaigns can shift certain political behaviors based on the candidates involved, which have different degrees of effectiveness in influencing voters.
+
+## The influence of social groups on political outcomes
+
+Recently, some political scientists have been interested in many studies which aimed to analyze the relation between the behavior of social groups and the political outcomes. Some of the social groups included in their studies have been age demographics, [gender](https://en.wikipedia.org/wiki/Gender "Gender"), and [ethnic groups](https://en.wikipedia.org/wiki/Ethnic_groups "Ethnic groups"). This can be understood through the lenses of [pluralism](https://en.wikipedia.org/wiki/Pluralism_\(political_theory\) "Pluralism (political theory)") or [social identity theory](https://en.wikipedia.org/wiki/Social_identity_theory "Social identity theory").
+
+For example, in [U.S. politics](https://en.wikipedia.org/wiki/U.S._politics "U.S. politics"), the effect of ethnic groups and gender has a great influence on the political outcomes. [Hispanic Americans](https://en.wikipedia.org/wiki/Hispanic_Americans "Hispanic Americans") have a profound social impact on the political outcome of their vote and are emerging as a strong up-and-coming political force. The most noticeable increase in Hispanic American voting was in the [2000 presidential election](https://en.wikipedia.org/wiki/2000_United_States_presidential_election "2000 United States presidential election"), although the votes did not share a socially common political view at that time. In the [2006 election](https://en.wikipedia.org/wiki/United_States_general_elections,_2006 "United States general elections, 2006"), the Hispanic American vote aided tremendously in the election of [Florida](https://en.wikipedia.org/wiki/Florida "Florida") [Senator](https://en.wikipedia.org/wiki/United_States_Senator "United States Senator") [Mel Martinez](https://en.wikipedia.org/wiki/Mel_Martinez "Mel Martinez"), although in the [2004 presidential election](https://en.wikipedia.org/wiki/2004_United_States_presidential_election "2004 United States presidential election"), about 44% of Latin Americans voted for [Republican](https://en.wikipedia.org/wiki/Republican_Party_\(United_States\) "Republican Party (United States)") President [George W. Bush](https://en.wikipedia.org/wiki/George_W._Bush "George W. Bush"). However, Hispanic Americans have the lowest voting rate in the United States, with only 47.6% voting in the [2016 Presidential Election in the United States](https://en.wikipedia.org/wiki/2016_United_States_presidential_election "2016 United States presidential election").[^10] Currently illegal immigration has been claiming the most attention and Hispanic Americans, although not unanimous, are concerned with the education, employment and deportation of illegal immigrants in the United States. Although the majority of Hispanic Americans vote for [Democratic](https://en.wikipedia.org/wiki/Democratic_Party_\(United_States\) "Democratic Party (United States)") candidates, [Cuban Americans](https://en.wikipedia.org/wiki/Cuban_Americans "Cuban Americans") are likely the most conservative of Latinos, with 54% of Cuban American voters casting ballots for [Donald Trump](https://en.wikipedia.org/wiki/Donald_Trump "Donald Trump") in the [2016 Presidential Election](https://en.wikipedia.org/wiki/2016_United_States_presidential_election "2016 United States presidential election"), compared to an average of 35% of all Latinos who voted.[^11] Although this was represents a net decrease in support for the [Republican Party](https://en.wikipedia.org/wiki/Republican_Party_\(United_States\) "Republican Party (United States)") among Cuban Americans, it continues a trend created by the [exile of many Cubans](https://en.wikipedia.org/wiki/Cuban_exile "Cuban exile") after the [Cuban Revolution](https://en.wikipedia.org/wiki/Cuban_Revolution "Cuban Revolution").[^12]
+
+[African Americans](https://en.wikipedia.org/wiki/African_Americans "African Americans") have the second highest voting rates in the United States and even surpassed white voters in the [2008 Presidential Election](https://en.wikipedia.org/wiki/2008_United_States_presidential_election "2008 United States presidential election"), although this has declined in the [2016 Presidential Election](https://en.wikipedia.org/wiki/2016_United_States_presidential_election "2016 United States presidential election"). In the 2008 Presidential Election and [2012 Presidential election](https://en.wikipedia.org/wiki/2012_United_States_presidential_election "2012 United States presidential election"), African Americans voted overwhelmingly for Democratic candidate, [Barack Obama](https://en.wikipedia.org/wiki/Barack_Obama "Barack Obama").[^13] [^14] This trend of African Americans voting for candidates of the Democratic Party continued into the 2016 Presidential Election.[^15]
+
+Women in the United States have, in the past 30 years, surpassed male voting rates, with the 2016 Presidential Election having a ratio between females and males of 52 to 48.[^16] [^17] [^18] [^19] This trend is often referred to as the Gender Gap and when combined with the tendency of women to vote for Democratic candidates, their effect on political outcomes is extremely important.[^20]
+
+## Biology and political science
+
+Interdisciplinary studies in [biology and political science](https://en.wikipedia.org/wiki/Biology_and_political_science "Biology and political science") aim to identify correlates of political behavior with biological aspects, for example the linkage of [biology and political orientation](https://en.wikipedia.org/wiki/Biology_and_political_orientation "Biology and political orientation"), but also with other aspects like [partisanship](https://en.wikipedia.org/wiki/Partisanship "Partisanship") and [voting behavior](https://en.wikipedia.org/wiki/Voting_behavior "Voting behavior").[^21] This field of study is typically referred to [genopolitics](https://en.wikipedia.org/wiki/Genopolitics "Genopolitics") although it is sometimes referred to as [biopolitics](https://en.wikipedia.org/wiki/Biopolitics "Biopolitics"),[^22] although the term also has other meanings originating from the work of [Michel Foucault](https://en.wikipedia.org/wiki/Michel_Foucault "Michel Foucault").
+
+The study of possible genetic bases of political behavior has grown since the 1980s. The term [genopolitics](https://en.wikipedia.org/wiki/Genopolitics "Genopolitics") was coined by political scientist [James Fowler](https://en.wikipedia.org/wiki/James_H._Fowler "James H. Fowler") in the early-2000s to describe research into identifying specific transporter/receptor genes responsible for ideological orientation beyond the sociopsychological realm of political socialisation.
+
+Other research on genopolitics includes the article entitled "Do Genes Contribute to the “Gender Gap”" which also attempts to explore genetic influences between the sexes and whether or not they contribute to political preferences. The authors concluded that “the findings support the claim that the environment (social or other) cannot be used in isolation to explain behavior differences between males and females, nor can all differences in modern political behaviors between the sexes simply be attributed to genes or presumptions about primitive man." [^23]
+
+## Political participation
+
+Political scientists also aim to understand what drives individuals to participate in the democratic process, either by voting, volunteering for campaigns, signing petitions or protesting. Participation cannot always be explained by rational behavior. The [voting paradox](https://en.wikipedia.org/wiki/Voting_paradox "Voting paradox"), for example, points out that it cannot be in a citizen's self-interest to vote because the effort it takes to vote will almost always outweigh the benefits of voting, particularly considering a single vote is unlikely to change an electoral outcome. Political scientists instead propose that citizens vote for psychological or social reasons. Studies show, for example, that individuals are more likely to vote if they see their friends have voted [^24] or if someone in their household has received a nudge to vote.[^25]
+
+## Political psychology
+
+[Political psychology](https://en.wikipedia.org/wiki/Political_psychology "Political psychology") aims to explain political behavior through psychological analysis. Examples of theories include [right-wing authoritarianism](https://en.wikipedia.org/wiki/Right-wing_authoritarianism "Right-wing authoritarianism"), [social dominance orientation](https://en.wikipedia.org/wiki/Social_dominance_orientation "Social dominance orientation"), and [system justification theory](https://en.wikipedia.org/wiki/System_justification "System justification").
+
+[^1]: Clark, William Roberts, Matt Golder, and Sona N. Golder. 2013. “Power and politics: insights from an exit, voice, and loyalty game.”
+
+[^2]: Gidengil, Elisabeth; Wass, Hanna; Valaste, Maria (June 2016). "Political Socialization and Voting: The Parent-Child Link in Turnout". *Political Research Quarterly*. **69** (2): 373–383. [doi](https://en.wikipedia.org/wiki/Doi_\(identifier\) "Doi (identifier)"):[10.1177/1065912916640900](https://doi.org/10.1177%2F1065912916640900). [JSTOR](https://en.wikipedia.org/wiki/JSTOR_\(identifier\) "JSTOR (identifier)") [44018017](https://www.jstor.org/stable/44018017). [S2CID](https://en.wikipedia.org/wiki/S2CID_\(identifier\) "S2CID (identifier)") [148195770](https://api.semanticscholar.org/CorpusID:148195770).
+
+[^3]: ["Teens Stay True to Parents' Political Perspectives"](https://news.gallup.com/poll/14515/teens-stay-true-parents-political-perspectives.aspx). *Gallup.com*. Retrieved November 1, 2018.
+
+[^4]: ["Private School Universe Survey (PSS)"](https://nces.ed.gov/surveys/pss/tables/table_2004_06.asp). *nces.ed.gov*. Retrieved October 12, 2018.
+
+[^5]: ["2016 NSLVE National Data"](https://idhe.tufts.edu/nslve/2016). *Institute for Democracy & Higher Education*. September 18, 2017. Retrieved October 12, 2018.
+
+[^6]: Bureau, US Census. ["Voting in America: A Look at the 2016 Presidential Election"](https://www.census.gov/newsroom/blogs/random-samplings/2017/05/voting_in_america.html). *The United States Census Bureau*. Retrieved October 12, 2018.
+
+[^7]: Dey, Eric L., *Undergraduate Political Attitudes: Peer Influence in Changing Social Contexts*, Journal of Higher Education, Vol. 68, 1997
+
+[^8]: Krosnick, Jon A.; Alwin, Duane F. (1989). ["Aging and Susceptibility to Attitude Change"](https://pprg.stanford.edu/wp-content/uploads/1989-Aging-and-Att-Change-Krosnick-and-Alwin.pdf) (PDF). *Journal of Personality and Social Psychology*. **57** (3): 416–425. [doi](https://en.wikipedia.org/wiki/Doi_\(identifier\) "Doi (identifier)"):[10.1037/0022-3514.57.3.416](https://doi.org/10.1037%2F0022-3514.57.3.416). [PMID](https://en.wikipedia.org/wiki/PMID_\(identifier\) "PMID (identifier)") [2778632](https://pubmed.ncbi.nlm.nih.gov/2778632). [Archived](https://ghostarchive.org/archive/20221009/https://pprg.stanford.edu/wp-content/uploads/1989-Aging-and-Att-Change-Krosnick-and-Alwin.pdf) (PDF) from the original on October 9, 2022.
+
+[^9]: ["Do Mass Media Influence the Political Behavior of Citizens"](https://guidetowinningelections.com/do-mass-media-influence-the-political-behavior-of-citizens/). *The Guide to Winning Elections*. November 26, 2013. Retrieved October 12, 2018.
+
+[^10]: Bureau, US Census. ["Voting in America: A Look at the 2016 Presidential Election"](https://www.census.gov/newsroom/blogs/random-samplings/2017/05/voting_in_america.html). *The United States Census Bureau*. Retrieved October 12, 2018.
+
+[^11]: ["About half of Cuban voters in Florida backed Trump"](https://www.pewresearch.org/fact-tank/2016/11/15/unlike-other-latinos-about-half-of-cuban-voters-in-florida-backed-trump/). *Pew Research Center*. Retrieved November 1, 2018.
+
+[^12]: Lopez-Gottardi, Cristina (November 16, 2016). ["The Complex Cuban Vote"](https://www.usnews.com/opinion/op-ed/articles/2016-11-16/2016-highlighted-the-growing-complexity-of-the-cuban-american-vote). *U.S. News*. Retrieved November 1, 2018.
+
+[^13]: ["How Groups Voted in 2008 - Roper Center"](https://ropercenter.cornell.edu/polls/us-elections/how-groups-voted/how-groups-voted-2008/). *Roper Center*. Retrieved November 1, 2018.
+
+[^14]: ["How Groups Voted in 2012 - Roper Center"](https://ropercenter.cornell.edu/polls/us-elections/how-groups-voted/how-groups-voted-2012/). *Roper Center*. Retrieved November 1, 2018.
+
+[^15]: ["How Groups Voted 2016 - Roper Center"](https://ropercenter.cornell.edu/polls/us-elections/how-groups-voted/groups-voted-2016/). *Roper Center*. Retrieved November 1, 2018.
+
+[^16]: ["How Groups Voted in 1980 - Roper Center"](https://ropercenter.cornell.edu/polls/us-elections/how-groups-voted/how-groups-voted-1980/). *Roper Center*. Retrieved November 1, 2018.
+
+[^17]: ["How Groups Voted in 1984 - Roper Center"](https://ropercenter.cornell.edu/polls/us-elections/how-groups-voted/how-groups-voted-1984/). *Roper Center*. Retrieved November 1, 2018.
+
+[^18]: ["How Groups Voted in 1988 - Roper Center"](https://ropercenter.cornell.edu/polls/us-elections/how-groups-voted/how-groups-voted-1988/). *Roper Center*. Retrieved November 1, 2018.
+
+[^19]: ["How Groups Voted 2016 - Roper Center"](https://ropercenter.cornell.edu/polls/us-elections/how-groups-voted/groups-voted-2016/). *Roper Center*. Retrieved November 1, 2018.
+
+[^20]: Edsall, Thomas B. (July 12, 2018). ["Opinion | What Happens if the Gender Gap Becomes a Gender Chasm?"](https://www.nytimes.com/2018/07/12/opinion/trump-midterms-gender-gap.html). *The New York Times*. Retrieved November 1, 2018.
+
+[^21]: Albert Somit; Steven A. Peterson (2011). [*Biology and Political Behavior: The Brain, Genes and Politics - The Cutting Edge*](https://books.google.com/books?id=__M0gG5kWg8C&pg=PA232). Emerald Group Publishing. p. 232. [ISBN](https://en.wikipedia.org/wiki/ISBN_\(identifier\) "ISBN (identifier)") [978-0-85724-580-9](https://en.wikipedia.org/wiki/Special:BookSources/978-0-85724-580-9 "Special:BookSources/978-0-85724-580-9").
+
+[^22]: Robert Blank (2001). [*Biology and Political Science*](https://books.google.com/books?id=rAXYIkbWxawC). Psychology Press. [ISBN](https://en.wikipedia.org/wiki/ISBN_\(identifier\) "ISBN (identifier)") [978-0-415-20436-1](https://en.wikipedia.org/wiki/Special:BookSources/978-0-415-20436-1 "Special:BookSources/978-0-415-20436-1"). This book demonstrates the increasing convergence of interest of some social scientists in the theories, research and findings of the life sciences in building a more interdisciplinary approach to the study of politics. It discusses the development of biopolitics as an academic perspective within political science, reviews the growing literature in biopolitics, and presents a coherent view of biopolitics as a framework for structuring inquiry across the current subfields of political science.
+
+[^23]: Hatemi, Peter K.; Medland, Sarah E.; Eaves, Lindon J. (January 2009). "Do Genes Contribute to the "Gender Gap"?". *The Journal of Politics*. **71** (1): 262–276. [doi](https://en.wikipedia.org/wiki/Doi_\(identifier\) "Doi (identifier)"):[10.1017/S0022381608090178](https://doi.org/10.1017%2FS0022381608090178).
+
+[^24]: Corbyn, Zoe (2012). ["Facebook experiment boosts US voter turnout"](https://www.nature.com/news/facebook-experiment-boosts-us-voter-turnout-1.11401). *Nature*. [doi](https://en.wikipedia.org/wiki/Doi_\(identifier\) "Doi (identifier)"):[10.1038/nature.2012.11401](https://doi.org/10.1038%2Fnature.2012.11401). [S2CID](https://en.wikipedia.org/wiki/S2CID_\(identifier\) "S2CID (identifier)") [155711230](https://api.semanticscholar.org/CorpusID:155711230). Retrieved June 2, 2018.
+
+[^25]: Nickerson, David (February 2008). "Is Voting Contagious? Evidence from Two Field Experiments". *American Political Science Review*. **102** (1): 49–57. [doi](https://en.wikipedia.org/wiki/Doi_\(identifier\) "Doi (identifier)"):[10.1017/S0003055408080039](https://doi.org/10.1017%2FS0003055408080039). [JSTOR](https://en.wikipedia.org/wiki/JSTOR_\(identifier\) "JSTOR (identifier)") [27644497](https://www.jstor.org/stable/27644497). [S2CID](https://en.wikipedia.org/wiki/S2CID_\(identifier\) "S2CID (identifier)") [56069789](https://api.semanticscholar.org/CorpusID:56069789).

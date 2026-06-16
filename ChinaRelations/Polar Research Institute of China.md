@@ -1,0 +1,66 @@
+---
+title: "Polar Research Institute of China"
+source: "https://en.wikipedia.org/wiki/Polar_Research_Institute_of_China"
+author:
+  - "[[Wikipedia]]"
+published: 2008-01-28
+created: 2026-06-14
+description:
+tags:
+  - "clippings"
+---
+The **Polar Research Institute of China** is the main state [research institute](https://en.wikipedia.org/wiki/Research_institute "Research institute") of the [People's Republic of China](https://en.wikipedia.org/wiki/People%27s_Republic_of_China "People's Republic of China") for the study of [Earth](https://en.wikipedia.org/wiki/Earth "Earth") 's [polar regions](https://en.wikipedia.org/wiki/Polar_regions_of_Earth "Polar regions of Earth"). The PRIC is an agency within China's [Ministry of Natural Resources](https://en.wikipedia.org/wiki/Ministry_of_Natural_Resources_\(China\) "Ministry of Natural Resources (China)") and conducts polar scientific research, polar observation, and scientific expeditions.[^1] It is based in [Shanghai](https://en.wikipedia.org/wiki/Shanghai "Shanghai"), China.
+
+The Institute manages six polar research stations (five in [Antarctica](https://en.wikipedia.org/wiki/Antarctica "Antarctica") and one in the [Arctic](https://en.wikipedia.org/wiki/Arctic "Arctic")), and jointly operates the [China-Iceland Arctic Science Observatory](https://en.wikipedia.org/wiki/China-Iceland_Arctic_Science_Observatory "China-Iceland Arctic Science Observatory") (CIAO) [^2] with the [Icelandic Centre for Research](https://en.wikipedia.org/wiki/Icelandic_Centre_for_Research "Icelandic Centre for Research") (Rannis). The PRIC operates the [icebreaking](https://en.wikipedia.org/wiki/Icebreaker "Icebreaker") research vessels [*Xue Long*](https://en.wikipedia.org/wiki/Xue_Long "Xue Long") and [*Xue Long 2*](https://en.wikipedia.org/wiki/Xue_Long_2 "Xue Long 2").[^3]
+
+## Stations
+
+<table><tbody><tr><th colspan="4">Antarctic stations</th></tr><tr><th>Station</th><th>Location</th><th>Date of establishment</th><th>Accommodation</th></tr><tr><td><a href="https://en.wikipedia.org/wiki/Great_Wall_Station_(Antarctica)">Great Wall Station</a></td><td><a href="https://en.wikipedia.org/wiki/King_George_Island_(South_Shetland_Islands)">King George Island</a></td><td>20 February 1985 <sup><a href="#fn:4">4</a></sup></td><td>80 summer, 40 winter</td></tr><tr><td><a href="https://en.wikipedia.org/wiki/Zhongshan_Station_(Antarctica)">Zhongshan Station</a></td><td><a href="https://en.wikipedia.org/wiki/Larsemann_Hills">Larsemann Hills, Princess Elizabeth Land</a></td><td>26 January 1989 <sup><a href="#fn:5">5</a></sup></td><td>60 summer, 25 winter</td></tr><tr><td><a href="https://en.wikipedia.org/wiki/Kunlun_Station_(Antarctica)">Kunlun Station</a></td><td><a href="https://en.wikipedia.org/wiki/Dome_A">Dome Argus, Princess Elizabeth Land</a></td><td>27 January 2009</td><td>24 summer</td></tr><tr><td><a href="https://en.wikipedia.org/wiki/Taishan_Station_(Antarctica)">Taishan Station</a></td><td><a href="https://en.wikipedia.org/wiki/Princess_Elizabeth_Land">Princess Elizabeth Land</a></td><td>8 February 2014</td><td>20 summer</td></tr><tr><td><a href="https://en.wikipedia.org/wiki/Qinling_Station">Qinling Station</a> <sup><a href="#fn:6">6</a></sup> <sup><a href="#fn:7">7</a></sup> <sup><a href="#fn:8">8</a></sup></td><td><a href="https://en.wikipedia.org/wiki/Inexpressible_Island">Inexpressible Island, Ross Sea</a></td><td>7 February 2024</td><td>80 summer, 30 winter</td></tr><tr><th colspan="4">Arctic stations</th></tr><tr><th>Station</th><th>Location</th><th>Date of establishment</th><th>Accommodation</th></tr><tr><td><a href="https://en.wikipedia.org/wiki/Yellow_River_Station">Yellow River Station</a></td><td><a href="https://en.wikipedia.org/wiki/Ny-%C3%85lesund,_Svalbard">Ny-Ålesund, Svalbard</a>, <a href="https://en.wikipedia.org/wiki/Norway">Norway</a></td><td>28 July 2004 <sup><a href="#fn:9">9</a></sup></td><td><b>staffed</b>: December 11, 2003 through February 25, 2004</td></tr><tr><td><a href="https://en.wikipedia.org/wiki/China-Iceland_Arctic_Science_Observatory">China-Iceland Arctic Science Observatory</a> (CIAO)</td><td>Kárhóll, <a href="https://en.wikipedia.org/wiki/Iceland">Iceland</a></td><td>18 October 2018 <sup><a href="#fn:2">2</a></sup></td><td>10 (summer and winter) <sup><a href="#fn:2">2</a></sup></td></tr></tbody></table>
+
+## Polar Research
+
+The PRIC leads polar scientific research, develops polar exploration and observation technologies and equipment, and plans and leads international large-scale scientific programs through its research stations and expeditions.[^10] The institute contains teams which focus on areas including polar security and policy research, polar ice and climate change, polar atmosphere, space physics and astronomy.[^10]
+
+The PRIC is developing a comprehensive, multi-domain observation and detection system for use in polar environments.[^10]
+
+In 2014, Chinese researchers deployed the country's first ice-tethered [buoys](https://en.wikipedia.org/wiki/Buoy "Buoy") in the [Arctic Ocean](https://en.wikipedia.org/wiki/Arctic_Ocean "Arctic Ocean"), equipped with oceanographic sensors suspended along a line extending hundreds of meters through the water column, marking a significant step toward unmanned environmental monitoring.[^11] China's [Taiyuan University of Technology](https://en.wikipedia.org/wiki/Taiyuan_University_of_Technology "Taiyuan University of Technology") has developed acoustic detection buoys, sea ice multi-parameter buoys (IMB), sea ice melt pool observation buoys, unmanned sea ice stations, and sea ice temperature chain buoys, which have been successfully deployed at multiple locations in the Arctic Ocean during the PRIC's Arctic expeditions.[^12]
+
+While these environmental monitoring and detection systems support civilian oceanographic research, some observers of China's Arctic activities point out that underwater sensors can also serve [dual-use](https://en.wikipedia.org/wiki/Dual-use_technology "Dual-use technology") purposes.[^13] Underwater microphones can not only monitor scientific data but also detect and track [submarines](https://en.wikipedia.org/wiki/Submarine "Submarine"), ships, and explore seabed resources. These concerns are supported by a study of the buoy's test results in the Chinese Journal of Polar Research, which notes that "the acoustic information gathered by the planned large-scale listening network could have diverse applications, including subglacial communications, navigation and positioning, target detection, and the reconstruction of marine environmental parameters." [^11] In July 2023, the PRIC announced that it intended to deploy listening devices "on a large scale in the Arctic Ocean," having successfully field-tested the technology.[^14] Analysts have drawn parallels between China's current buoy network, ostensibly for "oceanographic surveys and acoustic modelling," and its activities in the [South China Sea](https://en.wikipedia.org/wiki/South_China_Sea "South China Sea"), where similar efforts were critical for the [PLA Navy](https://en.wikipedia.org/wiki/People%27s_Liberation_Army_Navy "People's Liberation Army Navy") 's operational effectiveness.[^15] The dual-use applications of scientific research reflect the Chinese doctrine of [military-civil fusion](https://en.wikipedia.org/wiki/Military%E2%80%93civil_fusion "Military–civil fusion"), the principle that the Chinese civilian and commercial sectors must serve the [Chinese Communist Party](https://en.wikipedia.org/wiki/Chinese_Communist_Party "Chinese Communist Party") (CCP)'s national security objectives.[^16]
+
+## International collaboration
+
+The institute is an active member of the [University of the Arctic](https://en.wikipedia.org/wiki/University_of_the_Arctic "University of the Arctic").[^17] UArctic is an international cooperative network based in the Circumpolar Arctic region, consisting of more than 200 universities, colleges, and other organizations with an interest in promoting education and research in the Arctic region.[^18] The PRIC and [University of Iceland](https://en.wikipedia.org/wiki/University_of_Iceland "University of Iceland") signed an agreement in 2012 to establish the [China-Iceland Arctic Observatory](https://en.wikipedia.org/wiki/China-Iceland_Arctic_Science_Observatory "China-Iceland Arctic Science Observatory") (CIAO), which officially opened in 2018. The PRIC also collaborates with institutions like the [Norwegian Polar Institute](https://en.wikipedia.org/wiki/Norwegian_Polar_Institute "Norwegian Polar Institute") and the [Alfred Wegner Institute](https://en.wikipedia.org/wiki/Alfred_Wegener_Institute_for_Polar_and_Marine_Research "Alfred Wegener Institute for Polar and Marine Research").[^19]
+
+[^3]: ["M/V Xuelong"](https://web.archive.org/web/20070928090251/http://www.pric.gov.cn/enindex.asp?sortid=18). Polar Research Institute of China. 2006. Archived from [the original](http://www.pric.gov.cn/enindex.asp?sortid=18) on 2007-09-28. Retrieved 2008-01-29.
+
+[^4]: ["Antarctic Great Wall Station"](https://web.archive.org/web/20100728131724/http://www.pric.gov.cn/enindex.asp?sortid=15). Polar Research Institute of China. 2006. Archived from [the original](http://www.pric.gov.cn/enindex.asp?sortid=15) on 2010-07-28. Retrieved 2008-01-29.
+
+[^5]: ["Antarctic Zhongshan Station"](https://web.archive.org/web/20100811092219/http://www.pric.gov.cn/enindex.asp?sortid=16). Polar Research Institute of China. 2006. Archived from [the original](http://www.pric.gov.cn/enindex.asp?sortid=16) on 2010-08-11. Retrieved 2008-01-29.
+
+[^6]: [China opens first Antarctic research station due south of Australia and New Zealand](https://www.abc.net.au/news/2024-02-08/china-opens-antarctic-station-south-of-australia-new-zealand/103441576) *[ABC News](https://en.wikipedia.org/wiki/ABC_News_\(Australia\) "ABC News (Australia)")*, 8 February 2024. Retrieved 8 February 2024.
+
+[^7]: [China's Qinling Station in Antarctica starts operation](https://english.news.cn/20240207/94743dd55a4c4970bc2c7be93eb5a31e/c.html) [Xinhua News Agency](https://en.wikipedia.org/wiki/Xinhua_News_Agency "Xinhua News Agency"), 7 February 2024. Retrieved 8 February 2024.
+
+[^8]: Zhao Lei, [China opens fifth Antarctic research station](https://asianews.network/china-opens-fifth-antarctic-research-station/) *[China Daily](https://en.wikipedia.org/wiki/China_Daily "China Daily")* via [Asia News Network](https://en.wikipedia.org/wiki/Asia_News_Network "Asia News Network"), 8 February 2024. Retrieved 8 February 2024.
+
+[^9]: ["Arctic Yellow River Station"](https://web.archive.org/web/20100728132844/http://www.pric.gov.cn/enindex.asp?sortid=17). Polar Research Institute of China. 2006. Archived from [the original](http://www.pric.gov.cn/enindex.asp?sortid=17) on 2010-07-28. Retrieved 2008-01-29.
+
+[^10]: ["Polar Research Institute of China"](https://en.pric.org.cn/). *en.pric.org.cn*. Retrieved 2026-04-22.
+
+[^11]: Pezard, Stephanie; Chindea, Irina A.; Aoki, Naoko; Lumpkin, Domenique; Shokh, Yuliya (2025-01-23). [China's Economic, Scientific, and Information Activities in the Arctic: Benign Activities or Hidden Agenda?](https://www.rand.org/pubs/research_reports/RRA2823-1.html) (Report).
+
+[^12]: CHENG, Xiao; FAN, Shuangshuang; ZHENG, Lei; ZHOU, Juanling (2022-07-20). ["Critical Technologies for Detection of Polar Environment"](https://bulletinofcas.researchcommons.org/journal/vol37/iss7/7). *Bulletin of Chinese Academy of Sciences (Chinese Version)*. **37** (7): 921–931. [doi](https://en.wikipedia.org/wiki/Doi_\(identifier\) "Doi (identifier)"):[10.16418/j.issn.1000-3045.20220626001](https://doi.org/10.16418%2Fj.issn.1000-3045.20220626001). [ISSN](https://en.wikipedia.org/wiki/ISSN_\(identifier\) "ISSN (identifier)") [1000-3045](https://search.worldcat.org/issn/1000-3045).
+
+[^13]: Kubny, Heiner. ["China deploying acoustic buoys in Arctic Ocean triggers concerns | Polar Journal"](https://polarjournal.net/china-deploying-acoustic-buoys-in-arctic-ocean-triggers-concerns/). *polarjournal.net*. Retrieved 2026-04-28.
+
+[^14]: ["Arctic acoustics? China plans large-scale listening network in the North Pole"](https://www.scmp.com/news/china/science/article/3226755/china-plans-massive-listening-programme-north-pole-after-declaring-success-arctic-test-underwater). *South China Morning Post*. 2023-07-09. Retrieved 2026-04-28.
+
+[^15]: Bermudez, Matthew P. Funaiole, Brian Hart, Joseph. ["Frozen Frontiers: China's Great Power Ambitions in the Polar Regions"](https://features.csis.org/hiddenreach/china-polar-research-facility). *features.csis.org*. Retrieved 2026-04-28.
+
+[^16]: ["Chinese culture and influence go hand in hand – GIS Reports"](https://www.gisreportsonline.com/r/china-arctic-culture/). 2025-04-03. Retrieved 2026-04-28.
+
+[^17]: ["Members"](https://www.uarctic.org/members/member-profiles/). *UArctic*. Retrieved 2025-03-06.
+
+[^18]: ["About Us"](https://www.uarctic.org/about-us/). *UArctic - University of the Arctic*. Retrieved 2025-03-06.
+
+[^19]: ["International cooperation in the Arctic"](https://npolar.no/en/themes/international-cooperation-in-the-arctic/). *npolar.no*. Retrieved 2026-04-22.

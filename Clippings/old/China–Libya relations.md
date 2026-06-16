@@ -1,0 +1,138 @@
+---
+title: "China–Libya relations"
+source: "https://en.wikipedia.org/wiki/China%E2%80%93Libya_relations"
+author:
+  - "[[Wikipedia]]"
+published: 2012-12-09
+created: 2026-06-14
+description:
+tags:
+  - "clippings"
+---
+**China–Libya relations** refer to the [bilateral relations](https://en.wikipedia.org/wiki/Bilateral_relation "Bilateral relation") between [China](https://en.wikipedia.org/wiki/China "China") and [Libya](https://en.wikipedia.org/wiki/Libya "Libya"). Topics encompassed by these relations include diplomatic, economic, and military relations; the presence of Chinese migrants in Libya; and Chinese investment in Libya. From 1951 through 1978, there was little bilateral cooperation between the two countries, but, in 1978, the Chinese and Libyan governments established formal diplomatic relations. This connection between the two countries was initially shaped by [Cold War](https://en.wikipedia.org/wiki/Cold_War "Cold War") -era tensions and the crisis in Libya during the [Arab Spring](https://en.wikipedia.org/wiki/Arab_Spring "Arab Spring") has further complicated the relationship between the two countries.
+
+## Diplomatic relations
+
+The first diplomatic encounter between China and Libya occurred at the [Bandung Conference](https://en.wikipedia.org/wiki/Bandung_Conference "Bandung Conference") in 1955. Sino-Libyan relations were minimal dating from Libya's independence in 1953 through 1969, when Libya was a monarchy under [King Idris](https://en.wikipedia.org/wiki/Idris_of_Libya "Idris of Libya"), as the kingdom had strong relations with the U.S., UK, and Italy.[^1]<sup><span title="Page / location: 67">: 67</span> </sup> Libya used these relationships with the U.S. and the UK to develop its existing oil reserves, expanding the market for Libya.[^2]
+
+When [Muammar Gaddafi](https://en.wikipedia.org/wiki/Muammar_Gaddafi "Muammar Gaddafi") became the leader of Libya in 1969, he sought to establish relations with the [USSR](https://en.wikipedia.org/wiki/Soviet_Union "Soviet Union") to relieve eroding relations with the United States. The development of Libya's relationship with the USSR occurred at the height of the [Sino-Soviet conflict](https://en.wikipedia.org/wiki/Sino-Soviet_split "Sino-Soviet split"), which diminished the likelihood of strong Sino-Libyan relations.[^1]<sup><span title="Page / location: 68">: 68</span></sup>
+
+A further deterrent to Sino-Libyan relations was that, prior to establishing relations with the People's Republic of China (PRC), Libya established diplomatic relations with [Taiwan](https://en.wikipedia.org/wiki/Taiwan "Taiwan") in 1959.[^3]<sup><span title="Page / location: 102">: 102</span> </sup> At that time, Taiwan was recognized by the [United Nations](https://en.wikipedia.org/wiki/United_Nations "United Nations") (UN) as the Republic of China (ROC).[^4]<sup><span title="Page / location: 72">: 72</span> </sup> This recognition shifted in 1971, when Libya voted in support of [United Nations General Assembly Resolution 2758](https://en.wikipedia.org/wiki/United_Nations_General_Assembly_Resolution_2758_\(XXVI\) "United Nations General Assembly Resolution 2758 (XXVI)"), which established the People's Republic of China as “the only legitimate representative of China to the United Nations.” [^4]<sup><span title="Page / location: 73">: 73</span> </sup> This vote by Libya to recognize China helped set the stage for official relations between the two countries, which were officially established on 9 August 1978.[^5]<sup><span title="Page: 348">: 348</span></sup>
+
+Relations between China and Libya have often been difficult,[^5]<sup><span title="Page: 23">: 23</span> </sup> as Gaddafi often criticized China. Despite this criticism, he visited China for the first and only time in 1982.[^3]<sup><span title="Page / location: 103">: 103</span> </sup> While he was there, he signed multiple agreements and created joint committees on trade, economic cooperation, science and technology, and construction. As a result of Gaddafi's stay in China, visits by senior representatives between the two countries became more frequent.[^1]<sup><span title="Page / location: 68">: 68</span></sup>
+
+In 2006, relations became strained when [Gaddafi](https://en.wikipedia.org/wiki/Muammar_Gaddafi "Muammar Gaddafi") hosted China's foreign minister in Libya to affirm Libya's agreement with the [One China Principle](https://en.wikipedia.org/wiki/One-China_Principle "One-China Principle"). At the same time, Gaddafi's son, [Saif al-Islam](https://en.wikipedia.org/wiki/Saif_al-Islam_Gaddafi "Saif al-Islam Gaddafi"), simultaneously met with Taiwanese President [Chen Shui-bian](https://en.wikipedia.org/wiki/Chen_Shui-bian "Chen Shui-bian") in Taipei and invited him to Libya in an effort to build ties.[^5]<sup><span title="Page: 23">: 23</span> </sup> This meeting occurred a few months later and China perceived this visit by Chen Shui-bian as a deviation from the United Nations General Assembly Resolution 2758 of 1971, as China worried that Libya would change its stance on China's ownership of Taiwan. Investment and communication still continued between the two nations, but this incident altered Chinese perception of Libya.[^2]
+
+Following the outbreak of [fighting in Libya](https://en.wikipedia.org/wiki/Libyan_civil_war_\(2011\) "Libyan civil war (2011)") in February 2011, [President Obama](https://en.wikipedia.org/wiki/Barack_Obama "Barack Obama") imposed sanctions against Gaddafi, a move which prompted no opposition or protest from China. Furthermore, China voted in favor of [United Nations Security Council Resolution 1970](https://en.wikipedia.org/wiki/United_Nations_Security_Council_Resolution_1970 "United Nations Security Council Resolution 1970"), which banned the provision of weapons to the Gaddafi regime.[^6]<sup><span title="Page / location: 81">: 81</span></sup>
+
+In March 2011, pressure from the [African Union](https://en.wikipedia.org/wiki/African_Union "African Union") and the [Arab League](https://en.wikipedia.org/wiki/Arab_League "Arab League") prompted China to support an arms embargo, travel ban, and asset freeze and to abstain from voting on [United Nations Security Council Resolution 1973](https://en.wikipedia.org/wiki/United_Nations_Security_Council_Resolution_1973 "United Nations Security Council Resolution 1973"), which established a no-fly zone.[^5]<sup><span title="Page: 338">: 338</span> </sup> China's abstention on this resolution was also partly due to concern over Chinese investment in the region. China later expressed displeasure at how Resolution 1973 was executed, stating that they did not foresee that [NATO](https://en.wikipedia.org/wiki/NATO "NATO") would use such extreme military power against Gaddafi.[^6]<sup><span title="Page / location: 81–82">: 81–82</span> </sup> China was concerned about a new precedent of NATO intervention that lacked respect for sovereign nations.[^7]<sup><span title="Page: 2">: 2</span></sup>
+
+While the fighting was ongoing in 2011, China attempted to maintain relations with the Gaddafi regime while also forming a relationship with the opposition's political body, the [National Transitional Council](https://en.wikipedia.org/wiki/National_Transitional_Council "National Transitional Council") (NTC). Chinese Foreign Minister [Yang Jeichi](https://en.wikipedia.org/wiki/Yang_Jiechi "Yang Jiechi") met with [Mahmoud Jabril](https://en.wikipedia.org/wiki/Mahmoud_Jibril "Mahmoud Jibril"), the chairman of the executive board of NTC, in June 2011 [^8] along with [Abdelati Obeidi](https://en.wikipedia.org/wiki/Abdul_Ati_al-Obeidi "Abdul Ati al-Obeidi"), a representative from the Libyan government. China was interested in mediating peaceful conversations between the two sides of the Libyan conflict due to Chinese concern about economic investment in Libya.[^9]<sup><span title="Page: 170">: 170</span></sup>
+
+With the beginning of a [second Libyan civil war](https://en.wikipedia.org/wiki/Libyan_civil_war_\(2014%E2%80%932020\) "Libyan civil war (2014–2020)") in 2014, China was again forced to navigate relationships with different political groups vying for power. In 2015, the [Government of National Accord](https://en.wikipedia.org/wiki/Government_of_National_Accord "Government of National Accord") (GNA) became the Libyan political authority officially recognized by the UN after negotiations that China supported. China officially recognized the GNA, which allowed for multiple meetings between Chinese diplomats and representatives of the GNA that occurred between 2016 and 2020. At one of these meetings, in 2018, [Mohamed Taha Siala](https://en.wikipedia.org/wiki/Mohamed_Taha_Siala "Mohamed Taha Siala"), the GNA Minister for Foreign Affairs, was an attendee at the [Forum on China-Africa Cooperation](https://en.wikipedia.org/wiki/Forum_on_China%E2%80%93Africa_Cooperation "Forum on China–Africa Cooperation") (FOCAC). During this event, Siala met with Wang Yi, Chinese State Councilor and Foreign Minister. Siala and Yi signed a memorandum of understanding, agreeing to collaborate on bringing [China's Belt and Road Initiative](https://en.wikipedia.org/wiki/Belt_and_Road_Initiative "Belt and Road Initiative") (BRI) to Libya.[^8] While supporting the GNA, China also maintained economic ties with the [Libyan National Army](https://en.wikipedia.org/wiki/Libyan_National_Army "Libyan National Army") (LNA).[^10]<sup><span title="Pages: 160–161">: 160–161</span></sup>
+
+## Economic relations
+
+During the 1980s and 1990s, economic relations between China and Libya began to develop with a primary focus on the oil industry.[^10]<sup><span title="Page: 158">: 158</span></sup>
+
+Chinese President [Jiang Zemin](https://en.wikipedia.org/wiki/Jiang_Zemin "Jiang Zemin") ’s diplomatic visit to Libya in 2002 helped spur Chinese investment in Libya.[^9]<sup><span title="Page: 167">: 167</span> </sup> This visit paved the way for Libya to sign a trade agreement that opened Libyan land and oil for Chinese firms. China enthusiastically entered into the Libyan oil market, headed by the [China Petroleum Pipeline](https://en.wikipedia.org/wiki/China_Petroleum_Pipeline_Engineering "China Petroleum Pipeline Engineering").[^9]<sup><span title="Page: 167">: 167</span> </sup> Along with freeing the Libyan oil market to Chinese investment, a Chinese corporation secured a Libyan railroad contract for up to $40 million.[^9]<sup><span title="Page: 167">: 167</span></sup>
+
+In 2008, China received 4.8% of Libya's oil exports. This percentage peaked at 13% in 2011, before the outbreak of fighting in Libya. While China was a major buyer of Libyan oil, Libya was not one of China's main oil suppliers. In 2010, China imported 3% of its [crude oil](https://en.wikipedia.org/wiki/Petroleum "Petroleum") from Libya and this number was reduced to 1% by September 2011.[^3]<sup><span title="Page / location: 107">: 107</span></sup>
+
+In 2009, China's imports from Libya increased 22.6% and were valued at US$3.17 billion. Also in 2009, Libya was the recipient of one of the biggest projects signed with a Chinese company in Africa. The project was the Surt-Tripoli section, which was valued at US$24.2 billion.[^3]<sup><span title="Page / location: 110">: 110</span></sup>
+
+When the conflict started in Libya in February 2011, there were at least 75 Chinese private and state-owned firms in Libya.[^3]<sup><span title="Page / location: 109">: 109</span> </sup> These firms were mainly supporting and investing in telecommunications and construction projects.[^3]<sup><span title="Page / location: 110">: 110</span></sup>
+
+The 2011 Libyan crisis negatively impacted Chinese projects in Africa, as many work sites were looted and damaged, and personnel were threatened, causing some Chinese companies to let go of their project sites.[^3]<sup><span title="Page / location: 112">: 112</span> </sup> While 35,860 Chinese workers were ultimately evacuated during the Arab Spring, China still monitored the situation in Libya and the rest of the [Middle East and North Africa](https://en.wikipedia.org/wiki/Middle_East_and_North_Africa "Middle East and North Africa") closely due to their continued interest in Libyan oil reserves.[^2]
+
+In the first 8 months of 2012, Libya was China's 5th largest trading partner in Africa.[^11]
+
+In 2017, China became the largest importer of oil in the entire world. With 43% percent of these oil imports coming from the Middle East and North Africa region, China has expressed interest in establishing more contracts in this region to fortify the country's energy imports.[^12]<sup><span title="Page: 65">: 65</span></sup>
+
+## Political relations
+
+Libya follows the [one China principle](https://en.wikipedia.org/wiki/One_China_principle "One China principle"). It recognizes the People's Republic of China as the sole government of China and [Taiwan](https://en.wikipedia.org/wiki/Taiwan "Taiwan") as an integral part of China's territory, and supports all efforts by the PRC to "achieve [national reunification](https://en.wikipedia.org/wiki/Chinese_unification "Chinese unification") ". It also considers [Hong Kong](https://en.wikipedia.org/wiki/Hong_Kong "Hong Kong"), [Xinjiang](https://en.wikipedia.org/wiki/Xinjiang "Xinjiang") and [Tibet](https://en.wikipedia.org/wiki/Tibet_Autonomous_Region "Tibet Autonomous Region") to be China's internal affairs.[^13]
+
+## Military relations
+
+In 1970, Gaddafi and his [Prime Minister](https://en.wikipedia.org/wiki/Prime_Minister_of_Libya "Prime Minister of Libya") [Abdessalam Jalloud](https://en.wikipedia.org/wiki/Abdessalam_Jalloud "Abdessalam Jalloud") made an unsuccessful attempt to convince China to sell tactical nuclear weapons to Libya.[^14] In a bilateral meeting with [Chinese](https://en.wikipedia.org/wiki/People%27s_Republic_of_China "People's Republic of China") [Premier](https://en.wikipedia.org/wiki/Premier_of_the_People%27s_Republic_of_China "Premier of the People's Republic of China") [Zhou Enlai](https://en.wikipedia.org/wiki/Zhou_Enlai "Zhou Enlai"), Gaddafi unsuccessfully attempted to convince Zhou to sell him a nuclear bomb.[^15] Investigators have found that nuclear weapons designs obtained by Libya through a Pakistani smuggling network originated in China.[^16] [^17]
+
+Libya used its relationship with China in 1978 as leverage in Libya's relationship with the USSR. During the height of Sino-Soviet conflict, potential growing Chinese involvement in North Africa and the Middle East helped persuade the USSR to supply Libya with missiles, submarines, and other forms of military equipment. Between 1980 and 1985, however, China equipped Libya with approximately $320 million worth of military equipment, reigniting Chinese interest in the Middle East and North Africa.[^2]<sup><span title="Page: 12">: 12</span></sup>
+
+On 5 September 2012, Libyan [NTC](https://en.wikipedia.org/wiki/National_Transitional_Council "National Transitional Council") spokesman Abdulrahman Busin said the NTC had hard evidence that Gaddafi bought arms from China.[^18] [^19] Chinese Foreign Ministry spokeswoman [Jiang Yu](https://en.wikipedia.org/wiki/Jiang_Yu "Jiang Yu") has confirmed arms sales talks with Gaddafi forces, but no arms were delivered.[^20] [^21] [^22]
+
+## Chinese migrants in Libya
+
+After China and Libya established diplomatic relations in 1978, a number of Chinese migrants moved to Libya. These migrants often came because of agreements between the two countries that produced jobs in the areas of medicine, economics, culture, and agriculture. Chinese construction companies’ work in Libya was an additional reason for the inflow of Chinese migrants.[^4]<sup><span title="Page / location: 73">: 73</span></sup>
+
+The presence of Chinese migrants in Libya has ebbed and flowed since 1978, which is partly due to UN [sanctions](https://en.wikipedia.org/wiki/Sanctions_\(law\) "Sanctions (law)") imposed on Libya in 1992, which negatively impacted the economy. These sanctions were lifted in 2003, at which point some Chinese entrepreneurs and traders wanted to participate in the Libyan economic market.[^4]<sup><span title="Page / location: 73">: 73</span></sup>
+
+Chinese migration to Libya increased again in 2007 as a result of lifting sanctions and contracts between China and Libya.[^4]<sup><span title="Page / location: 84">: 84</span> </sup> These migrants generally fell into four categories: temporary laborers, [white-collar workers](https://en.wikipedia.org/wiki/White-collar_worker "White-collar worker"), private [entrepreneurs](https://en.wikipedia.org/wiki/Entrepreneurship "Entrepreneurship"), and [Muslim](https://en.wikipedia.org/wiki/Muslims "Muslims") students.[^4]<sup><span title="Page / location: 77">: 77</span></sup>
+
+Temporary laborers worked on infrastructure projects and their contracts often lasted for two years. White-collar staff often stayed in Libya for three months to a year, and then returned to China. Examples of white-collar occupations include managers, translators, secretaries, accounts, and engineers.[^4]<sup><span title="Page / location: 77–78">: 77–78</span> </sup> Laborers and white-collar workers were often male. The Chinese women who did migrate to Libya often worked as accountants, interpreters, or secretaries.[^4]<sup><span title="Page / location: 81">: 81</span></sup>
+
+Private Chinese entrepreneurs made up a small proportion of the Chinese migrants. Their work was made possible by the presence of other Chinese migrants, as these entrepreneurs created businesses such as Chinese restaurants and Chinese food workshops that catered to the desires of other Chinese migrants.[^4]<sup><span title="Page / location: 78">: 78</span></sup>
+
+The Chinese government began sending Muslim students to the World Islamic Call Society in [Tripoli](https://en.wikipedia.org/wiki/Tripoli,_Libya "Tripoli, Libya") in the 1980s to allow these students to participate in [Qur’anic studies](https://en.wikipedia.org/wiki/Quranic_studies "Quranic studies"). The number of students who were sent was small, approximately a few dozen each year. Many of these students chose to work as translators for Chinese companies in Libya.[^4]<sup><span title="Page / location: 77–78">: 77–78</span></sup>
+
+Chinese migrants often lived in compounds with each other that were near the project sites where they worked. In the time migrants were not working, they still remained on the compounds, so there was often little interaction between Chinese migrants and the local Libyan population. Chinese companies also sought to “provide as Chinese an environment as possible,” meaning that they brought Chinese cooks and Chinese translators to further minimize the engagement that migrants had with Libyan culture.[^4]<sup><span title="Page / location: 82">: 82</span></sup>
+
+Although their interaction with Libyan society on an interpersonal level was minimal, Chinese migrants influenced the Libyan economy, especially the retail sector. White-collar Chinese employees purchased luxury goods, including perfume, watches, and branded clothing, as the price of these goods was lower in Libya than it was in China.[^4]<sup><span title="Page / location: 82">: 82</span></sup>
+
+As a result of the 2011 uprising in Libya, China evacuated over 30,000 people, greatly reducing the population of Chinese in Libya.[^4]<sup><span title="Page / location: 69">: 69</span></sup>
+
+## Chinese development finance to Libya
+
+From 2000 to 2012, there were 3 Chinese official development finance projects identified in Libya through various media reports.[^23] Three batches of humanitarian aid goods were delivered in 2011,[^24] an MOU of investment cooperation in the fields of transportation, farming, irrigation, fishing and the textiles,[^25] and a US$300 million low-interest loan to the LAP Green Network, a Libyan telecom firm in 2009.[^26]
+
+[^1]: Olimat, Muhamad (2014). *China and North Africa since World War II: A Bilateral Approach*. Lexington Books/Fortress Academic. pp. 67–86. [ISBN](https://en.wikipedia.org/wiki/ISBN_\(identifier\) "ISBN (identifier)") [9781498504294](https://en.wikipedia.org/wiki/Special:BookSources/9781498504294 "Special:BookSources/9781498504294").
+
+[^2]: Ronen, Yehudit (2014). "Libya's Relations With China: Convergence and Conflict". *Maghreb Review*. **39** (1): 3–18. [doi](https://en.wikipedia.org/wiki/Doi_\(identifier\) "Doi (identifier)"):[10.1353/tmr.2014.0024](https://doi.org/10.1353%2Ftmr.2014.0024).
+
+[^3]: Hodzi, Obert (2018). *The End of China's Non-Intervention Policy in Africa*. Palgrave Macmillan Cham. [ISBN](https://en.wikipedia.org/wiki/ISBN_\(identifier\) "ISBN (identifier)") [978-3-319-97348-7](https://en.wikipedia.org/wiki/Special:BookSources/978-3-319-97348-7 "Special:BookSources/978-3-319-97348-7").
+
+[^4]: Wang, Jie; Stenberg, Josh (2014). ["Localizing Chinese migrants in Africa: A study of the Chinese in Libya before the Civil War"](https://journals.sagepub.com/doi/10.1177/0920203X13505080). *China Information*. **28** (1): 69–91. [doi](https://en.wikipedia.org/wiki/Doi_\(identifier\) "Doi (identifier)"):[10.1177/0920203X13505080](https://doi.org/10.1177%2F0920203X13505080). [ISSN](https://en.wikipedia.org/wiki/ISSN_\(identifier\) "ISSN (identifier)") [0920-203X](https://search.worldcat.org/issn/0920-203X).
+
+[^5]: [Shinn, David H.](https://en.wikipedia.org/wiki/David_H._Shinn "David H. Shinn"); Eisenman, Joshua (2023). *China's Relations with Africa: a New Era of Strategic Engagement*. New York: [Columbia University Press](https://en.wikipedia.org/wiki/Columbia_University_Press "Columbia University Press"). [ISBN](https://en.wikipedia.org/wiki/ISBN_\(identifier\) "ISBN (identifier)") [978-0-231-21001-0](https://en.wikipedia.org/wiki/Special:BookSources/978-0-231-21001-0 "Special:BookSources/978-0-231-21001-0").
+
+[^6]: Evron, Yoram (2013). ["Chinese involvement in the Middle East: the Libyan and Syrian crises"](https://www.researchgate.net/publication/272789807). *Strategic Assessment*. **16** (3): 79–91.
+
+[^7]: Larsen, Henrik Boesen Lindbo (2011). [Libya: Beyond Regime Change](http://www.jstor.org/stable/resrep13191) (Report). Danish Institute for International Studies.
+
+[^8]: Alkoutami, Sandy; Wehrey, Frederic (May 10, 2020). ["China's Balancing Act in Libya"](https://www.lawfaremedia.org/article/chinas-balancing-act-libya). *Lawfare*.
+
+[^9]: Ren, Mu (2021). [*Beyond Rigidity*](https://link.springer.com/book/10.1007/978-981-33-4623-9). [doi](https://en.wikipedia.org/wiki/Doi_\(identifier\) "Doi (identifier)"):[10.1007/978-981-33-4623-9](https://doi.org/10.1007%2F978-981-33-4623-9). [ISBN](https://en.wikipedia.org/wiki/ISBN_\(identifier\) "ISBN (identifier)") [978-981-33-4622-2](https://en.wikipedia.org/wiki/Special:BookSources/978-981-33-4622-2 "Special:BookSources/978-981-33-4622-2").
+
+[^10]: Zhang, Chuchu (2025). *China's Changing Role in the Middle East: Filling a Power Vacuum?*. Changing Dynamics in Asia-Middle East Relations series. Abingdon, Oxon; New York, NY: [Routledge](https://en.wikipedia.org/wiki/Routledge "Routledge"). [ISBN](https://en.wikipedia.org/wiki/ISBN_\(identifier\) "ISBN (identifier)") [978-1-032-76275-3](https://en.wikipedia.org/wiki/Special:BookSources/978-1-032-76275-3 "Special:BookSources/978-1-032-76275-3").
+
+[^11]: ["Mozambique-China Trade Continues to Grow"](http://allafrica.com/stories/201212090143.html). *allafrica.com*. 2012-12-09. Retrieved 2012-12-09.
+
+[^12]: Bencivelli, Lorenzo; Tonelli, Flavia (2020). ["China's International Projection in the Xi Jinping Era"](https://link.springer.com/book/10.1007/978-3-030-54212-2). *SpringerBriefs in Economics*. [doi](https://en.wikipedia.org/wiki/Doi_\(identifier\) "Doi (identifier)"):[10.1007/978-3-030-54212-2](https://doi.org/10.1007%2F978-3-030-54212-2). [ISBN](https://en.wikipedia.org/wiki/ISBN_\(identifier\) "ISBN (identifier)") [978-3-030-54211-5](https://en.wikipedia.org/wiki/Special:BookSources/978-3-030-54211-5 "Special:BookSources/978-3-030-54211-5"). [ISSN](https://en.wikipedia.org/wiki/ISSN_\(identifier\) "ISSN (identifier)") [2191-5504](https://search.worldcat.org/issn/2191-5504).
+
+[^13]: ["Five One-Chinas: The contest to define Taiwan"](https://interactives.lowyinstitute.org/features/one-china-contest-to-define-taiwan/). *[Lowy Institute](https://en.wikipedia.org/wiki/Lowy_Institute "Lowy Institute")*. Retrieved 2025-11-15.
+
+[^14]: The Risk Report Volume 1 Number 10 (December 1995) Page 1, 3-4. ["Libya Has Trouble Building the Most Deadly Weapons"](https://web.archive.org/web/20130420212851/http://www.wisconsinproject.org/countries/libya/trouble.html). *The Risk Report Volume 1 Number 10 (December 1995) Page 1, 3-4*. Wisconsin Project reports. Archived from [the original](http://www.wisconsinproject.org/countries/libya/trouble.html) on 20 April 2013. Retrieved 24 April 2013.
+
+[^15]: [Nazi, Nazir Naji](https://en.wikipedia.org/wiki/Nazeer_Naji "Nazeer Naji") (2010). "Colonel Gaddafi's Libya and his Nuclear ambitions". Nazir Nazi and Jang Group of Media.
+
+[^16]: ["Libyan Arms Designs Traced Back to China"](https://www.washingtonpost.com/archive/politics/2004/02/15/libyan-arms-designs-traced-back-to-china/2aacac24-4d49-4198-9aa0-7d68962fd8c2/). *[The Washington Post](https://en.wikipedia.org/wiki/The_Washington_Post "The Washington Post")*. 2004-02-15. Retrieved 2020-01-01.
+
+[^17]: ["China 'link' to Libya nuke design"](http://news.bbc.co.uk/2/hi/middle_east/3491329.stm). [BBC](https://en.wikipedia.org/wiki/BBC "BBC"). 2004-02-16. Retrieved 2020-01-02.
+
+[^18]: ["China denies report, says it did not sell weapons to Libya"](https://web.archive.org/web/20110905155836/http://edition.cnn.com/2011/WORLD/africa/09/05/libya.war/index.html). [CNN](https://en.wikipedia.org/wiki/CNN "CNN"). 2011-09-06. Archived from [the original](http://edition.cnn.com/2011/WORLD/africa/09/05/libya.war/index.html) on September 5, 2011. Retrieved 2020-01-02.
+
+[^19]: ["China Sought to Sell Arms to Qaddafi, Documents Suggest"](https://www.nytimes.com/2011/09/05/world/africa/05libya.html). *[The New York Times](https://en.wikipedia.org/wiki/The_New_York_Times "The New York Times")*. 2011-09-05. Retrieved 2020-01-02.
+
+[^20]: ["China confirms Libya arms sale talks"](https://www.ft.com/content/77a3e566-d7bb-11e0-a06b-00144feabdc0). [Financial Times](https://en.wikipedia.org/wiki/Financial_Times "Financial Times"). 2011-09-26. Retrieved 2020-01-02.
+
+[^21]: ["Libyans say China, Europe sent arms to Gaddafi"](https://www.reuters.com/article/us-libya-china/libyans-say-china-europe-sent-arms-to-gaddafi-idUSTRE7840A920110905). [Reuters](https://en.wikipedia.org/wiki/Reuters "Reuters"). 2011-09-06. Retrieved 2020-01-02.
+
+[^22]: ["Did China Sell Arms to Libya?"](https://thediplomat.com/2011/09/did-china-sell-arms-to-libya/). [The Diplomat](https://en.wikipedia.org/wiki/The_Diplomat_\(magazine\) "The Diplomat (magazine)"). 2011-09-06. Retrieved 2020-01-02.
+
+[^23]: ["Tracking Chinese Development Finance"](http://china.aiddata.org/). china.aiddata.org.
+
+[^24]: ["Strange, Parks, Tierney, Fuchs, Dreher, and Ramachandran, China's Development Finance to Africa: A Media-Based Approach to Data Collection"](http://aiddatachina.org/projects/24426). Retrieved 2013-07-08.
+
+[^25]: ["Strange, Parks, Tierney, Fuchs, Dreher, and Ramachandran, China's Development Finance to Africa: A Media-Based Approach to Data Collection"](http://aiddatachina.org/projects/1638). Retrieved 2013-07-08.
+
+[^26]: ["Strange, Parks, Tierney, Fuchs, Dreher, and Ramachandran, China's Development Finance to Africa: A Media-Based Approach to Data Collection"](http://aiddatachina.org/projects/14267). Retrieved 2013-07-08.

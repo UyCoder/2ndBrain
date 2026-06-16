@@ -175,18 +175,75 @@
         }
 
         /* يانفونلار ئۈچۈن ماسلىشىشچانلىق */
+        .menu-btn {
+            display: none;
+        }
+        .overlay {
+            display: none;
+        }
         @media (max-width: 768px) {
-            body { flex-direction: column; }
-            .sidebar { width: 100%; height: 35vh; border-left: none; border-bottom: 1px solid var(--border); box-shadow: none;}
-            .main-content { padding: 15px; height: 65vh; }
-            .markdown-body { padding: 25px; font-size: 1.15rem; margin: 0 auto; border-radius: 12px;}
+            body { flex-direction: row; }
+            .sidebar { 
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 280px; 
+                height: 100vh; 
+                transform: translateX(-100%);
+                transition: transform 0.3s ease;
+                z-index: 1000;
+                border-left: none;
+                border-right: 1px solid var(--border);
+                box-shadow: 4px 0 15px rgba(0,0,0,0.1);
+            }
+            .sidebar.open {
+                transform: translateX(0);
+            }
+            .main-content { padding: 15px; height: 100vh; width: 100%; }
+            .markdown-body { padding: 25px; font-size: 1.15rem; margin: 0 auto; border-radius: 12px; margin-top: 50px;}
+            
+            .menu-btn {
+                display: block;
+                position: absolute;
+                top: 15px;
+                right: 20px;
+                background-color: var(--primary);
+                color: white;
+                border: none;
+                padding: 10px 15px;
+                border-radius: 8px;
+                font-size: 1.1rem;
+                cursor: pointer;
+                z-index: 900;
+                box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+                font-family: inherit;
+            }
+            .overlay {
+                display: none;
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(0,0,0,0.4);
+                z-index: 999;
+                opacity: 0;
+                transition: opacity 0.3s ease;
+            }
+            .overlay.open {
+                display: block;
+                opacity: 1;
+            }
         }
     </style>
 </head>
 <body>
 
+    <!-- overlay -->
+    <div class="overlay" id="overlay"></div>
+
     <!-- تىزىملىك رايونى -->
-    <div class="sidebar">
+    <div class="sidebar" id="sidebar">
         <div class="sidebar-header">
             ۋىكى مۇندەرىجىسى
         </div>
@@ -197,6 +254,7 @@
 
     <!-- ئاساسىي كۆرسىتىش رايونى -->
     <div class="main-content" id="mainContentScroll">
+        <button id="menuBtn" class="menu-btn">☰ مۇندەرىجە</button>
         <div class="markdown-body" id="contentArea">
             <div class="loader">سول تەرەپتىن بىر ماقالە تاللاڭ...</div>
         </div>
@@ -209,6 +267,55 @@
         const articleListEl = document.getElementById('articleList');
         const contentAreaEl = document.getElementById('contentArea');
         const mainContentScroll = document.getElementById('mainContentScroll');
+        const sidebar = document.getElementById('sidebar');
+        const overlay = document.getElementById('overlay');
+        const menuBtn = document.getElementById('menuBtn');
+
+        // يانفوندا تىزىملىكنى ئېچىش / تاقاش
+        function toggleSidebar() {
+            sidebar.classList.toggle('open');
+            overlay.classList.toggle('open');
+        }
+
+        if (menuBtn) {
+            menuBtn.addEventListener('click', toggleSidebar);
+        }
+        if (overlay) {
+            overlay.addEventListener('click', () => {
+                sidebar.classList.remove('open');
+                overlay.classList.remove('open');
+            });
+        }
+
+        // سىيرىش (Swipe) ئارقىلىق ئېچىش ۋە تاقاش
+        let touchStartX = 0;
+        let touchEndX = 0;
+
+        document.addEventListener('touchstart', e => {
+            touchStartX = e.changedTouches[0].screenX;
+        }, {passive: true});
+
+        document.addEventListener('touchend', e => {
+            touchEndX = e.changedTouches[0].screenX;
+            handleSwipe();
+        }, {passive: true});
+
+        function handleSwipe() {
+            const SWIPE_THRESHOLD = 50; 
+            // ئوڭغا سىيرىسا ئېچىلىدۇ (سولدىن ئوڭغا)
+            if (touchEndX - touchStartX > SWIPE_THRESHOLD) {
+                // پەقەت ئېكراننىڭ سول چېتىگە يېقىن يەردىن سىيرىسا ئاندىن ئېچىلىدۇ
+                if (touchStartX < 50) {
+                    sidebar.classList.add('open');
+                    overlay.classList.add('open');
+                }
+            }
+            // سولغا سىيرىسا تاقىلىدۇ (ئوڭدىن سولغا)
+            if (touchStartX - touchEndX > SWIPE_THRESHOLD) {
+                sidebar.classList.remove('open');
+                overlay.classList.remove('open');
+            }
+        }
 
         async function fetchFileList() {
             try {
@@ -258,6 +365,12 @@
             if(clickedElement) {
                 document.querySelectorAll('.article-list li').forEach(el => el.classList.remove('active'));
                 clickedElement.classList.add('active');
+            }
+
+            // يانفوندا ماقالە تاللانغاندىن كېيىن تىزىملىكنى تاقاش
+            if (window.innerWidth <= 768 && sidebar) {
+                sidebar.classList.remove('open');
+                if(overlay) overlay.classList.remove('open');
             }
 
             contentAreaEl.innerHTML = `<div class="loader">ئۇچۇرلار ئېلىنىۋاتىدۇ...</div>`;
