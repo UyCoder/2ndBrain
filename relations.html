@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UyCoder بىلىم ئامبىرى</title>
+    <title>خىتاي تاشقى مۇناسىۋىتى</title>
     <!-- Markdown نى HTML گە ئايلاندۇرغۇچ قورال -->
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <style>
@@ -109,6 +109,32 @@
             scroll-behavior: smooth;
         }
 
+        .top-bar {
+            max-width: 850px;
+            margin: 0 auto 20px auto;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .lang-btn {
+            background-color: #10b981;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            cursor: pointer;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            font-family: inherit;
+        }
+
+        .lang-btn:hover {
+            background-color: #059669;
+            transform: translateY(-2px);
+        }
+
         /* ئاق قەغەز (ماقالە ئوقۇش گەۋدىسى) */
         .markdown-body {
             background-color: var(--surface);
@@ -117,7 +143,7 @@
             box-shadow: 0 10px 40px rgba(0,0,0,0.06); 
             max-width: 850px;
             margin: 0 auto; 
-            min-height: calc(100% - 120px); 
+            min-height: calc(100% - 160px); 
             line-height: 1.7;
             font-size: 1.25rem;
             text-align: justify;
@@ -247,8 +273,19 @@
                 text-align: center;
                 flex: 1;
             }
-            .markdown-body { padding: 25px; font-size: 1.15rem; margin: 0 auto; border-radius: 12px; margin-top: 0;}
+            .markdown-body { padding: 25px; font-size: 1.15rem; margin: 0 auto; border-radius: 12px;}
             
+            .top-bar {
+                margin-top: 10px;
+                margin-bottom: 10px;
+                justify-content: flex-end;
+            }
+
+            .lang-btn {
+                padding: 8px 16px;
+                font-size: 1rem;
+            }
+
             .menu-btn {
                 display: block;
                 position: absolute;
@@ -293,7 +330,7 @@
     <div class="sidebar" id="sidebar">
         <div class="sidebar-header">
             <img src="https://raw.githubusercontent.com/UyCoder/paydilar/master/Biliklogo.png" alt="Bilik Logo" class="sidebar-logo">
-            ۋىكى مۇندەرىجىسى
+            مۇناسىۋەتلەر
         </div>
         <ul class="article-list" id="articleList">
             <li class="loader" style="margin-top: 50px;">يۈكلىنىۋاتىدۇ...</li>
@@ -305,18 +342,23 @@
         <button id="menuBtn" class="menu-btn">☰ مۇندەرىجە</button>
         
         <div class="navbar">
-            <a href="index.html" class="nav-link active">ۋىكى ئامبىرى</a>
-            <a href="relations.html" class="nav-link">خىتاي مۇناسىۋەتلىرى</a>
+            <a href="index.html" class="nav-link">ۋىكى ئامبىرى</a>
+            <a href="relations.html" class="nav-link active">خىتاي مۇناسىۋەتلىرى</a>
+        </div>
+
+        <div class="top-bar">
+            <button id="langToggleBtn" class="lang-btn">ئىنگلىزچىسى</button>
         </div>
 
         <div class="markdown-body" id="contentArea">
-            <div class="loader">سول تەرەپتىن بىر ماقالە تاللاڭ...</div>
+            <div class="loader">سول تەرەپتىن بىر دۆلەت تاللاڭ...</div>
         </div>
     </div>
 
     <script>
-        const GITHUB_API_URL = "https://api.github.com/repos/UyCoder/2ndBrain/contents/wiki";
-        const RAW_BASE_URL = "https://raw.githubusercontent.com/UyCoder/2ndBrain/master/wiki/";
+        const GITHUB_API_URL = "https://api.github.com/repos/UyCoder/2ndBrain/contents/ChinaRelations-ug";
+        const RAW_BASE_URL_UG = "https://raw.githubusercontent.com/UyCoder/2ndBrain/master/ChinaRelations-ug/";
+        const RAW_BASE_URL_EN = "https://raw.githubusercontent.com/UyCoder/2ndBrain/master/ChinaRelations/";
 
         const articleListEl = document.getElementById('articleList');
         const contentAreaEl = document.getElementById('contentArea');
@@ -324,6 +366,11 @@
         const sidebar = document.getElementById('sidebar');
         const overlay = document.getElementById('overlay');
         const menuBtn = document.getElementById('menuBtn');
+        const langToggleBtn = document.getElementById('langToggleBtn');
+
+        let currentFile = "";
+        let currentLang = "ug"; // ug or en
+        let currentActiveElement = null;
 
         // يانفوندا تىزىملىكنى ئېچىش / تاقاش
         function toggleSidebar() {
@@ -358,7 +405,6 @@
             const SWIPE_THRESHOLD = 50; 
             // ئوڭغا سىيرىسا ئېچىلىدۇ (سولدىن ئوڭغا)
             if (touchEndX - touchStartX > SWIPE_THRESHOLD) {
-                // پەقەت ئېكراننىڭ سول چېتىگە يېقىن يەردىن سىيرىسا ئاندىن ئېچىلىدۇ
                 if (touchStartX < 50) {
                     sidebar.classList.add('open');
                     overlay.classList.add('open');
@@ -371,6 +417,22 @@
             }
         }
 
+        // تىل ئالماشتۇرۇش كۇنۇپكىسى
+        langToggleBtn.addEventListener('click', () => {
+            if (currentLang === "ug") {
+                currentLang = "en";
+                langToggleBtn.textContent = "ئۇيغۇرچىسى";
+                langToggleBtn.style.backgroundColor = "#0284c7"; // كۆك
+            } else {
+                currentLang = "ug";
+                langToggleBtn.textContent = "ئىنگلىزچىسى";
+                langToggleBtn.style.backgroundColor = "#10b981"; // يېشىل
+            }
+            if (currentFile) {
+                loadArticle(currentFile, currentActiveElement, true);
+            }
+        });
+
         async function fetchFileList() {
             try {
                 const response = await fetch(GITHUB_API_URL);
@@ -382,7 +444,7 @@
                 renderList(mdFiles);
 
                 if(mdFiles.length > 0) {
-                    loadArticle(mdFiles[0].name, null);
+                    loadArticle(mdFiles[0].name, articleListEl.firstElementChild);
                 }
 
             } catch (error) {
@@ -408,21 +470,27 @@
                 const li = document.createElement('li');
                 li.textContent = cleanName;
                 
-                if(index === 0) li.classList.add('active');
+                if(index === 0) {
+                    li.classList.add('active');
+                    currentActiveElement = li;
+                }
 
                 li.onclick = (e) => loadArticle(file.name, e.target);
                 articleListEl.appendChild(li);
             });
         }
 
-        async function loadArticle(fileName, clickedElement) {
+        async function loadArticle(fileName, clickedElement, isLangSwitch = false) {
+            currentFile = fileName;
+            
             if(clickedElement) {
+                currentActiveElement = clickedElement;
                 document.querySelectorAll('.article-list li').forEach(el => el.classList.remove('active'));
                 clickedElement.classList.add('active');
             }
 
             // يانفوندا ماقالە تاللانغاندىن كېيىن تىزىملىكنى تاقاش
-            if (window.innerWidth <= 768 && sidebar) {
+            if (!isLangSwitch && window.innerWidth <= 768 && sidebar) {
                 sidebar.classList.remove('open');
                 if(overlay) overlay.classList.remove('open');
             }
@@ -431,22 +499,39 @@
             mainContentScroll.scrollTop = 0; 
 
             try {
-                const response = await fetch(RAW_BASE_URL + encodeURIComponent(fileName));
+                let url = "";
+                if (currentLang === "ug") {
+                    url = RAW_BASE_URL_UG + encodeURIComponent(fileName);
+                } else {
+                    url = RAW_BASE_URL_EN + encodeURIComponent(fileName);
+                }
+
+                const response = await fetch(url);
                 if (!response.ok) throw new Error("يۈكلەش مەغلۇپ بولدى");
                 
                 let markdownText = await response.text();
                 
-                // === يېڭىدىن قوشۇلغان كود: YAML ئۇچۇرلىرىنى ئۆچۈرۈۋېتىش ===
-                // ماقالە بېشىدىكى --- ئارىسىغا يېزىلغان title, tags قاتارلىق ئۇچۇرلارنى ئېلىۋېتىدۇ
+                // YAML ئۇچۇرلىرىنى ئۆچۈرۈۋېتىش
                 markdownText = markdownText.replace(/^---[\s\S]*?---\n*/, '');
-                
-                // ئەگەر ئۈستىدە --- سىزىقچە بولمىسىمۇ title: دەپ باشلانغان بولسا، شۇنىمۇ ئۆچۈرىدۇ
                 markdownText = markdownText.replace(/^title:[\s\S]*?tags:[\s\S]*?\n\n/, '');
 
                 contentAreaEl.innerHTML = marked.parse(markdownText);
                 
+                // ئىنگلىزچە بولغاندا تېكىست يۆنىلىشىنى ئوڭشاش
+                if (currentLang === "en") {
+                    contentAreaEl.style.direction = "ltr";
+                    contentAreaEl.style.textAlign = "left";
+                    contentAreaEl.style.fontFamily = "Arial, sans-serif";
+                    contentAreaEl.style.lineHeight = "1.5";
+                } else {
+                    contentAreaEl.style.direction = "rtl";
+                    contentAreaEl.style.textAlign = "justify";
+                    contentAreaEl.style.fontFamily = "'UKIJ Tuz', 'UKIJ Tuz Tom', 'ALKATIP Tor', 'Microsoft Uighur', sans-serif";
+                    contentAreaEl.style.lineHeight = "1.7";
+                }
+                
             } catch (error) {
-                contentAreaEl.innerHTML = `<h3 style="color:#ef4444; text-align:center; margin-top:50px;">ماقالىنى يۈكلەشتە خاتالىق كۆرۈلدى. <br> (بەلكىم Github raw غا ئۇلىنالمىغان بولۇشىڭىز مۇمكىن)</h3>`;
+                contentAreaEl.innerHTML = `<h3 style="color:#ef4444; text-align:center; margin-top:50px;">ماقالىنى يۈكلەشتە خاتالىق كۆرۈلدى. <br> (بەلكىم بۇ دۆلەتنىڭ تەرجىمىسى ياكى ئەسلى نۇسخىسى تېخى تولۇق بولماسلىقى مۇمكىن)</h3>`;
                 console.error(error);
             }
         }
