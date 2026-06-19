@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b2977190f191b667",
+        "id": "508ab6ded712cda4",
         "type": "tabs",
         "children": [
           {
-            "id": "b861c4224532ff52",
+            "id": "46adc1ef266041eb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ChinaRelations-ug/Zhongshan Station (Antarctica).md",
+                "file": "Clippings/Inside China’s Secret Military Hacking Headquarters  VICE Cyberwar  Blueprint.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Zhongshan Station (Antarctica)"
+              "title": "Inside China’s Secret Military Hacking Headquarters  VICE Cyberwar  Blueprint"
             }
           }
         ]
@@ -183,34 +183,37 @@
       "bases:Create new base": false
     }
   },
-  "active": "b861c4224532ff52",
+  "active": "46adc1ef266041eb",
   "lastOpenFiles": [
-    "ChinaRelations-ug/Xi Jinping Thought on Diplomacy.md",
-    "ChinaRelations-ug/Wolf warrior diplomacy.md",
-    "ChinaRelations-ug/Visa requirements for Chinese citizens.md",
-    "ChinaRelations-ug/Visa policy of mainland China.md",
-    "ChinaRelations-ug/Vietnam under Chinese rule.md",
-    "ChinaRelations-ug/Unreliable Entity List.md",
-    "ChinaRelations-ug/Taishan Station (Antarctica).md",
-    "ChinaRelations-ug/String of Pearls (Indian Ocean).md",
-    "ChinaRelations-ug/State Administration of Foreign Experts Affairs.md",
-    "ChinaRelations-ug/Stadium diplomacy.md",
-    "ChinaRelations-ug/Sino-Soviet split.md",
-    "ChinaRelations-ug/Sino-Soviet relations.md",
-    "ChinaRelations-ug/Sino-Albanian split.md",
-    "ChinaRelations-ug/Shanghai Cooperation Organisation.md",
-    "ChinaRelations-ug/Regional Comprehensive Economic Partnership.md",
-    "ChinaRelations-ug/Qinling Station.md",
-    "ChinaRelations-ug/Political status of Taiwan.md",
-    "ChinaRelations-ug/Polar Research Institute of China.md",
-    "ChinaRelations-ug/Panda diplomacy.md",
-    "ChinaRelations-ug/Overseas Chinese Affairs Office.md",
-    "ChinaRelations-ug/One China principle.md",
-    "ChinaRelations-ug/Office for International Military Cooperation of the Central Military Commission.md",
-    "ChinaRelations-ug/Nine-dash line.md",
-    "ChinaRelations-ug/National Immigration Administration.md",
-    "ChinaRelations-ug/Ministry of National Defense (China).md",
-    "ChinaRelations-ug/Ministry of Foreign Affairs (China).md",
+    "Clippings/01 What is Claude.md",
+    "Clippings/Inside China’s Secret Military Hacking Headquarters  VICE Cyberwar  Blueprint.md",
+    "Pasted image 20260619141554.png",
+    "Clippings/old/Çin Kaynaklarında Asya Hunları.md",
+    "Clippings/old/The 3 Geopolitical Shocks Resurrecting the Silk Road.md",
+    "Clippings/old/Why Central Asia Is So Big Yet So Weak.md",
+    "Clippings/old/Risks and Opportunities for Central Asia in a New Geopolitical Context.md",
+    "Clippings/old/The Proposed ‘Central Asian EU’ Explained.md",
+    "Clippings/old/Keynote - America first and imperialism - Understanding the new geopolitical order.md",
+    "Clippings/old/The New Geopolitics of International Higher Education.md",
+    "Clippings/old/Stephen Walt  Geopolitical Expert on America's Foreign Policy Elite and the Decline of U.S. Primacy.md",
+    "Clippings/old/The Predatory Hegemon (w Stephen Walt)  The Chris Hedges Report.md",
+    "Clippings/old/What World Leaders Forget about World Politics.md",
+    "raw/«ئەتەبەتۇلھەقايىق» نىڭ تولۇق تېكىستى – ئۇيغۇر تورى ئارخىپلىرى.md",
+    "raw/«ئىسلام ئېنسىكلوپېدىيىسى»دىكى «قۇتادغۇ بىلىگ» ماددىسى – ئۇيغۇر تورى ئارخىپلىرى.md",
+    "raw/«قەشقەر تارىخى» نىڭ باش- ئاخىرى – ئۇيغۇر تورى ئارخىپلىرى.md",
+    "raw/《国家宝藏》的热映火了博物馆，而新疆的“镇馆之宝”让人意外.md",
+    "raw/【携程攻略】携程旅游攻略,自助游,自驾游,出游,自由行攻略指南.md",
+    "raw/🔴 Manas haqiqiy tarixmi yoki afsona fikratuz.md",
+    "raw/🔴Tarixda toza turklar bo'lganmi fikratuz.md",
+    "raw/🔴Rus-Turk urushi (1877–1878) Kim g‘olib, kim mag‘lub fikratuz history.md",
+    "raw/🔴AbdulhamidxonII. Katta tarix. 1-qism fikratuz history.md",
+    "raw/🔴Geografiya “qamal “qilgan” mamlakatlar fikratuz.md",
+    "raw/🔴QORAXONIYLAR Ular aslida kim edi fikratuz tarix  history.md",
+    "raw/“丝路风情，醉美喀什”《喀什日志》之英吉沙、疏勒.md",
+    "raw/«ئەتەبەتۇلھەقايىق» داستانىدا ئىپادىلەنگەن ئىلىم-مەرىپەت توغرىسىدىكى قاراشلار – ئۇيغۇر تورى ئارخىپلىرى.md",
+    "raw/«تارىخىي رەشىدىي» ھەققىدە – ئۇيغۇر تورى ئارخىپلىرى.md",
+    "Countries",
+    "Countries-ug",
     "wiki.html",
     "index - Copy.html",
     "relations.html",
@@ -219,8 +222,6 @@
     "Clippings/Politics",
     "Clippings/old",
     "ChinaRelations-ug",
-    "ChinaRelations/Untitled",
-    "old",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
