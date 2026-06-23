@@ -41,16 +41,38 @@ class Config:
 
     # --- API كۇنۇپكىلىرى --- #
 
-    def set_api_key(self, provider: str, key: str):
-        if "api_keys" not in self._data:
-            self._data["api_keys"] = {}
-        self._data["api_keys"][provider] = _obfuscate(key)
-        self._save()
+    def get_api_keys(self, provider: str) -> list:
+        raw = self._data.get("api_keys", {}).get(provider, [])
+        if isinstance(raw, str):   # كونا فورماتقا ماسلىشىش
+            raw = [raw] if raw else []
+        return [_deobfuscate(r) for r in raw if r]
 
     def get_api_key(self, provider: str) -> str:
-        keys = self._data.get("api_keys", {})
-        raw = keys.get(provider, "")
-        return _deobfuscate(raw) if raw else ""
+        keys = self.get_api_keys(provider)
+        return keys[0] if keys else ""
+
+    def add_api_key(self, provider: str, key: str):
+        keys = self.get_api_keys(provider)
+        if key not in keys:
+            keys.append(key)
+        keys = keys[:10]   # ئەڭ كۆپ 10 كۇنۇپكا
+        if "api_keys" not in self._data:
+            self._data["api_keys"] = {}
+        self._data["api_keys"][provider] = [_obfuscate(k) for k in keys]
+        self._save()
+
+    def remove_api_key(self, provider: str, index: int):
+        keys = self.get_api_keys(provider)
+        if 0 <= index < len(keys):
+            keys.pop(index)
+        if "api_keys" not in self._data:
+            self._data["api_keys"] = {}
+        self._data["api_keys"][provider] = [_obfuscate(k) for k in keys]
+        self._save()
+
+    def set_api_key(self, provider: str, key: str):
+        """كونا كودلار بىلەن ماسلىشىش ئۈچۈن"""
+        self.add_api_key(provider, key)
 
     # --- تەڭشەكلەر --- #
 

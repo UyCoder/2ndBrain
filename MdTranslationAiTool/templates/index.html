@@ -658,12 +658,32 @@
   <div v-show="tab==='keys'" style="display:flex;flex-direction:column;gap:12px">
     <div class="card" v-for="p in providers" :key="p">
       <div style="display:flex;align-items:center;gap:10px;margin-bottom:13px">
-        <div class="key-dot" :class="apiKeys[p]?'has-key':'no-key'"></div>
+        <div class="key-dot" :class="apiKeys[p]>0?'has-key':'no-key'"></div>
         <span style="font-weight:600;font-size:15px">{{ p }}</span>
-        <span v-if="apiKeys[p]" class="badge badge-green" style="margin-right:auto">
-          <i class="fa fa-check"></i> ساقلانغان
+        <span v-if="apiKeys[p]>0" class="badge badge-green" style="margin-right:auto">
+          <i class="fa fa-key"></i> {{ apiKeys[p] }} كۇنۇپكا
+        </span>
+        <span v-if="apiKeys[p]>1" class="badge badge-teal" style="font-size:11px">
+          <i class="fa fa-rotate"></i> ئاپتو-ئالماشتۇرۇش
         </span>
       </div>
+
+      <!-- ساقلانغان كۇنۇپكىلار تىزىملىكى -->
+      <div v-if="keysList[p] && keysList[p].length" style="margin-bottom:12px;display:flex;flex-direction:column;gap:5px">
+        <div v-for="(masked, i) in keysList[p]" :key="i"
+             style="display:flex;align-items:center;gap:8px;padding:6px 12px;
+                    background:#f0fbfd;border:1px solid var(--border);border-radius:8px">
+          <span style="font-size:11px;color:var(--muted);min-width:20px;text-align:center">{{ i+1 }}</span>
+          <i class="fa fa-key" style="color:var(--teal);font-size:11px"></i>
+          <span class="ltr" style="flex:1;font-size:13px;color:var(--navy);letter-spacing:1px">{{ masked }}</span>
+          <button @click="removeKey(p, i)"
+                  style="background:none;border:none;color:#ef4444;cursor:pointer;padding:2px 6px;border-radius:5px;font-size:13px"
+                  title="ئۆچۈر">
+            <i class="fa fa-xmark"></i>
+          </button>
+        </div>
+      </div>
+
       <div v-if="p === 'LM Studio (Local)'" style="margin-bottom:8px;font-size:13px;color:var(--muted)">
         <i class="fa fa-circle-info"></i>
         LM Studio مۇلازىمېتىر URL ئادرېسىنى كىرگۈزۈڭ (ئاساسلىق: http://localhost:1234)
@@ -673,14 +693,17 @@
         <input class="inp ltr"
                :type="p === 'LM Studio (Local)' ? 'text' : 'password'"
                :id="'key-'+p"
-               :placeholder="p === 'LM Studio (Local)' ? 'http://localhost:1234' : p + ' API كۇنۇپكىسى...'"
+               :placeholder="p === 'LM Studio (Local)' ? 'http://localhost:1234' : (apiKeys[p]>0 ? p+' يەنە بىر كۇنۇپكا قوش...' : p+' API كۇنۇپكىسى...')"
                style="flex:1" @keyup.enter="saveKey(p)">
-        <button class="btn btn-primary" @click="saveKey(p)">
-          <i class="fa fa-save"></i> ساقلا
+        <button class="btn btn-primary" @click="saveKey(p)" :disabled="apiKeys[p]>=10">
+          <i class="fa fa-plus"></i> قوش
         </button>
         <button class="btn btn-ghost" @click="testConnection(p)">
           <i class="fa fa-plug"></i> سىنا
         </button>
+      </div>
+      <div v-if="apiKeys[p]>=10" style="font-size:12px;color:var(--muted);margin-top:6px">
+        <i class="fa fa-circle-info"></i> ئەڭ كۆپ 10 كۇنۇپكا ساقلانغان
       </div>
     </div>
   </div>
@@ -898,6 +921,7 @@ createApp({
     const resume       = ref(true);
     const cacheSize    = ref(0);
     const apiKeys      = ref({});
+    const keysList     = ref({});
     const glossaryData = ref({});
     const glossSrc     = ref('');
     const glossTgt     = ref('');
@@ -944,6 +968,7 @@ createApp({
       provider.value   = cfg.last_provider || providers.value[0];
       cacheSize.value  = cfg.cache_size || 0;
       apiKeys.value    = await api('/api/keys');
+      keysList.value   = await api('/api/keys-list');
       await loadModels(provider.value);
       if (cfg.last_model && models.value.includes(cfg.last_model))
         model.value = cfg.last_model;
@@ -1017,12 +1042,22 @@ createApp({
       if (!key) { toast('كۇنۇپكا بوش!', 'error'); return; }
       const r = await api('/api/keys', 'POST', { provider: p, key });
       if (r.ok) {
-        apiKeys.value[p] = true;
-        input.value = '';
-        toast(`${p} — كۇنۇپكا ساقلاندى ✓`, 'success');
-        log(`${p}: API كۇنۇپكا ساقلاندى`, 'success');
+        apiKeys.value[p] = r.count;
+        if (input) input.value = '';
+        keysList.value = await api('/api/keys-list');
+        toast(`${p} — كۇنۇپكا قوشۇلدى ✓ (${r.count} كۇنۇپكا)`, 'success');
+        log(`${p}: ${r.count}-كۇنۇپكا ساقلاندى`, 'success');
       } else {
         toast(r.error || 'خاتالىق', 'error');
+      }
+    }
+
+    async function removeKey(p, i) {
+      const r = await api('/api/keys/remove', 'POST', { provider: p, index: i });
+      if (r.ok) {
+        apiKeys.value[p] = r.count;
+        keysList.value = await api('/api/keys-list');
+        toast('كۇنۇپكا ئۆچۈرۈلدى', 'info');
       }
     }
 
@@ -1115,6 +1150,10 @@ createApp({
           log('⛔ توختاتىلدى', 'warn');
           toast('توختاتىلدى', 'info');
           break;
+        case 'key_switch':
+          log(`🔄 ${msg.msg}`, 'warn');
+          toast(msg.msg, 'info', 5000);
+          break;
         case 'fatal':
           log(`💥 خاتالىق: ${msg.msg}`, 'error');
           toast(msg.msg, 'error');
@@ -1178,10 +1217,10 @@ createApp({
 
     return {
       tab, providers, targetLangs, provider, model, models, targetLang,
-      folder, reqExists, chunkSize, useCache, resume, cacheSize, apiKeys,
+      folder, reqExists, chunkSize, useCache, resume, cacheSize, apiKeys, keysList,
       glossaryData, glossSrc, glossTgt, logs, logBox, running, browsingFolder,
       modal, toasts, progress, filePercent, chunkPercent,
-      selectProvider, browseFolder, saveKey, testConnection,
+      selectProvider, browseFolder, saveKey, removeKey, testConnection,
       addGlossary, delGlossary, clearCache,
       startTranslation, previewTranslation, dryRun, stopJob, clearLog,
     };

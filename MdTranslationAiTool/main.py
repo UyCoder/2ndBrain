@@ -86,7 +86,14 @@ def get_models(provider):
 
 @app.route("/api/keys")
 def get_keys():
-    return jsonify({p: bool(config.get_api_key(p)) for p in TRANSLATORS})
+    return jsonify({p: len(config.get_api_keys(p)) for p in TRANSLATORS})
+
+
+@app.route("/api/keys-list")
+def get_keys_list():
+    def mask(k):
+        return "****" + k[-6:] if len(k) > 6 else "****"
+    return jsonify({p: [mask(k) for k in config.get_api_keys(p)] for p in TRANSLATORS})
 
 
 @app.route("/api/keys", methods=["POST"])
@@ -95,9 +102,20 @@ def save_key():
     provider = data.get("provider", "")
     key      = data.get("key", "").strip()
     if provider in TRANSLATORS and key:
-        config.set_api_key(provider, key)
-        return jsonify({"ok": True})
+        config.add_api_key(provider, key)
+        count = len(config.get_api_keys(provider))
+        return jsonify({"ok": True, "count": count})
     return jsonify({"ok": False, "error": "يارامسىز تەرجىمان ياكى بوش كۇنۇپكا"})
+
+
+@app.route("/api/keys/remove", methods=["POST"])
+def remove_key():
+    data     = request.json
+    provider = data.get("provider", "")
+    index    = int(data.get("index", 0))
+    config.remove_api_key(provider, index)
+    count = len(config.get_api_keys(provider))
+    return jsonify({"ok": True, "count": count})
 
 
 @app.route("/api/test-connection", methods=["POST"])
@@ -188,7 +206,13 @@ def start_translation():
 
     def run():
         try:
-            translator   = TRANSLATORS[provider](api_key=key, model=model)
+            keys_list = config.get_api_keys(provider)
+            if not keys_list:
+                q.put({"type": "fatal", "msg": f"{provider} ئۈچۈن API كۇنۇپكا يوق"})
+                return
+
+            key_idx    = 0
+            translator = TRANSLATORS[provider](api_key=keys_list[key_idx], model=model)
             target_lang  = TARGET_LANGS.get(lang, "Uyghur")
             sys_prompt   = _build_system_prompt(folder, target_lang)
             logger       = get_logger(job_id)
@@ -199,6 +223,8 @@ def start_translation():
             q.put({"type": "start", "total_files": total})
             out_root = Path(folder).parent / f"{Path(folder).name}-ug"
             q.put({"type": "info", "msg": f"چىقىرىش فولدېرى: {out_root}"})
+            if len(keys_list) > 1:
+                q.put({"type": "info", "msg": f"{len(keys_list)} كۇنۇپكا يۈكلەندى — بىرى توشسا كېيىنكىسى ئىشلىتىلىدۇ"})
 
             for fi, fpath in enumerate(files):
                 if stop.is_set():
@@ -237,22 +263,34 @@ def start_translation():
                         parts.append(cached)
                         q.put({"type": "chunk_done", "ci": ci + 1, "cached": True})
                     else:
-                        try:
-                            result = translator.translate(chunk.text, sys_prompt)
-                            parts.append(result)
-                            if use_cache:
-                                cache.set(provider, model, chunk.text, result)
-                            q.put({"type": "chunk_done", "ci": ci + 1, "cached": False})
-                            logger.info(f"  chunk {ci+1}/{total_chunks}")
-                        except FatalTranslationError as e:
-                            q.put({"type": "fatal", "msg": str(e)})
-                            logger.error(f"Fatal: {e}")
-                            stop.set()
-                            break
-                        except Exception as e:
-                            parts.append(chunk.text)
-                            q.put({"type": "error", "msg": f"بۆلەك {ci+1}: {e}"})
-                            logger.error(f"  chunk {ci+1} error: {e}")
+                        done = False
+                        while not done:
+                            try:
+                                result = translator.translate(chunk.text, sys_prompt)
+                                parts.append(result)
+                                if use_cache:
+                                    cache.set(provider, model, chunk.text, result)
+                                q.put({"type": "chunk_done", "ci": ci + 1, "cached": False})
+                                logger.info(f"  chunk {ci+1}/{total_chunks}")
+                                done = True
+                            except FatalTranslationError as e:
+                                key_idx += 1
+                                if key_idx < len(keys_list):
+                                    q.put({"type": "key_switch",
+                                           "msg": f"{key_idx}. كۇنۇپكا توشتى — {key_idx + 1}. كۇنۇپكىغا ئۆتۈلدى"})
+                                    logger.warning(f"Key {key_idx - 1} exhausted → switching to key {key_idx}")
+                                    translator = TRANSLATORS[provider](api_key=keys_list[key_idx], model=model)
+                                    # ئەڭ بىشتىن سىناقنى قايتا باشلا
+                                else:
+                                    q.put({"type": "fatal", "msg": str(e)})
+                                    logger.error(f"Fatal — بارلىق {len(keys_list)} كۇنۇپكا توشتى: {e}")
+                                    stop.set()
+                                    done = True
+                            except Exception as e:
+                                parts.append(chunk.text)
+                                q.put({"type": "error", "msg": f"بۆلەك {ci+1}: {e}"})
+                                logger.error(f"  chunk {ci+1} error: {e}")
+                                done = True
 
                 if stop.is_set():
                     break
