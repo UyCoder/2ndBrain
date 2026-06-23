@@ -31,7 +31,7 @@ echo [Python] %PYTHON% - OK
 %PYTHON% -c "import flask" >nul 2>&1
 if errorlevel 1 (
     echo [INFO] Kutupxaniler ornitilwatidu...
-    %PYTHON% -m pip install flask chardet beautifulsoup4 lxml pymupdf
+    %PYTHON% -m pip install flask chardet beautifulsoup4 lxml pymupdf openai anthropic google-generativeai groq mistralai cohere
     if errorlevel 1 (
         echo [ERROR] Pip install failed.
         pause
