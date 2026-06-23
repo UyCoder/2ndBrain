@@ -1,0 +1,4 @@
+playwright>=1.40.0
+python-dotenv>=1.0.0
+pymupdf>=1.23.0
+chardet>=5.0.0
