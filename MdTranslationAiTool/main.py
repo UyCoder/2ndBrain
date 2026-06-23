@@ -356,7 +356,8 @@ def _collect_files(folder: str) -> list[Path]:
 
 
 def _output_path(src: Path, src_folder: Path) -> Path:
-    out = src_folder.parent / f"{src_folder.name}-ug" / src.relative_to(src_folder)
+    rel = src.relative_to(src_folder).with_suffix(".md")
+    out = src_folder.parent / f"{src_folder.name}-ug" / rel
     out.parent.mkdir(parents=True, exist_ok=True)
     return out
 
