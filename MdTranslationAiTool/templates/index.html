@@ -1,0 +1,1192 @@
+<!DOCTYPE html>
+<html lang="ug" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>بىلىك تەرجىمە قۇرالى</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+<script>
+  window.SERVER = {
+    providers:   {{ providers | tojson }},
+    targetLangs: {{ target_langs | tojson }},
+  };
+</script>
+<style>
+  :root {
+    --teal:      #1B8FA3;
+    --teal-d:    #136F80;
+    --teal-l:    #22b8d1;
+    --teal-xs:   #e0f5f8;
+    --navy:      #0b2030;
+    --navy-m:    #0e3347;
+    --navy-l:    #164560;
+    --success:   #10b981;
+    --warning:   #f59e0b;
+    --danger:    #ef4444;
+    --surface:   #ffffff;
+    --bg:        #f0fbfd;
+    --border:    #c8eaf0;
+    --text:      #0b2030;
+    --muted:     #5a8fa0;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'UKIJ Tuz', 'Noto Nastaliq Urdu', 'Arial Unicode MS', Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+  }
+
+  .ltr { direction: ltr; font-family: 'Inter', 'Consolas', monospace; }
+
+  /* ===== Header ===== */
+  .app-header {
+    background: linear-gradient(135deg, var(--navy) 0%, var(--navy-m) 50%, var(--navy-l) 100%);
+    padding: 0 32px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 24px rgba(11,32,48,.45);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .header-brand {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .header-logo {
+    width: 42px;
+    height: 42px;
+    object-fit: contain;
+    filter: drop-shadow(0 0 8px rgba(27,143,163,.6));
+  }
+
+  .header-title {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .header-title-main {
+    font-size: 19px;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: .3px;
+    text-shadow: 0 1px 8px rgba(27,143,163,.4);
+  }
+
+  .header-title-sub {
+    font-size: 11px;
+    color: var(--teal-l);
+    font-family: 'Inter', sans-serif;
+    letter-spacing: .8px;
+    text-transform: uppercase;
+  }
+
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  /* ===== Card ===== */
+  .card {
+    background: var(--surface);
+    border-radius: 16px;
+    border: 1px solid var(--border);
+    box-shadow: 0 2px 12px rgba(27,143,163,.07);
+    padding: 20px 24px;
+  }
+
+  /* ===== Tabs ===== */
+  .tab-bar {
+    display: flex;
+    gap: 4px;
+    background: var(--navy);
+    padding: 8px 10px;
+    border-radius: 14px;
+  }
+
+  .tab-btn {
+    padding: 8px 20px;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    color: rgba(255,255,255,.5);
+    font-family: inherit;
+    transition: all .2s;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+  }
+
+  .tab-btn.active {
+    background: var(--teal);
+    color: #fff;
+    box-shadow: 0 4px 14px rgba(27,143,163,.45);
+  }
+
+  .tab-btn:not(.active):hover {
+    background: rgba(27,143,163,.15);
+    color: var(--teal-l);
+  }
+
+  /* ===== Input ===== */
+  .inp {
+    width: 100%;
+    border: 1.5px solid var(--border);
+    border-radius: 10px;
+    padding: 9px 14px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color .2s, box-shadow .2s;
+    background: #fafeff;
+    font-family: inherit;
+    direction: ltr;
+    color: var(--text);
+  }
+  .inp:focus {
+    border-color: var(--teal);
+    box-shadow: 0 0 0 3px rgba(27,143,163,.12);
+    background: #fff;
+  }
+  select.inp { cursor: pointer; }
+
+  /* ===== Buttons ===== */
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 9px 18px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    transition: all .2s;
+    font-family: inherit;
+    white-space: nowrap;
+  }
+
+  .btn-primary {
+    background: var(--teal);
+    color: #fff;
+  }
+  .btn-primary:hover {
+    background: var(--teal-d);
+    box-shadow: 0 4px 14px rgba(27,143,163,.4);
+    transform: translateY(-1px);
+  }
+
+  .btn-dark {
+    background: var(--navy);
+    color: #fff;
+  }
+  .btn-dark:hover {
+    background: var(--navy-m);
+    box-shadow: 0 4px 14px rgba(11,32,48,.35);
+  }
+
+  .btn-ghost {
+    background: #f0fbfd;
+    color: var(--teal-d);
+    border: 1.5px solid var(--border);
+  }
+  .btn-ghost:hover {
+    background: var(--teal-xs);
+    border-color: var(--teal);
+  }
+
+  .btn-success { background: var(--success); color: #fff; }
+  .btn-success:hover { filter: brightness(1.1); transform: translateY(-1px); }
+
+  .btn-danger { background: var(--danger); color: #fff; }
+  .btn-danger:hover { filter: brightness(1.1); }
+
+  .btn:disabled { opacity: .4; cursor: not-allowed; transform: none !important; box-shadow: none !important; }
+
+  /* ===== Progress ===== */
+  .prog-track {
+    background: #e0f5f8;
+    border-radius: 99px;
+    height: 9px;
+    overflow: hidden;
+  }
+  .prog-fill {
+    height: 100%;
+    border-radius: 99px;
+    background: linear-gradient(90deg, var(--teal), var(--teal-l));
+    transition: width .4s ease;
+  }
+  .prog-fill.success {
+    background: linear-gradient(90deg, var(--success), #34d399);
+  }
+
+  /* ===== Log ===== */
+  .log-box {
+    background: var(--navy);
+    color: #cce8ee;
+    border-radius: 12px;
+    padding: 14px 16px;
+    font-family: 'Cascadia Code', 'Consolas', monospace;
+    font-size: 12.5px;
+    line-height: 1.75;
+    height: 220px;
+    overflow-y: auto;
+    direction: ltr;
+    text-align: left;
+  }
+  .log-box .log-info    { color: #7dd3fc; }
+  .log-box .log-success { color: #6ee7b7; }
+  .log-box .log-error   { color: #fca5a5; }
+  .log-box .log-warn    { color: #fde68a; }
+  .log-box .log-dim     { color: #4a7a8a; }
+
+  /* ===== Badge ===== */
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 3px 10px;
+    border-radius: 99px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+  .badge-teal  { background: var(--teal-xs); color: var(--teal-d); border: 1px solid #a8dde8; }
+  .badge-green { background: #d1fae5; color: #065f46; }
+  .badge-gray  { background: #f1f5f9; color: #64748b; }
+  .badge-red   { background: #fee2e2; color: #991b1b; }
+
+  /* ===== Provider card ===== */
+  .provider-card {
+    border: 1.5px solid var(--border);
+    border-radius: 12px;
+    padding: 11px 15px;
+    cursor: pointer;
+    transition: all .2s;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #fafeff;
+  }
+  .provider-card.selected {
+    border-color: var(--teal);
+    background: var(--teal-xs);
+    box-shadow: 0 0 0 3px rgba(27,143,163,.12);
+  }
+  .provider-card:hover:not(.selected) {
+    border-color: var(--teal-l);
+    background: #f0fbfd;
+  }
+  .provider-card .check-icon {
+    margin-right: auto;
+    color: var(--teal);
+  }
+
+  /* ===== Key dot ===== */
+  .key-dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  .key-dot.has-key { background: var(--success); box-shadow: 0 0 0 2px #d1fae5; }
+  .key-dot.no-key  { background: #cbd5e1; }
+
+  /* ===== Toggle ===== */
+  .toggle { position: relative; width: 42px; height: 24px; cursor: pointer; }
+  .toggle input { opacity: 0; width: 0; height: 0; }
+  .toggle-slider {
+    position: absolute; inset: 0;
+    background: #c8eaf0; border-radius: 99px; transition: .2s;
+  }
+  .toggle-slider::before {
+    content: ''; position: absolute;
+    width: 18px; height: 18px; left: 3px; bottom: 3px;
+    background: #fff; border-radius: 50%; transition: .2s;
+    box-shadow: 0 1px 4px rgba(0,0,0,.15);
+  }
+  .toggle input:checked + .toggle-slider { background: var(--teal); }
+  .toggle input:checked + .toggle-slider::before { transform: translateX(18px); }
+
+  /* ===== Section label ===== */
+  .section-label {
+    font-size: 11.5px;
+    font-weight: 700;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: .8px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  /* ===== Table ===== */
+  .data-table { width: 100%; border-collapse: collapse; font-size: 13.5px; }
+  .data-table th {
+    background: var(--teal-xs);
+    padding: 10px 14px;
+    text-align: right;
+    font-weight: 600;
+    border-bottom: 2px solid var(--border);
+    color: var(--teal-d);
+  }
+  .data-table td { padding: 9px 14px; border-bottom: 1px solid #eef8fa; }
+  .data-table tr:hover td { background: #f0fbfd; }
+
+  /* ===== Toast ===== */
+  .toast-wrap {
+    position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%);
+    display: flex; flex-direction: column; gap: 8px;
+    z-index: 9999; pointer-events: none;
+  }
+  .toast {
+    background: var(--navy);
+    color: #e0f5f8;
+    padding: 12px 20px;
+    border-radius: 12px;
+    font-size: 13.5px;
+    box-shadow: 0 8px 28px rgba(11,32,48,.4);
+    pointer-events: auto;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-width: 260px;
+    animation: slideUp .3s ease;
+  }
+  .toast.success { border-left: 4px solid var(--success); }
+  .toast.error   { border-left: 4px solid var(--danger); }
+  .toast.info    { border-left: 4px solid var(--teal); }
+
+  @keyframes slideUp {
+    from { opacity: 0; transform: translateY(16px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  /* ===== Modal ===== */
+  .modal-overlay {
+    position: fixed; inset: 0;
+    background: rgba(11,32,48,.55);
+    backdrop-filter: blur(5px);
+    z-index: 8000;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .modal-box {
+    background: var(--surface);
+    border-radius: 20px;
+    box-shadow: 0 24px 64px rgba(11,32,48,.35);
+    width: min(880px, 95vw);
+    max-height: 88vh;
+    display: flex; flex-direction: column; overflow: hidden;
+    border: 1px solid var(--border);
+  }
+  .modal-header {
+    padding: 18px 24px;
+    border-bottom: 1px solid var(--border);
+    display: flex; align-items: center; justify-content: space-between;
+    background: linear-gradient(135deg, var(--navy) 0%, var(--navy-m) 100%);
+    color: #fff;
+  }
+  .modal-body { padding: 22px 24px; overflow-y: auto; flex: 1; }
+
+  /* ===== Misc ===== */
+  .folder-row { display: flex; gap: 8px; }
+  .folder-row .inp { flex: 1; }
+
+  .spin { animation: spin 1s linear infinite; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  .fade-enter-active, .fade-leave-active { transition: opacity .2s; }
+  .fade-enter-from, .fade-leave-to { opacity: 0; }
+
+  ::-webkit-scrollbar { width: 6px; height: 6px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: #a8dde8; border-radius: 99px; }
+  ::-webkit-scrollbar-thumb:hover { background: var(--teal); }
+
+  /* ===== Info box ===== */
+  .info-box {
+    background: linear-gradient(135deg, #f0fbfd, var(--teal-xs));
+    border: 1px solid #b0dce8;
+    border-radius: 12px;
+    padding: 14px 18px;
+    font-size: 13px;
+    color: var(--navy-m);
+    line-height: 2;
+  }
+
+  /* ===== Version pill ===== */
+  .version-pill {
+    background: rgba(27,143,163,.18);
+    border: 1px solid rgba(27,143,163,.3);
+    color: var(--teal-l);
+    padding: 3px 10px;
+    border-radius: 99px;
+    font-size: 11px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    letter-spacing: .5px;
+  }
+</style>
+</head>
+
+{% raw %}
+<body>
+<div id="app">
+
+<!-- ======= HEADER ======= -->
+<div class="app-header">
+  <div class="header-brand">
+    <img src="https://raw.githubusercontent.com/UyCoder/paydilar/master/Biliklogo.png"
+         class="header-logo" alt="Bilik Logo">
+    <div class="header-title">
+      <div class="header-title-main">بىلىك تەرجىمە قۇرالى</div>
+      <div class="header-title-sub">Bilik Translation Tool</div>
+    </div>
+    <span class="version-pill">v 1.0</span>
+  </div>
+  <div class="header-right">
+    <div class="badge badge-teal" style="font-family:Inter,sans-serif">
+      <i class="fa fa-database" style="font-size:10px"></i>
+      كەش: {{ cacheSize }}
+    </div>
+    <button class="btn btn-ghost" style="padding:6px 13px;font-size:12.5px"
+            @click="clearCache">
+      <i class="fa fa-trash-alt"></i> تازىلا
+    </button>
+  </div>
+</div>
+
+<!-- ======= LAYOUT ======= -->
+<div style="max-width:1120px;margin:0 auto;padding:24px 20px;display:flex;flex-direction:column;gap:18px">
+
+  <!-- Tab Bar -->
+  <div class="tab-bar">
+    <button class="tab-btn" :class="{active:tab==='translate'}" @click="tab='translate'">
+      <i class="fa fa-language"></i> تەرجىمە
+    </button>
+    <button class="tab-btn" :class="{active:tab==='keys'}" @click="tab='keys'">
+      <i class="fa fa-key"></i> API كۇنۇپكا
+    </button>
+    <button class="tab-btn" :class="{active:tab==='glossary'}" @click="tab='glossary'">
+      <i class="fa fa-book"></i> ئاتالغۇ خەزىنىسى
+    </button>
+    <button class="tab-btn" :class="{active:tab==='settings'}" @click="tab='settings'">
+      <i class="fa fa-sliders-h"></i> تەڭشەك
+    </button>
+  </div>
+
+  <!-- ============ TAB: TRANSLATE ============ -->
+  <div v-show="tab==='translate'" style="display:flex;flex-direction:column;gap:16px">
+
+    <!-- Row 1: Provider + Right side controls -->
+    <div style="display:grid;grid-template-columns:320px 1fr;gap:16px">
+
+      <!-- Provider list -->
+      <div class="card">
+        <div class="section-label">
+          <i class="fa fa-robot" style="color:var(--teal)"></i> AI تەرجىمان
+        </div>
+        <div style="display:flex;flex-direction:column;gap:7px">
+          <div v-for="p in providers" :key="p"
+               class="provider-card" :class="{selected: provider===p}"
+               @click="selectProvider(p)">
+            <div class="key-dot" :class="apiKeys[p]?'has-key':'no-key'"></div>
+            <span style="font-size:13.5px;flex:1">{{ p }}</span>
+            <i v-if="provider===p" class="fa fa-circle-check check-icon"></i>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right column -->
+      <div style="display:flex;flex-direction:column;gap:14px">
+
+        <!-- Model -->
+        <div class="card" style="padding:16px 20px">
+          <div class="section-label">
+            <i class="fa fa-microchip" style="color:var(--teal)"></i> مودېل
+          </div>
+          <select class="inp" v-model="model">
+            <option v-for="m in models" :key="m" :value="m">{{ m }}</option>
+          </select>
+        </div>
+
+        <!-- Folder -->
+        <div class="card" style="padding:16px 20px">
+          <div class="section-label">
+            <i class="fa fa-folder-open" style="color:var(--warning)"></i> تەرجىمە فولدېرى
+          </div>
+          <div class="folder-row">
+            <input class="inp ltr" v-model="folder"
+                   placeholder="فولدېر يولى..."
+                   readonly style="cursor:pointer" @click="browseFolder">
+            <button class="btn btn-dark" @click="browseFolder" :disabled="browsingFolder">
+              <i class="fa fa-spinner spin" v-if="browsingFolder"></i>
+              <i class="fa fa-folder-open" v-else></i>
+              كۆزىتىش
+            </button>
+          </div>
+          <div style="margin-top:8px" v-if="folder">
+            <span v-if="reqExists" class="badge badge-green">
+              <i class="fa fa-file-lines"></i> تەلەپ.txt تاپىلدى ✓
+            </span>
+            <span v-else class="badge badge-gray">
+              <i class="fa fa-circle-info"></i> تەلەپ.txt يوق — نۆۋەتتىكى تەلەپ ئىشلىتىلىدۇ
+            </span>
+          </div>
+        </div>
+
+        <!-- Language + Options row -->
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px">
+          <div class="card" style="padding:16px 20px">
+            <div class="section-label">
+              <i class="fa fa-globe" style="color:var(--teal)"></i> نىشان تىل
+            </div>
+            <select class="inp" v-model="targetLang">
+              <option v-for="l in targetLangs" :key="l" :value="l">{{ l }}</option>
+            </select>
+          </div>
+
+          <div class="card" style="padding:16px 20px">
+            <div class="section-label">
+              <i class="fa fa-gear" style="color:var(--teal)"></i> بۆلەك چوڭلۇقى
+            </div>
+            <div style="display:flex;align-items:center;gap:8px">
+              <input type="range" min="500" max="8000" step="500"
+                     v-model.number="chunkSize"
+                     style="flex:1;accent-color:var(--teal)">
+              <span class="ltr" style="font-weight:700;color:var(--teal);min-width:44px;font-size:14px">
+                {{ chunkSize }}
+              </span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Options row -->
+    <div class="card" style="padding:14px 22px">
+      <div style="display:flex;gap:28px;align-items:center;flex-wrap:wrap">
+        <label style="display:flex;align-items:center;gap:10px;cursor:pointer">
+          <label class="toggle">
+            <input type="checkbox" v-model="useCache">
+            <span class="toggle-slider"></span>
+          </label>
+          <span style="font-size:13.5px">كەشنى ئىشلەت</span>
+        </label>
+        <label style="display:flex;align-items:center;gap:10px;cursor:pointer">
+          <label class="toggle">
+            <input type="checkbox" v-model="resume">
+            <span class="toggle-slider"></span>
+          </label>
+          <span style="font-size:13.5px">داۋاملاشتۇرۇش (تامام ھۆججەتنى ئاتلا)</span>
+        </label>
+      </div>
+    </div>
+
+    <!-- Action buttons -->
+    <div style="display:flex;gap:10px;flex-wrap:wrap">
+      <button class="btn btn-primary" style="padding:11px 24px;font-size:15px"
+              @click="startTranslation" :disabled="running||!folder">
+        <i class="fa fa-spinner spin" v-if="running"></i>
+        <i class="fa fa-play" v-else></i>
+        تەرجىمىنى باشلا
+      </button>
+      <button class="btn btn-success" @click="previewTranslation" :disabled="running||!folder">
+        <i class="fa fa-eye"></i> ئالدىن كۆرۈش
+      </button>
+      <button class="btn btn-ghost" @click="dryRun" :disabled="running||!folder">
+        <i class="fa fa-chart-bar"></i> Dry Run
+      </button>
+      <button class="btn btn-danger" @click="stopJob" :disabled="!running">
+        <i class="fa fa-stop"></i> توختات
+      </button>
+    </div>
+
+    <!-- Progress -->
+    <div class="card" v-if="running || progress.file_total > 0">
+      <div class="section-label">
+        <i class="fa fa-bars-progress" style="color:var(--teal)"></i> ئىلگىرىلەش
+      </div>
+      <div style="display:flex;flex-direction:column;gap:14px">
+        <div>
+          <div style="display:flex;justify-content:space-between;margin-bottom:6px;font-size:13px">
+            <span style="color:var(--muted)">ھۆججەت:</span>
+            <span style="font-weight:600;color:var(--navy);max-width:60%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;direction:ltr">
+              {{ progress.file_name || '—' }}
+            </span>
+            <span class="ltr" style="font-weight:700;color:var(--teal)">
+              {{ progress.file_cur }}/{{ progress.file_total }}
+            </span>
+          </div>
+          <div class="prog-track">
+            <div class="prog-fill" :style="{width: filePercent+'%'}"></div>
+          </div>
+        </div>
+        <div>
+          <div style="display:flex;justify-content:space-between;margin-bottom:6px;font-size:13px">
+            <span style="color:var(--muted)">بۆلەك:</span>
+            <span class="ltr" style="font-weight:700;color:var(--success)">
+              {{ progress.chunk_cur }}/{{ progress.chunk_total }}
+            </span>
+          </div>
+          <div class="prog-track">
+            <div class="prog-fill success" :style="{width: chunkPercent+'%'}"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /translate tab -->
+
+  <!-- ============ TAB: API KEYS ============ -->
+  <div v-show="tab==='keys'" style="display:flex;flex-direction:column;gap:12px">
+    <div class="card" v-for="p in providers" :key="p">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:13px">
+        <div class="key-dot" :class="apiKeys[p]?'has-key':'no-key'"></div>
+        <span style="font-weight:600;font-size:15px">{{ p }}</span>
+        <span v-if="apiKeys[p]" class="badge badge-green" style="margin-right:auto">
+          <i class="fa fa-check"></i> ساقلانغان
+        </span>
+      </div>
+      <div v-if="p === 'LM Studio (Local)'" style="margin-bottom:8px;font-size:13px;color:var(--muted)">
+        <i class="fa fa-circle-info"></i>
+        LM Studio مۇلازىمېتىر URL ئادرېسىنى كىرگۈزۈڭ (ئاساسلىق: http://localhost:1234)
+        — API كۇنۇپكا تەلەپ قىلمايدۇ
+      </div>
+      <div style="display:flex;gap:8px">
+        <input class="inp ltr"
+               :type="p === 'LM Studio (Local)' ? 'text' : 'password'"
+               :id="'key-'+p"
+               :placeholder="p === 'LM Studio (Local)' ? 'http://localhost:1234' : p + ' API كۇنۇپكىسى...'"
+               style="flex:1" @keyup.enter="saveKey(p)">
+        <button class="btn btn-primary" @click="saveKey(p)">
+          <i class="fa fa-save"></i> ساقلا
+        </button>
+        <button class="btn btn-ghost" @click="testConnection(p)">
+          <i class="fa fa-plug"></i> سىنا
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ TAB: GLOSSARY ============ -->
+  <div v-show="tab==='glossary'" style="display:flex;flex-direction:column;gap:16px">
+    <div class="card">
+      <div class="section-label">
+        <i class="fa fa-plus-circle" style="color:var(--teal)"></i> يېڭى ئاتالغۇ قوش
+      </div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap">
+        <input class="inp" v-model="glossSrc"
+               placeholder="ئەسلى ئاتالغۇ (مەسىلەن: database)"
+               style="flex:1;min-width:160px" @keyup.enter="addGlossary">
+        <span style="display:flex;align-items:center;color:var(--muted);font-size:20px">→</span>
+        <input class="inp" v-model="glossTgt"
+               placeholder="تەرجىمىسى (مەسىلەن: سانلىق مەلۇمات ئامبىرى)"
+               style="flex:2;min-width:200px" @keyup.enter="addGlossary">
+        <button class="btn btn-primary" @click="addGlossary">
+          <i class="fa fa-plus"></i> قوش
+        </button>
+      </div>
+    </div>
+
+    <div class="card" style="padding:0;overflow:hidden">
+      <table class="data-table" v-if="Object.keys(glossaryData).length">
+        <thead>
+          <tr>
+            <th>ئەسلى ئاتالغۇ</th>
+            <th>تەرجىمە</th>
+            <th style="width:60px;text-align:center"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr v-for="(tgt, src) in glossaryData" :key="src">
+            <td class="ltr" style="font-family:'Cascadia Code','Consolas',monospace">{{ src }}</td>
+            <td>{{ tgt }}</td>
+            <td style="text-align:center">
+              <button class="btn btn-danger" style="padding:5px 10px;font-size:12px"
+                      @click="delGlossary(src)">
+                <i class="fa fa-trash"></i>
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <div v-else style="padding:48px;text-align:center;color:var(--muted)">
+        <i class="fa fa-book-open" style="font-size:36px;opacity:.25;display:block;margin-bottom:12px"></i>
+        ھازىرچە ئاتالغۇ يوق — يۇقىرىدىن قوشسىڭىز بولىدۇ
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ TAB: SETTINGS ============ -->
+  <div v-show="tab==='settings'">
+    <div class="card">
+      <div class="section-label">
+        <i class="fa fa-sliders-h" style="color:var(--teal)"></i> تەڭشەكلەر
+      </div>
+      <div class="info-box">
+        <div>
+          <i class="fa fa-file-lines" style="color:var(--teal)"></i>
+          <strong>تەلەپ.txt</strong> — فولدېر ئىچىدىكى تەلەپ ھۆججىتى ئاپتوماتىك ئوقۇلىدۇ
+        </div>
+        <div>
+          <i class="fa fa-folder-plus" style="color:var(--teal)"></i>
+          چىقىرىش فولدېرى: <code style="background:var(--teal-xs);padding:1px 6px;border-radius:5px">[فولدېر ئىسمى]-ug/</code> شەكلىدە قۇرۇلىدۇ
+        </div>
+        <div>
+          <i class="fa fa-bookmark" style="color:var(--teal)"></i>
+          رېفرېنس سېكشىنى (References, Bibliography...) تەرجىمىسىز ئەسلىسى ساقلىنىدۇ
+        </div>
+        <div>
+          <i class="fa fa-bolt" style="color:var(--teal)"></i>
+          كەش ئاكتىپ بولسا ئوخشاش بۆلەك قايتا يوللانمايدۇ — API پۇلىنى تېجەيدۇ
+        </div>
+        <div>
+          <i class="fa fa-file-code" style="color:var(--teal)"></i>
+          قوللايدىغان فورماتلار: <code style="background:var(--teal-xs);padding:1px 6px;border-radius:5px">.md &nbsp; .txt &nbsp; .html &nbsp; .pdf</code>
+        </div>
+      </div>
+
+      <div style="margin-top:20px;padding:18px;background:#f8fdfe;border-radius:12px;border:1px solid var(--border)">
+        <div style="font-size:13px;font-weight:600;color:var(--navy);margin-bottom:6px">بىلىك تەرجىمە قۇرالى v1.0</div>
+        <div style="font-size:12.5px;color:var(--muted);line-height:1.8">
+          بۇ قۇرال Claude، Gemini، GPT، Groq، DeepSeek، Mistral، Cohere
+          قاتارلىق AI تەرجىمانلىرىنى قوللايدۇ.
+          تولۇق مەزمۇننى قىسقارتماي، سېكشىن بويىچە ئايرىم تەرجىمە قىلىدۇ.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======= LOG AREA ======= -->
+  <div class="card" style="padding:16px 20px">
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:12px">
+      <div class="section-label" style="margin-bottom:0">
+        <i class="fa fa-terminal" style="color:var(--teal)"></i> جەريان خاتىرىسى
+      </div>
+      <button class="btn btn-ghost" style="padding:5px 12px;font-size:12px" @click="clearLog">
+        <i class="fa fa-eraser"></i> تازىلا
+      </button>
+    </div>
+    <div class="log-box" ref="logBox">
+      <div v-for="(e,i) in logs" :key="i" :class="'log-'+e.type">
+        <span style="color:#2a6070;user-select:none">[{{ e.ts }}]</span> {{ e.msg }}
+      </div>
+      <div v-if="!logs.length" class="log-dim">// خاتىرە بوش — تەرجىمە باشلانسا جەريان بۇيەرگە يېزىلىدۇ</div>
+    </div>
+  </div>
+
+</div><!-- /layout -->
+
+<!-- ======= MODAL ======= -->
+<transition name="fade">
+  <div class="modal-overlay" v-if="modal" @click.self="modal=null">
+    <div class="modal-box">
+      <div class="modal-header">
+        <span style="font-size:16px;font-weight:600;display:flex;align-items:center;gap:8px">
+          <i class="fa fa-chart-bar" v-if="modal.type==='dryrun'"></i>
+          <i class="fa fa-eye" v-if="modal.type==='preview'"></i>
+          {{ modal.title }}
+        </span>
+        <button class="btn" style="padding:6px 12px;background:rgba(255,255,255,.1);color:#fff;border:1px solid rgba(255,255,255,.2)"
+                @click="modal=null">
+          <i class="fa fa-xmark"></i>
+        </button>
+      </div>
+      <div class="modal-body">
+
+        <!-- Dry Run table -->
+        <div v-if="modal.type==='dryrun'">
+          <div style="display:flex;gap:10px;margin-bottom:18px;flex-wrap:wrap">
+            <span class="badge badge-teal">
+              <i class="fa fa-files"></i> {{ modal.data.total_files }} ھۆججەت
+            </span>
+            <span class="badge badge-green">
+              <i class="fa fa-cubes"></i> {{ modal.data.total_chunks }} بۆلەك تەرجىمە
+            </span>
+          </div>
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>ھۆججەت</th>
+                <th>تەرجىمە بۆلەك</th>
+                <th>رېفرېنس</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr v-for="f in modal.data.files" :key="f.name">
+                <td class="ltr">{{ f.name }}</td>
+                <td>
+                  <span class="badge badge-green" v-if="!f.error">{{ f.translate }}</span>
+                  <span class="badge badge-red" v-else>{{ f.error }}</span>
+                </td>
+                <td><span class="badge badge-gray" v-if="!f.error">{{ f.reference }}</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Preview -->
+        <div v-if="modal.type==='preview'"
+             style="display:grid;grid-template-columns:1fr 1fr;gap:18px">
+          <div>
+            <div style="font-size:11.5px;font-weight:700;color:var(--muted);margin-bottom:8px;text-transform:uppercase;letter-spacing:.6px">
+              ئەسلى
+            </div>
+            <div style="background:#f8fdfe;border:1px solid var(--border);border-radius:10px;
+                        padding:14px;font-size:13px;white-space:pre-wrap;direction:ltr;
+                        max-height:420px;overflow-y:auto;font-family:Consolas,monospace">{{ modal.original }}</div>
+          </div>
+          <div>
+            <div style="font-size:11.5px;font-weight:700;color:var(--teal);margin-bottom:8px;text-transform:uppercase;letter-spacing:.6px">
+              تەرجىمە
+            </div>
+            <div style="background:var(--teal-xs);border:1px solid #b0dce8;border-radius:10px;
+                        padding:14px;font-size:13px;white-space:pre-wrap;
+                        max-height:420px;overflow-y:auto">{{ modal.translated }}</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</transition>
+
+<!-- ======= TOASTS ======= -->
+<div class="toast-wrap">
+  <div v-for="t in toasts" :key="t.id" class="toast" :class="t.type">
+    <i :class="t.type==='success'?'fa fa-circle-check':t.type==='error'?'fa fa-circle-xmark':'fa fa-circle-info'"
+       :style="`color:${t.type==='success'?'#34d399':t.type==='error'?'#f87171':'#22b8d1'}`"></i>
+    {{ t.msg }}
+  </div>
+</div>
+
+</div><!-- /#app -->
+
+<script>
+const { createApp, ref, computed, onMounted, nextTick } = Vue;
+
+createApp({
+  setup() {
+    const tab          = ref('translate');
+    const providers    = ref(window.SERVER.providers);
+    const targetLangs  = ref(window.SERVER.targetLangs);
+    const provider     = ref('');
+    const model        = ref('');
+    const models       = ref([]);
+    const targetLang   = ref('ئۇيغۇرچە');
+    const folder       = ref('');
+    const reqExists    = ref(false);
+    const chunkSize    = ref(3000);
+    const useCache     = ref(true);
+    const resume       = ref(true);
+    const cacheSize    = ref(0);
+    const apiKeys      = ref({});
+    const glossaryData = ref({});
+    const glossSrc     = ref('');
+    const glossTgt     = ref('');
+    const logs         = ref([]);
+    const logBox       = ref(null);
+    const running      = ref(false);
+    const browsingFolder = ref(false);
+    const modal        = ref(null);
+    const toasts       = ref([]);
+    const currentJobId = ref('');
+    const progress     = ref({ file_cur:0, file_total:0, file_name:'', chunk_cur:0, chunk_total:0 });
+
+    const filePercent  = computed(() =>
+      progress.value.file_total ? Math.round(progress.value.file_cur / progress.value.file_total * 100) : 0);
+    const chunkPercent = computed(() =>
+      progress.value.chunk_total ? Math.round(progress.value.chunk_cur / progress.value.chunk_total * 100) : 0);
+
+    // ---- utils ----
+    function log(msg, type = 'info') {
+      const ts = new Date().toLocaleTimeString('en', { hour12: false });
+      logs.value.push({ msg, type, ts });
+      if (logs.value.length > 600) logs.value.shift();
+      nextTick(() => { if (logBox.value) logBox.value.scrollTop = logBox.value.scrollHeight; });
+    }
+
+    function toast(msg, type = 'info', ms = 3500) {
+      const id = Date.now();
+      toasts.value.push({ id, msg, type });
+      setTimeout(() => { toasts.value = toasts.value.filter(t => t.id !== id); }, ms);
+    }
+
+    async function api(url, method = 'GET', body = null) {
+      const opts = { method, headers: { 'Content-Type': 'application/json' } };
+      if (body) opts.body = JSON.stringify(body);
+      const r = await fetch(url, opts);
+      return r.json();
+    }
+
+    // ---- init ----
+    async function init() {
+      const cfg = await api('/api/config');
+      chunkSize.value  = cfg.chunk_size;
+      targetLang.value = cfg.last_lang || 'ئۇيغۇرچە';
+      provider.value   = cfg.last_provider || providers.value[0];
+      cacheSize.value  = cfg.cache_size || 0;
+      apiKeys.value    = await api('/api/keys');
+      await loadModels(provider.value);
+      if (cfg.last_model && models.value.includes(cfg.last_model))
+        model.value = cfg.last_model;
+      await loadGlossary();
+      log('بىلىك تەرجىمە قۇرالى v1.0 — تەييار ✓', 'success');
+    }
+
+    async function loadModels(p) {
+      const r = await api(`/api/models/${encodeURIComponent(p)}`);
+      models.value = r.models || [];
+      model.value  = r.default || (r.models || [])[0] || '';
+    }
+
+    async function loadGlossary() {
+      glossaryData.value = await api('/api/glossary');
+    }
+
+    // ---- provider ----
+    async function selectProvider(p) {
+      provider.value = p;
+      await loadModels(p);
+    }
+
+    // ---- folder ----
+    async function browseFolder() {
+      browsingFolder.value = true;
+      log('فولدېر تاللاش كۆزنىكى ئاچىلىۋاتىدۇ...', 'dim');
+      try {
+        // سىگنال يوللا (blocking ئەمەس)
+        await api('/api/browse-folder', 'POST');
+        // نەتىجىنى polling ئارقىلىق كۈت
+        await pollFolderResult();
+      } catch (e) {
+        toast('فولدېر تاللاشتا خاتالىق: ' + e, 'error');
+        browsingFolder.value = false;
+      }
+    }
+
+    async function pollFolderResult() {
+      const deadline = Date.now() + 90000; // 90 سېكۇنت
+      while (Date.now() < deadline) {
+        await new Promise(r => setTimeout(r, 400));
+        try {
+          const r = await api('/api/folder-result');
+          if (r.done) {
+            if (r.path) {
+              folder.value    = r.path;
+              reqExists.value = r.req_exists;
+              log(`فولدېر: ${r.path}`, 'info');
+              if (r.req_exists) log('تەلەپ.txt تاپىلدى ✓', 'success');
+              else log('تەلەپ.txt يوق', 'dim');
+            } else {
+              log('فولدېر تاللانمىدى', 'dim');
+            }
+            browsingFolder.value = false;
+            return;
+          }
+        } catch (e) { /* داۋاملا */ }
+      }
+      log('فولدېر تاللاش ۋاقتى ئۆتتى', 'warn');
+      browsingFolder.value = false;
+    }
+
+    // ---- keys ----
+    async function saveKey(p) {
+      const input = document.getElementById('key-' + p);
+      let key = input?.value?.trim();
+      if (p === 'LM Studio (Local)') {
+        key = key || 'http://localhost:1234';
+      }
+      if (!key) { toast('كۇنۇپكا بوش!', 'error'); return; }
+      const r = await api('/api/keys', 'POST', { provider: p, key });
+      if (r.ok) {
+        apiKeys.value[p] = true;
+        input.value = '';
+        toast(`${p} — كۇنۇپكا ساقلاندى ✓`, 'success');
+        log(`${p}: API كۇنۇپكا ساقلاندى`, 'success');
+      } else {
+        toast(r.error || 'خاتالىق', 'error');
+      }
+    }
+
+    async function testConnection(p) {
+      const input = document.getElementById('key-' + p);
+      const key   = input?.value?.trim() || '';
+      log(`${p}: ئۇلىنىش سىناق قىلىنىۋاتىدۇ...`, 'dim');
+      const r = await api('/api/test-connection', 'POST', { provider: p, key });
+      if (r.ok) {
+        toast(`${p}: ئۇلىنىش مۇۋەپپەقىيەتلىك ✓`, 'success');
+        log(`${p}: ئۇلىنىش ✓`, 'success');
+      } else {
+        toast(`${p}: ${r.error || 'مەغلۇپ'}`, 'error');
+        log(`${p}: خاتالىق — ${r.error || ''}`, 'error');
+      }
+    }
+
+    // ---- glossary ----
+    async function addGlossary() {
+      if (!glossSrc.value || !glossTgt.value) return;
+      await api('/api/glossary', 'POST', { source: glossSrc.value, target: glossTgt.value });
+      glossSrc.value = '';
+      glossTgt.value = '';
+      await loadGlossary();
+      toast('ئاتالغۇ قوشۇلدى ✓', 'success');
+    }
+
+    async function delGlossary(src) {
+      await fetch(`/api/glossary/${encodeURIComponent(src)}`, { method: 'DELETE' });
+      await loadGlossary();
+    }
+
+    // ---- cache ----
+    async function clearCache() {
+      await api('/api/cache/clear', 'POST');
+      cacheSize.value = 0;
+      toast('كەش تازىلاندى', 'info');
+    }
+
+    // ---- SSE progress ----
+    function startSSE(jobId) {
+      currentJobId.value = jobId;
+      const es = new EventSource(`/api/progress/${jobId}`);
+      es.onmessage = e => handleProgress(JSON.parse(e.data), es);
+      es.onerror   = () => { running.value = false; es.close(); };
+    }
+
+    function handleProgress(msg, es) {
+      switch (msg.type) {
+        case 'start':
+          progress.value = { file_cur:0, file_total: msg.total_files, file_name:'', chunk_cur:0, chunk_total:0 };
+          log(`تەرجىمە باشلاندى — ${msg.total_files} ھۆججەت`, 'info');
+          break;
+        case 'info':
+          log(msg.msg, 'dim');
+          break;
+        case 'file_start':
+          Object.assign(progress.value, { file_cur: msg.fi, file_total: msg.total, file_name: msg.file, chunk_cur: 0, chunk_total: 0 });
+          log(`📄 ${msg.fi}/${msg.total}: ${msg.file}`, 'info');
+          break;
+        case 'skipped':
+          progress.value.file_cur = msg.fi;
+          log(`⏭  ئاتلاندى: ${msg.file}`, 'dim');
+          break;
+        case 'chunk':
+          progress.value.chunk_cur   = msg.ci;
+          progress.value.chunk_total = msg.total;
+          break;
+        case 'chunk_done':
+          progress.value.chunk_cur = msg.ci;
+          if (msg.ref)        log(`  بۆلەك ${msg.ci}: رېفرېنس — ئەسلىسى ساقلاندى`, 'dim');
+          else if (msg.cached) log(`  بۆلەك ${msg.ci}: كەشتىن ئالىندى ✓`, 'dim');
+          else                 log(`  بۆلەك ${msg.ci}: تەرجىمە تامام ✓`, 'success');
+          api('/api/cache/info').then(r => cacheSize.value = r.size);
+          break;
+        case 'file_done':
+          log(`✅ ساقلاندى: ${msg.file}`, 'success');
+          break;
+        case 'error':
+          log(`⚠  ${msg.msg}`, 'error');
+          break;
+        case 'preview':
+          modal.value = { type: 'preview', title: 'ئالدىن كۆرۈش نەتىجىسى', original: msg.original, translated: msg.translated };
+          break;
+        case 'done':
+          log('🎉 تەرجىمە مۇۋەپپەقىيەتلىك تامام!', 'success');
+          toast('تەرجىمە تامام! 🎉', 'success', 5000);
+          break;
+        case 'stopped':
+          log('⛔ توختاتىلدى', 'warn');
+          toast('توختاتىلدى', 'info');
+          break;
+        case 'fatal':
+          log(`💥 خاتالىق: ${msg.msg}`, 'error');
+          toast(msg.msg, 'error');
+          break;
+        case 'end':
+          running.value = false;
+          es.close();
+          break;
+      }
+    }
+
+    // ---- actions ----
+    async function startTranslation() {
+      if (!folder.value) { toast('فولدېر تاللاڭ!', 'error'); return; }
+      if (!apiKeys.value[provider.value]) {
+        toast('API كۇنۇپكا كىرگۈزۈڭ!', 'error');
+        tab.value = 'keys';
+        return;
+      }
+      running.value = true;
+      const r = await api('/api/translate', 'POST', {
+        folder: folder.value, provider: provider.value, model: model.value,
+        lang: targetLang.value, resume: resume.value, use_cache: useCache.value,
+        chunk_size: chunkSize.value, preview_only: false,
+      });
+      if (r.error) { toast(r.error, 'error'); running.value = false; return; }
+      startSSE(r.job_id);
+    }
+
+    async function previewTranslation() {
+      if (!folder.value) { toast('فولدېر تاللاڭ!', 'error'); return; }
+      if (!apiKeys.value[provider.value]) { toast('API كۇنۇپكا كىرگۈزۈڭ!', 'error'); return; }
+      running.value = true;
+      log('ئالدىن كۆرۈش: بىرىنچى بۆلەك تەرجىمە قىلىنىۋاتىدۇ...', 'info');
+      const r = await api('/api/translate', 'POST', {
+        folder: folder.value, provider: provider.value, model: model.value,
+        lang: targetLang.value, use_cache: useCache.value,
+        chunk_size: chunkSize.value, preview_only: true,
+      });
+      if (r.error) { toast(r.error, 'error'); running.value = false; return; }
+      startSSE(r.job_id);
+    }
+
+    async function dryRun() {
+      if (!folder.value) { toast('فولدېر تاللاڭ!', 'error'); return; }
+      log('Dry Run: ھۆججەتلەر سانىلىۋاتىدۇ...', 'dim');
+      const r = await api('/api/dry-run', 'POST', { folder: folder.value, chunk_size: chunkSize.value });
+      if (r.error) { toast(r.error, 'error'); return; }
+      modal.value = { type: 'dryrun', title: 'Dry Run — تەرجىمە رەزمى', data: r };
+      log(`Dry Run: ${r.total_files} ھۆججەت، ${r.total_chunks} بۆلەك`, 'info');
+    }
+
+    async function stopJob() {
+      if (currentJobId.value)
+        await api(`/api/stop/${currentJobId.value}`, 'POST');
+    }
+
+    function clearLog() { logs.value = []; }
+
+    onMounted(init);
+
+    return {
+      tab, providers, targetLangs, provider, model, models, targetLang,
+      folder, reqExists, chunkSize, useCache, resume, cacheSize, apiKeys,
+      glossaryData, glossSrc, glossTgt, logs, logBox, running, browsingFolder,
+      modal, toasts, progress, filePercent, chunkPercent,
+      selectProvider, browseFolder, saveKey, testConnection,
+      addGlossary, delGlossary, clearCache,
+      startTranslation, previewTranslation, dryRun, stopJob, clearLog,
+    };
+  }
+}).mount('#app');
+</script>
+</body>
+{% endraw %}
+</html>

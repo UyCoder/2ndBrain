@@ -1,0 +1,19 @@
+# ============================================================
+# MdTranslationAiTool — كۈتۈپخانىلار تىزىملىكى
+# ئورناتىش: pip install -r requirements.txt
+# ============================================================
+
+# --- ئاساسىي (چوقۇم ئورنىتىلىشى كېرەك) ---
+flask>=3.0.0               # ۋېب UI مۇلازىمېتىر
+chardet>=5.0.0             # ھۆججەت ھەرپ كودى تونۇش
+beautifulsoup4>=4.12.0     # HTML تەرتىپلەش
+lxml>=5.0.0                # HTML/XML تەرجىمۈچى
+pymupdf>=1.24.0            # PDF مەتىن چىقىرىش
+
+# --- AI تەرجىمانلىرى (ئۆزىڭىز ئىشلىتىدىغىنىنى ئورنىتىڭ) ---
+anthropic>=0.40.0          # Claude
+google-generativeai>=0.8.0 # Gemini
+openai>=1.50.0             # GPT / Codex / DeepSeek
+groq>=0.11.0               # Groq (Llama, Mixtral)
+mistralai>=1.0.0           # Mistral
+cohere>=5.0.0              # Cohere
