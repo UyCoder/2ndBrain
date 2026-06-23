@@ -7,7 +7,7 @@ from .base import BaseTranslator
 API_URL = "https://api.niutrans.com/NiuTransServer/translation"
 
 LANG_MAP = {
-    "uyghur":  "ug",
+    "uyghur":  "uy",
     "turkish": "tr",
     "kazakh":  "kk",
     "uzbek":   "uz",
