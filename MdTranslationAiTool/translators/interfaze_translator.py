@@ -21,19 +21,24 @@ class InterfazeTranslator(BaseTranslator):
 
     def translate(self, text: str, system_prompt: str) -> str:
         client = self._get_client()
+        # Interfaze پەقەت user رولىنى قوللايدۇ — system prompt نى user خەۋىرىگە بىرلەشتۈرىمىز
+        combined = f"{system_prompt}\n\n---\n\n{text}"
         response = client.chat.completions.create(
             model=self.model,
             messages=[
-                {"role": "system", "content": system_prompt},
-                {"role": "user",   "content": text},
+                {"role": "user", "content": combined},
             ],
         )
         return response.choices[0].message.content
 
     def test_connection(self) -> bool:
         try:
-            result = self.translate("test", "Say OK")
-            return bool(result)
+            client = self._get_client()
+            response = client.chat.completions.create(
+                model=self.model,
+                messages=[{"role": "user", "content": "Say OK"}],
+            )
+            return bool(response.choices[0].message.content)
         except Exception:
             return False
 
