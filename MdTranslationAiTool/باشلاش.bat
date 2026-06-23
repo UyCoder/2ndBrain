@@ -41,6 +41,9 @@ if errorlevel 1 (
     echo.
 )
 
+echo [INFO] Clearing cache...
+for /d /r . %%d in (__pycache__) do @if exist "%%d" rd /s /q "%%d" 2>nul
+
 echo [INFO] Starting Bilik...
 echo [INFO] Browser: http://127.0.0.1:5173
 echo.
