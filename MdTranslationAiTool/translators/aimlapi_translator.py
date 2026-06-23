@@ -5,19 +5,30 @@ BASE_URL = "https://api.aimlapi.com/v1"
 
 class AimlApiTranslator(BaseTranslator):
 
-    DEFAULT_MODEL = "mistralai/Mistral-7B-Instruct-v0.2"
+    DEFAULT_MODEL = "gpt-4o-mini"
     MODELS = [
-        "mistralai/Mistral-7B-Instruct-v0.2",
-        "mistralai/Mixtral-8x7B-Instruct-v0.1",
+        # OpenAI
+        "gpt-4o-mini",
+        "gpt-4o",
+        "gpt-4-turbo",
+        "gpt-3.5-turbo",
+        # Meta Llama
+        "meta-llama/Llama-3.2-3B-Instruct-Turbo",
+        "meta-llama/Llama-3.2-11B-Vision-Instruct-Turbo",
         "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
         "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
-        "meta-llama/Llama-3.2-3B-Instruct-Turbo",
-        "Qwen/Qwen2.5-7B-Instruct-Turbo",
-        "Qwen/Qwen2.5-72B-Instruct-Turbo",
+        # Mistral
+        "mistralai/Mistral-7B-Instruct-v0.3",
+        "mistralai/Mixtral-8x7B-Instruct-v0.1",
+        # Qwen
+        "Qwen/Qwen2.5-7B-Instruct",
+        "Qwen/Qwen2.5-72B-Instruct",
+        # DeepSeek
+        "deepseek-ai/DeepSeek-R1",
+        "deepseek-ai/DeepSeek-V3",
+        # Google
         "google/gemma-2-9b-it",
-        "deepseek-ai/deepseek-r1",
-        "gpt-4o",
-        "gpt-4o-mini",
+        "google/gemma-2-27b-it",
     ]
 
     def __init__(self, api_key: str, model: str = None):
