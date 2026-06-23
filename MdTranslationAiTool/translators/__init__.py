@@ -7,6 +7,7 @@ from .mistral_translator import MistralTranslator
 from .cohere_translator import CohereTranslator
 from .interfaze_translator import InterfazeTranslator
 from .niutrans_translator import NiuTransTranslator
+from .aimlapi_translator import AimlApiTranslator
 from .lmstudio_translator import LMStudioTranslator
 
 TRANSLATORS = {
@@ -19,5 +20,6 @@ TRANSLATORS = {
     "Cohere": CohereTranslator,
     "Interfaze": InterfazeTranslator,
     "NiuTrans (牛翻译)": NiuTransTranslator,
+    "AI/ML API": AimlApiTranslator,
     "LM Studio (Local)": LMStudioTranslator,
 }
