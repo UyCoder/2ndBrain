@@ -1,22 +1,30 @@
 """
-Google AI Studio browser automation — Uyghur translation.
-Smart login: watches the page state in a loop, auto-fills
-email/password when visible, and waits for the user to complete
-any extra Google verification (PIN, phone, 2FA, captcha, etc.).
+Google AI Studio — Uyghur translation via CDP (Chrome DevTools Protocol).
+
+Chrome is launched as a NORMAL browser (not via Playwright),
+so Google cannot detect automation.  Playwright then connects
+to the already-running Chrome over CDP and only operates on
+the AI Studio page (no login automation needed).
 """
 
+import os
+import subprocess
 import time
 from pathlib import Path
+
 from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
 
-_NEW_CHAT = "https://aistudio.google.com/prompts/new_chat"
+# ── constants ─────────────────────────────────────────────────────────────────
+
+_CDP_PORT   = 9299          # remote-debugging port for our Chrome instance
+_NEW_CHAT   = "https://aistudio.google.com/prompts/new_chat"
+_AI_HOST    = "aistudio.google.com"
 
 _PROMPT = (
     "Tewende berilen tekstni Uyghur tiligha tercime qil. "
-    "Barliq markdown formatlishini (# ## *, kod blokliri, jediwilar va bashqilar) saqlap qal. "
-    "Paqat tercimini yaz, izahat yaki qoshimche nerse qoshma.\n\n"
-    "Tekst:\n"
-    "{text}"
+    "Barliq markdown formatlishini (# ## *, kod blokliri, jediwilar) saqlap qal. "
+    "Paqat tercimini yaz, izahat qoshma.\n\n"
+    "Tekst:\n{text}"
 )
 
 _LIMIT_WORDS = [
@@ -58,50 +66,82 @@ _STOP_SEL = (
     'button[aria-label="Cancel"]'
 )
 
+# ── Chrome finder ─────────────────────────────────────────────────────────────
+
+def _find_chrome() -> str:
+    # Windows registry
+    try:
+        import winreg
+        key = winreg.OpenKey(
+            winreg.HKEY_LOCAL_MACHINE,
+            r"SOFTWARE\Microsoft\Windows\CurrentVersion\App Paths\chrome.exe",
+        )
+        path = winreg.QueryValue(key, None)
+        if path and os.path.exists(path):
+            return path
+    except Exception:
+        pass
+
+    candidates = [
+        r"C:\Program Files\Google\Chrome\Application\chrome.exe",
+        r"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe",
+        os.path.expanduser(r"~\AppData\Local\Google\Chrome\Application\chrome.exe"),
+        r"C:\Program Files\Chromium\Application\chromium.exe",
+    ]
+    for p in candidates:
+        if os.path.exists(p):
+            return p
+
+    raise FileNotFoundError(
+        "Chrome tapilmidi!  Qolungiz bilen yolini kiriting (CHROME_PATH)."
+    )
+
+
+# ── translator ────────────────────────────────────────────────────────────────
 
 class AIStudioTranslator:
     def __init__(self, accounts: list, profiles_dir: Path):
-        self.accounts = accounts
+        self.accounts     = accounts
         self.profiles_dir = profiles_dir
-        self._idx = 0
-        self._pw = None
-        self._ctx = None
-        self._page = None
+        self._idx         = 0
+        self._chrome      = None   # subprocess.Popen
+        self._pw          = None
+        self._browser     = None
+        self._page        = None
         self._boot()
 
     # ── lifecycle ────────────────────────────────────────────────────────────
 
     def _boot(self):
         self._teardown()
-        self._pw = sync_playwright().start()
-        pdir = self._profile_dir(self._idx)
-        self._ctx = self._pw.chromium.launch_persistent_context(
-            user_data_dir=pdir,
-            headless=False,
-            slow_mo=30,
-            args=[
-                "--disable-blink-features=AutomationControlled",
-                "--disable-infobars",
-            ],
-            no_viewport=True,
-        )
-        pages = self._ctx.pages
-        self._page = pages[0] if pages else self._ctx.new_page()
-        self._go_and_login()
+        profile = self._profile_dir(self._idx)
+        self._launch_chrome(profile)
+        self._connect_cdp()
+        self._open_ai_studio()
 
     def _teardown(self):
-        for obj, method in [(self._ctx, "close"), (self._pw, "stop")]:
-            if obj:
-                try:
-                    getattr(obj, method)()
-                except Exception:
-                    pass
-        self._pw = self._ctx = self._page = None
+        try:
+            if self._browser:
+                self._browser.close()
+        except Exception:
+            pass
+        try:
+            if self._pw:
+                self._pw.stop()
+        except Exception:
+            pass
+        try:
+            if self._chrome and self._chrome.poll() is None:
+                self._chrome.terminate()
+                self._chrome.wait(timeout=5)
+        except Exception:
+            pass
+        self._chrome = self._pw = self._browser = self._page = None
 
     def close(self):
         self._teardown()
 
-    # ── profile ──────────────────────────────────────────────────────────────
+    # ── profile dir ──────────────────────────────────────────────────────────
 
     def _profile_dir(self, idx: int) -> str:
         slug = (
@@ -113,153 +153,76 @@ class AIStudioTranslator:
         p.mkdir(parents=True, exist_ok=True)
         return str(p)
 
-    # ── smart login ──────────────────────────────────────────────────────────
+    # ── Chrome launch ────────────────────────────────────────────────────────
 
-    def _go_and_login(self):
-        """Navigate to AI Studio; if login is needed, handle it smartly."""
+    def _launch_chrome(self, profile_dir: str):
+        chrome = os.environ.get("CHROME_PATH") or _find_chrome()
+        cmd = [
+            chrome,
+            f"--remote-debugging-port={_CDP_PORT}",
+            f"--user-data-dir={profile_dir}",
+            "--no-first-run",
+            "--no-default-browser-check",
+            "--start-maximized",
+        ]
+        print(f"  [CHROME] Achilwatidu...")
+        self._chrome = subprocess.Popen(cmd)
+        # Wait until Chrome's debugging endpoint is ready
+        self._wait_cdp_ready()
+
+    def _wait_cdp_ready(self, retries: int = 20):
+        import urllib.request
+        for _ in range(retries):
+            try:
+                urllib.request.urlopen(
+                    f"http://localhost:{_CDP_PORT}/json/version", timeout=2
+                )
+                return
+            except Exception:
+                time.sleep(0.5)
+        raise RuntimeError(
+            f"Chrome CDP portiga ({_CDP_PORT}) ulanghili bolmidi."
+        )
+
+    # ── CDP connect ──────────────────────────────────────────────────────────
+
+    def _connect_cdp(self):
+        self._pw = sync_playwright().start()
+        self._browser = self._pw.chromium.connect_over_cdp(
+            f"http://localhost:{_CDP_PORT}"
+        )
+        ctx   = self._browser.contexts[0] if self._browser.contexts else None
+        pages = ctx.pages if ctx else []
+        self._page = pages[0] if pages else (ctx or self._browser).new_page()
+
+    # ── AI Studio ────────────────────────────────────────────────────────────
+
+    def _open_ai_studio(self):
         try:
             self._page.goto(_NEW_CHAT, timeout=30_000, wait_until="domcontentloaded")
-            self._page.wait_for_timeout(2000)
+            self._page.wait_for_timeout(3000)
         except Exception as e:
-            print(f"  [WARN] Sahipe ochmidi: {e}")
+            print(f"  [WARN] {e}")
 
-        if "aistudio.google.com" in self._page.url:
-            self._dismiss_dialogs()
-            return  # already logged in (saved profile)
+        if _AI_HOST not in self._page.url:
+            self._ask_manual_login()
 
-        # Need to login
-        self._smart_login()
         self._dismiss_dialogs()
 
-    def _smart_login(self):
-        """
-        Watch the browser page in a loop.
-        - Auto-fills email when the email field appears.
-        - Auto-fills password when the password field appears.
-        - Clicks the correct account in the account-chooser if visible.
-        - For ANY other step (PIN, phone, 2FA, captcha …) prints a
-          one-time notice and keeps waiting until the user passes it.
-        - Stops as soon as aistudio.google.com is reached.
-        """
+    def _ask_manual_login(self):
         email = self.accounts[self._idx]["email"]
-        pwd   = self.accounts[self._idx]["password"]
-
-        print(f"  [LOGIN] {email} bilen kiriwatidu...")
-
-        filled_email    = False
-        filled_password = False
-        extra_notified  = False   # shown the "extra step" message?
-        deadline        = time.time() + 300  # 5-minute overall timeout
-
-        while time.time() < deadline:
-            # ── success ──────────────────────────────────────────────────
-            if "aistudio.google.com" in self._page.url:
-                print("  [LOGIN] Kirish mewepiyetlik!")
-                return
-
-            # ── account chooser ──────────────────────────────────────────
-            # Google shows a list of previously signed-in accounts
-            try:
-                acct_el = self._page.query_selector(
-                    f'[data-identifier="{email}"], '
-                    f'[data-email="{email}"], '
-                    f'li[aria-label*="{email}"]'
-                )
-                if acct_el and acct_el.is_visible():
-                    acct_el.click()
-                    filled_email = True
-                    extra_notified = False
-                    self._page.wait_for_timeout(2000)
-                    continue
-            except Exception:
-                pass
-
-            # ── "Use another account" ────────────────────────────────────
-            if not filled_email:
-                try:
-                    for sel in [
-                        'li:has-text("Use another account")',
-                        'div[role="link"]:has-text("Use another account")',
-                        '[data-action="add"]',
-                    ]:
-                        el = self._page.query_selector(sel)
-                        if el and el.is_visible():
-                            el.click()
-                            self._page.wait_for_timeout(2000)
-                            break
-                except Exception:
-                    pass
-
-            # ── email field ──────────────────────────────────────────────
-            if not filled_email:
-                try:
-                    for sel in [
-                        'input[type="email"]',
-                        'input[name="identifier"]',
-                        'input[autocomplete="username"]',
-                        '#identifierId',
-                    ]:
-                        el = self._page.query_selector(sel)
-                        if el and el.is_visible():
-                            el.fill(email)
-                            self._page.wait_for_timeout(500)
-                            self._page.keyboard.press("Enter")
-                            filled_email = True
-                            extra_notified = False
-                            self._page.wait_for_timeout(2000)
-                            break
-                except Exception:
-                    pass
-                if filled_email:
-                    continue
-
-            # ── password field ───────────────────────────────────────────
-            if filled_email and not filled_password:
-                try:
-                    for sel in [
-                        'input[type="password"]',
-                        'input[name="password"]',
-                        'input[autocomplete="current-password"]',
-                    ]:
-                        el = self._page.query_selector(sel)
-                        if el and el.is_visible():
-                            el.fill(pwd)
-                            self._page.wait_for_timeout(500)
-                            self._page.keyboard.press("Enter")
-                            filled_password = True
-                            extra_notified = False
-                            self._page.wait_for_timeout(2000)
-                            break
-                except Exception:
-                    pass
-                if filled_password:
-                    continue
-
-            # ── unknown / extra step ─────────────────────────────────────
-            # (PIN, 2FA, phone verification, "I'm not a robot", etc.)
-            if not extra_notified:
-                print()
-                print("  ╔══════════════════════════════════════════════════════╗")
-                print("  ║  QOSHIMCHE QEDEM — BROWSERDA OZ QOLUNGIZ BILEN UTING ║")
-                print("  ║  (PIN, telefon, 2FA, CAPTCHA, vs.)                   ║")
-                print("  ║  Uting, program oz-ozi devam etidu.                  ║")
-                print("  ╚══════════════════════════════════════════════════════╝")
-                extra_notified = True
-
-            self._page.wait_for_timeout(2000)
-
-        # timed out — ask user to finish manually
         print()
-        print("  [WARN] 5 minut ichide AI Studio ge kiriwalalmidi.")
-        print("  Browser de oz qolungiz bilen kiriwalung, tamam bolsa ENTER bassung.")
+        print("  ╔══════════════════════════════════════════════════════════╗")
+        print("  ║  Chrome achildi — qolungiz bilen kiriwalung             ║")
+        print(f"  ║  Hisab: {email:<50} ║")
+        print("  ║  AI Studio ge kirip bolsangiz bu yerde ENTER bassung.  ║")
+        print("  ╚══════════════════════════════════════════════════════════╝")
         input("  >>> ENTER: ")
         try:
             self._page.goto(_NEW_CHAT, timeout=30_000, wait_until="domcontentloaded")
             self._page.wait_for_timeout(2000)
         except Exception:
             pass
-
-    # ── dialogs ──────────────────────────────────────────────────────────────
 
     def _dismiss_dialogs(self):
         for sel in [
@@ -274,7 +237,7 @@ class AIStudioTranslator:
                 btn = self._page.query_selector(sel)
                 if btn and btn.is_visible():
                     btn.click()
-                    self._page.wait_for_timeout(700)
+                    self._page.wait_for_timeout(600)
             except Exception:
                 pass
 
@@ -297,9 +260,9 @@ class AIStudioTranslator:
         except Exception:
             return False
 
-    # ── element helpers ──────────────────────────────────────────────────────
+    # ── helpers ──────────────────────────────────────────────────────────────
 
-    def _find_first(self, sels: list, timeout: int = 5000):
+    def _find_first(self, sels: list, timeout: int = 8000):
         for sel in sels:
             try:
                 el = self._page.wait_for_selector(sel, timeout=timeout, state="visible")
@@ -321,7 +284,7 @@ class AIStudioTranslator:
         return False
 
     def _set_text(self, inp, text: str):
-        """Inject text via JS; keyboard fallback if JS does not stick."""
+        """Inject text via JS; keyboard fallback."""
         try:
             inp.evaluate(
                 """(el, txt) => {
@@ -332,25 +295,25 @@ class AIStudioTranslator:
                 }""",
                 text,
             )
-            self._page.wait_for_timeout(500)
+            self._page.wait_for_timeout(400)
             val = inp.evaluate("el => el.innerText || el.value || ''")
             if val and len(val.strip()) > 10:
                 return
         except Exception:
             pass
-
+        # Keyboard fallback
         inp.click()
-        self._page.wait_for_timeout(300)
-        self._page.keyboard.press("Control+a")
         self._page.wait_for_timeout(200)
-        self._page.keyboard.type(text, delay=8)
+        self._page.keyboard.press("Control+a")
+        self._page.wait_for_timeout(150)
+        self._page.keyboard.type(text, delay=5)
 
     def _wait_done(self):
         try:
             self._page.wait_for_selector(_STOP_SEL, timeout=10_000, state="visible")
             self._page.wait_for_selector(_STOP_SEL, timeout=180_000, state="hidden")
         except PWTimeout:
-            print("  [WARN] Jawab tugishi kutilmidi.")
+            print("  [WARN] Jawab tugishi kutilmidi, devam etildi.")
             self._page.wait_for_timeout(5000)
         except Exception:
             self._page.wait_for_timeout(6000)
@@ -388,29 +351,30 @@ class AIStudioTranslator:
             except Exception as e:
                 print(f"  [WARN] Urinish {attempt + 1}/{retries}: {e}")
                 if attempt < retries - 1:
-                    time.sleep(4)
+                    time.sleep(3)
         return ""
 
     def _do_translate(self, prompt: str) -> str:
         self._page.goto(_NEW_CHAT, timeout=30_000, wait_until="domcontentloaded")
-        self._page.wait_for_timeout(2500)
+        self._page.wait_for_timeout(2000)
 
-        # If redirected to login page, run smart login again
-        if "aistudio.google.com" not in self._page.url:
-            self._smart_login()
-            self._dismiss_dialogs()
+        # If session expired, ask user to re-login
+        if _AI_HOST not in self._page.url:
+            self._ask_manual_login()
 
-        inp = self._find_first(_INPUT_SELS, timeout=10_000)
+        self._dismiss_dialogs()
+
+        inp = self._find_first(_INPUT_SELS)
         if not inp:
-            raise RuntimeError("Kirish maydani (input) tapilmidi!")
+            raise RuntimeError("AI Studio kirish maydani tapilmidi!")
 
         self._set_text(inp, prompt)
-        self._page.wait_for_timeout(600)
+        self._page.wait_for_timeout(500)
 
         if not self._click_first(_RUN_SELS):
             inp.press("Control+Enter")
 
         self._wait_done()
-        self._page.wait_for_timeout(800)
+        self._page.wait_for_timeout(700)
 
         return self._extract()
