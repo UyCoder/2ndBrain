@@ -310,7 +310,7 @@ tags:
 
 سىئانوباكتېرىيەلەر [پىكوپلانكتونىك](https://en.wikipedia.org/wiki/Picoplankton "پىكوپلانكتون") (چوڭلۇقى 0.2 دىن 2.0 [μm](https://en.wikipedia.org/wiki/Micrometre "μm") غىچە بولغان پلانكتون) [باكتېرىيەلەرنىڭ](https://en.wikipedia.org/wiki/Bacteria "باكتېرىيە") بىر بۆلۈمى بولۇپ، [فوتوسىنتېز](https://en.wikipedia.org/wiki/Photosynthesis "فوتوسىنتېز") ئارقىلىق ئېنېرگىيە ئالىدۇ ۋە دۇنيانىڭ بارلىق ئوكيانلىرىدا مەۋجۇت. ئۇلار يىپسىمان كولونىيەلەر ۋە [بىئوفىلملەرنى](https://en.wikipedia.org/wiki/Biofilm "بىئوفىلم") ئۆز ئىچىگە ئالغان بىر قاتار مورفولوگىيەلەرنى كۆرسىتىدۇ. قارا دېڭىزدا، بىر نەچچە تۈر مەۋجۇت بولۇپ، مىسال سۈپىتىدە، *Synechococcus* spp. فوتىك زونىنىڭ ھەممە يېرىدە تېپىلىشى مۇمكىن، گەرچە قويۇقلۇق چوڭقۇرلۇق ئاشقانسېرى تۆۋەنلىسە. تارقىلىشقا تەسىر كۆرسىتىدىغان باشقا ئامىللار ئوزۇقلۇق ماددىلارنىڭ ئىشلەتكىلى بولۇشىنى، يەيدىغانلارنى، ۋە تۇزلۇقلۇقنى ئۆز ئىچىگە ئالىدۇ.[^68]
 
-#### Haywan turliri
+#### ھايۋان تۈرلىرى
 
 - [Zebra midiyisi](https://en.wikipedia.org/wiki/Zebra_mussel "Zebra midiyisi")
 
@@ -365,11 +365,11 @@ Yene Kaspiy deñgizidimu tepilidighan bir yerlik beliq. U zebra midiyilirini yey
 
 [قىرىم ئۇرۇشى](https://en.wikipedia.org/wiki/Crimean_War "قىرىم ئۇرۇشى"), 1853 ۋە 1856-يىللار ئارىسىدا بولغان، فرانسىيە ۋە ئەنگلىيە ئىتتىپاقداشلىرى بىلەن [رۇسىيەلىك بىرىنچى نىكولاي](https://en.wikipedia.org/wiki/Nicholas_I_of_Russia "رۇسىيەلىك بىرىنچى نىكولاي") نىڭ كۈچلىرى ئوتتۇرىسىدا دېڭىز جەڭلىرىنى كۆرگەن. 1855-يىلى 2-مارتتا، بىرىنچى نىكولاي ئۆلگەندىن كېيىن، [ئىككىنچى ئالېكساندېر](https://en.wikipedia.org/wiki/Alexander_II_of_Russia "رۇسىيەلىك ئىككىنچى ئالېكساندېر") چار بولغان. 1856-يىلى 15-يانۋاردا، يېڭى چار رۇسىيەنى ئۇرۇشتىن [پارىژ شەرتنامىسى (1856)](https://en.wikipedia.org/wiki/Treaty_of_Paris_\(1856\) "پارىژ شەرتنامىسى (1856)") نىڭ ناھايىتى قولايسىز شەرتلىرى بويىچە چىقارغان، بۇ قارا دېڭىزدا دېڭىز فلوتىنى يوقىتىشنى، ۋە قارا دېڭىزنىڭ [بالتىق دېڭىزى](https://en.wikipedia.org/wiki/Baltic_Sea "بالتىق دېڭىزى") نىڭ زامانىۋى رايونىغا ئوخشاش [ھەربىيسىز رايون](https://en.wikipedia.org/wiki/Demilitarized_zone "ھەربىيسىز رايون") بولۇشىنى ئۆز ئىچىگە ئالغان.
 
-#### Dnya urushliri
+#### دۇنيا ئۇرۇشلىرى
 
 Qara dengiz [Birinsi Dnya urushi](https://en.wikipedia.org/wiki/Naval_warfare_of_World_War_I#Black_Sea "Dengiz urushi") (1914-1918) ning muhim dengiz teatiri bolghan we [Ikkisi Dnya urushi](https://en.wikipedia.org/wiki/Eastern_Front_"World_War_II" "Sharqi Fron") (1941-1945) dewrida hem dengiz hem quruqluq urushlirini korgen. Meselen, [Sevastopol](https://en.wikipedia.org/wiki/Sevastopol "Sevastopol") nemis Wehrmacht, [Schwerer Gustav](https://en.wikipedia.org/wiki/Schwerer_Gustav "Schwerer Gustav") bilen muvapipiyetlik yardem etilgen, teripidin yoq qilinghan [Sevastopol qamali (1941-1942)](https://en.wikipedia.org/wiki/Siege_of_Sevastopol_"1941-1942" "Sevastopol qamali"). Sowet dengiz bazasi dunyadiki eng kuchli qurgunlardin biri idi. Uning orni, Qirimning janub-gharbiy uchidiki chongqur ezilgen, yalangach ohak tashliq burunda, quruqluq arqiliq yeqinlashishni haddin ziyade qiyin qilghan. [Severnaya Bay](https://en.wikipedia.org/w/index.php?title=Severnaya_Bay&action=edit&redlink=1 "Severnaya Bay") ni qarighan yuqori tikarlar langarliq joyni qoghghan, amfibiy qunuqlashni xuddik shu qeder xewpli qilghan. Sowet Dengiz Kuchi bu tebiy mudapilerni portni zamonawilashitirish we 180mm we 305mm qayta ishlengen urush keme topiliri qatarliq agir [dengiz boyi artilleriyesis](https://en.wikipedia.org/wiki/Coastal_batteries "Dengiz boyi artilleriyesi") ni ornitish arqiliq qurghan. Bu toplar dengizgiche shundaqla ichkerige ot ashlay alatti. Artilleriya orunliri mustehkem beton qurgunlar we 9.8 dyum qelinligidiki zirhli minarilar bilen qoghghan idi.
 
-### 21-eshir
+### 21-ئەسىر
 
 [2022-yili Yilan Arili herbii harekiti](https://en.wikipedia.org/wiki/2022_Snake_Island_campaign "2022 Yilan Arili harekiti") de, [2022-yili Rusiyening Ukrainige besquni](https://en.wikipedia.org/wiki/2022_Russian_invasion_of_Ukraine "2022 Rusiyening Ukrainige besquni") din keyin, [Yilan Arili](https://en.wikipedia.org/wiki/Snake_Island_"Ukraine" "Yilan Arili") talash menbasi boldi. 2022-yil 24-Fevralda, ikki Rus dengiz urush keme Yilan Arilige hujum qildi we uni qulga aldi.[^106] Keyin uning ustidin Ukraina teripidin agir bombilanildi.[^107] 2022-yil 30-Iyunda, Ukraina rus kuchlirini arildin howlip chiqqanligini jar qildi.[^108]
 
@@ -382,27 +382,33 @@ Qara dengiz [Birinsi Dnya urushi](https://en.wikipedia.org/wiki/Naval_warfare_of
 2025-yil Yanwarghiche, ne Ukraina ne Rus Qara dengizni kontrole qilmaydu, oni talashliq qilidu, [Eston Dengiz Kuchi](https://en.wikipedia.org/wiki/Estonian_Navy "Eston Dengiz Kuchi") qomandani Ivo Vark eytidu. "Butun Qara dengiz hazir talashliq dengiz maydani sepiti qaralshi mumkin, bu yerde ikki terep hem hereket qilish uchun bir qanche orun bar." Bu orun dengiz boyi yiqin yerda chongraq, bu yerde ikki terep hawa mudapie sistemliri, dengiz miniliri, we xil mundaq quruqluq kuralliridin payda ala alidu. Kemiler peqet elik missiyiler ucun hereket qilidu, haddin ziyade xewpni aldimash ucun. U yenila ikki terep gaz bulap zambilighi platformilirini qoghghush qurulmisi bilen ishletidu, ehwalni kuzitish ucun, emma bu platformilar ko piniche qol eliship turidu.[^116] [^117]
 
 
-## Iqtisad we siyaset
+## ئىقتىساد ۋە سىياسەت
 
 Qara dengiz Asya we Yevropa otturisidiki ulanishda ajrilmas rol oynaydu. Dengiz portliri we baliqchiliq hesablanmighanda, asasliq paaliyetler neft we tebiiy gaz uchun gidrokarbon izdash, we turizimni oz ichige alidu.
 
 [Shimaliy Atlantik Shartnama Teshkilati](https://en.wikipedia.org/wiki/NATO/"NATO") ge kore, Qara dengiz [qachaqchiliq](https://en.wikipedia.org/wiki/Smuggling/"Qachaqchiliq") kanallirini taminlaydighan istirategik koridor bolup, narkotik, radiyoaktiv materiallar we qalbeki mallar qatarliq qanuniy we qanundishari mallarni teripish uchun ishlitilidu, bu terorizimni maliyeleshturush ucun ishlitilishi mumkin.
 
-### Yol bashchiliq
+### يول باشچىلىق
 
 [Xelqara Tranport Ischiler Federatsiyesi](https://en.wikipedia.org/wiki/International_Transport_Workers%27_Federation/"Xelqara Tranport Ischiler Federatsiyesi") ning 2013 yili teqdiqige kore, Qara dengizde kem degende 30 ishleydighan tijaret [dengiz portliri](https://en.wikipedia.org/wiki/Seaport/"Dengiz porti") bar (Ukrainide kem degende 12 portni oz ichige alidu). Shuningdik Qara dengizde 2,400 tikar tijaret kemisi ishlemeqte idi.
 
-### Baliqchiliq
+
+
+### ناۋىگاتسىيە
+
+[خەلقئارا ترانسپورت ئىشچىلار فېدېراتسىيەسى](https://en.wikipedia.org/wiki/International_Transport_Workers%27_Federation "خەلقئارا ترانسپورت ئىشچىلار فېدېراتسىيەسى") نىڭ 2013-يىللىق تەتقىقاتىغا كۆرە، قارا دېڭىزدا كەم دېگەندە 30 تىجارەت پورتلىرى (ئۇكرائىنادا كەم دېگەندە 12) بار ئىدى.[^120] يەنە قارا دېڭىزدا تەخمىنەن 2,400 تىجارەت كېمىسى ئىشلەيتتى.[^120]
+
+### بېلىقچىلىق
 
 Turkiye tijaret baliqchiliq floti yilda 300,000 tonna [xamsi](https://en.wikipedia.org/wiki/European_anchovy/"Xamsi") tutidu. Baliqchiliq asasen qista elip berilidu, we stokning eng yuksek qismi Noyabr we Dekabrda tutulidu.
 
-### Gidrokarbon izdash
+### گىدروكاربون ئىزدەش
 
 Qara dengiz neft we tebiiy gaz bayliqlirini oz ichige alidu emma dengizdiki izdash tookallanmighan. 2017 yili 20 quduq bar idi. Qara dengiz ozining kop qism dewrida, chokme ve ozuluqqa bay su alimliri sewebidin ehemiyetlik neft we gaz hasil qilish ihtimaligha ige bolghan. Emma bu jughrapiyik turde perqliq. Meselen, Bulgariye boyigha perspektivilar yomonraq, Cunki Dunay chong chokmileri yorughligni tosghan ve organiq chokmilerni suyulturghan. Bugunge kinki kashfiyatlarning asasiy qismi Gherbi Qara dengizdiki Ruminiye boyigha yakin yol qirghe qilindi ve peqet bir nesche kashfiyat Sherqi Qara dengizde qilinghan.
 
 
 
-### Deñgiz boyi sheherleri we turizim
+### دېڭىز بويى شەھەرلىرى ۋە تۇرىزم
 
 Qara deñgiz boyidiki asasliq sheherler tömendiki jedwelde berilgen:
 
@@ -421,7 +427,7 @@ Qara deñgiz boyidiki asasliq sheherler tömendiki jedwelde berilgen:
 | [Batumi](https://en.wikipedia.org/wiki/Batumi/"Batumi") | ![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/US_Navy_200623-N-O901-0001_USS_Porter_%28DDG_78%29_in_Batumi%2C_Georgia_on_June_23%2C_2020.jpg/250px-US_Navy_200623-N-O901-0001_USS_Porter_%28DDG_78%29_in_Batumi%2C_Georgia_on_June_23%2C_2020.jpg) | [Giroziye](https://en.wikipedia.org/wiki/Georgia_%28country%29/"Giroziye") | [Adjara](https://en.wikipedia.org/wiki/Autonomous_Republic_of_Adjara/"Adjara") | 204,156 |
 
 ``
-### Turizim
+### تۇرىزم
 
 Sowuq Urush ayaqlashqandin keyinki yillarda, Qara dengizning [turistlik](https://en.wikipedia.org/wiki/Tourism/"Turizm") mekân süpitide ommiliqi mudim köpeydi. Qara dengiz saylahatgahliridiki turizim rayonning ösüsh sanaetlirinin biri boldi.
 
@@ -502,7 +508,7 @@ Tömendiki Qara dengiz [saylahatgah](https://en.wikipedia.org/wiki/Resort/"Sayla
 - Yevpatoria (Qirim, Ukraina/Rusiye (talashliq))
 - Zonguldak (Turkiye)
 
-### Hazirqi zaman herbiy ishlitish
+### ھازىرقى زامان ھەربىي ئىشلىتىش
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/USS_Yorktown_collision.jpg/250px-USS_Yorktown_collision.jpg)
 
